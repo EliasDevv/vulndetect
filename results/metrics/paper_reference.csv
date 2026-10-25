@@ -1,0 +1,17 @@
+approach,metric,value
+baseline_val,accuracy,0.65
+baseline_val,precision,0.68
+baseline_val,recall,0.66
+baseline_val,f1,0.67
+rag_val,accuracy,0.86
+rag_val,precision,0.88
+rag_val,recall,0.84
+rag_val,f1,0.85
+sft_val,accuracy,0.81
+sft_val,precision,0.85
+sft_val,recall,0.76
+sft_val,f1,0.80
+dual_agent_val,accuracy,0.78
+dual_agent_val,precision,0.80
+dual_agent_val,recall,0.76
+dual_agent_val,f1,0.77

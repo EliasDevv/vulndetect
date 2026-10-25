@@ -1,0 +1,72 @@
+[project]
+name = "vulndetect"
+version = "0.1.0"
+description = "LLM-based code vulnerability detection on Big-Vul: Baseline, RAG, SFT, Dual-Agent, GAN, Triple-Agent (Bachelor thesis)"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    # --- Kern / Daten ---
+    "datasets>=2.18",
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "pyyaml>=6.0",          # Experiment-Configs
+    "scikit-learn>=1.4",    # Metriken: Accuracy, F1, Confusion Matrix
+    "tqdm>=4.66",
+    "python-dotenv>=1.0",   # .env für API-Keys laden
+    # --- Plotting (Abbildungen der Arbeit) ---
+    "matplotlib>=3.8",
+    # --- Inferenz (alle Ansätze): HF transformers, Llama-3.2-3B-Instruct, fp16 ---
+    "torch>=2.2",
+    "transformers>=4.40",
+    "accelerate>=0.29",
+    # --- RAG-Retrieval (CWE/MITRE-Wissensbasis) ---
+    "chromadb>=1.5.9",              # Vektorspeicher (Paper-Vorgabe), cosine-Space
+    "sentence-transformers>=5.6.1", # Embedder + CrossEncoder-Re-Ranker
+    "tiktoken>=0.13.0",             # cl100k_base-Tokenzählung fürs 512/32-Chunking
+    # Exakt gepinnt, damit die Chunk-Zerlegung reproduzierbar bleibt.
+    "llama-index-core==0.14.23",
+]
+
+# Nur für SFT-Training (QLoRA); installieren mit: uv sync --extra train
+[project.optional-dependencies]
+train = [
+    "peft>=0.10",           # LoRA / QLoRA
+    "bitsandbytes>=0.43",   # 4-bit Quantisierung (nur QLoRA-Training)
+    "trl>=0.8",             # SFTTrainer
+]
+dev = [
+    "ruff>=0.4",
+    "pytest>=8.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vulndetect"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src"]
+exclude = ["data", ".venv", "build"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+# These files embed the authors' prompt templates verbatim; wrapping would change the prompts.
+"src/vulndetect/common/prompt.py" = ["E501"]
+"src/vulndetect/dual_agent/prompt.py" = ["E501"]
+"src/vulndetect/rag/prompt.py" = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["vulndetect"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "experiments"]
+
+# PyTorch ggf. über passenden CUDA-Index installieren, z.B.:
+#   uv pip install torch --index-url https://download.pytorch.org/whl/cu124

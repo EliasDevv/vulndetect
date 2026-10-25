@@ -1,0 +1,74 @@
+{
+  "snapshot_format_version": 1,
+  "name": "round0010",
+  "round": 10,
+  "phase": "A",
+  "seed": 42,
+  "created": "2026-09-09T00:50:36",
+  "git_commit": "42bb58ed8beb16ba2130f1f479975c185a212031",
+  "prompt_versions": {
+    "generator": "gan-generator-v1",
+    "detector_block": "gan-detector-block-v1",
+    "strategy_update": "gan-strategy-update-v1",
+    "reflector": "gan-reflector-v1",
+    "summarize": "gan-summarize-v1"
+  },
+  "detecting_party": {
+    "name": "single_detector",
+    "prompt_versions": {}
+  },
+  "config_path": "configs/gan_val.yaml",
+  "config_sha256": "a6e844a92b09a1ae9f9462d480e919bec2a67345916c218df1f97b7a8f5906d2",
+  "s_g": {
+    "role": "generator",
+    "policy": "summarize",
+    "max_entries": 12,
+    "max_entry_words": 30,
+    "dedup": true,
+    "entries": [
+      "A function's conditional logic can be inverted to allow an attacker to bypass intended security checks, potentially leading to data corruption or unforeseen behavior.",
+      "A security check can be intentionally removed or disabled, creating a backdoor for an attacker to exploit the function's vulnerability, regardless of its intended purpose.",
+      "Intentionally skipping a null check can create a potential buffer overflow by allowing a null pointer to be dereferenced in a subsequent operation.",
+      "Removing a critical check can lead to a use-after-free vulnerability if the function's return value is used after the original data has been freed or destroyed."
+    ]
+  },
+  "s_d": {
+    "role": "detector",
+    "policy": "summarize",
+    "max_entries": 12,
+    "max_entry_words": 30,
+    "dedup": true,
+    "entries": [
+      "Simplify conditional statements carefully, as removing checks can introduce new vulnerabilities by altering the order of operations.",
+      "Avoid using flags or variables without proper validation and sanitization, as they can be exploited by attackers to inject malicious input.",
+      "Be cautious when using casts to truncate floating-point values, as they can introduce integer overflows and undefined behavior.",
+      "Don't remove casts that were used to prevent integer overflows, as this can introduce new vulnerabilities.",
+      "Reuse flags and variables with caution, as reusing them without proper reset can allow attackers to exploit previous states.",
+      "Be aware of the order of operations when simplifying conditional statements, as removing checks can alter the order and introduce new vulnerabilities.",
+      "Use validated and sanitized variables instead of constants in loops and conditional statements to prevent new vulnerabilities.",
+      "Avoid removing checks for flags that are already set, as this can introduce new vulnerabilities by altering the order of operations.",
+      "Simplify conditional statements by preserving critical checks, even if it means maintaining complexity.",
+      "Validate and sanitize variables before reusing them in loops and conditional statements to prevent new vulnerabilities.",
+      "Be cautious when removing checks for flags that are already set, as this can introduce new vulnerabilities by altering the order of operations.",
+      "Preserve the original logic of conditional statements and loops when introducing changes to prevent new vulnerabilities."
+    ]
+  },
+  "s_g_stats": {
+    "n_entries": 4,
+    "n_chars": 659,
+    "approx_tokens": 165
+  },
+  "s_d_stats": {
+    "n_entries": 12,
+    "n_chars": 1571,
+    "approx_tokens": 393
+  },
+  "drift_probe": {
+    "n": 100,
+    "vulnerable_share": 0.24,
+    "accuracy": 0.66,
+    "n_unparseable": 0,
+    "n_strategies": 12
+  },
+  "loop_stats": null
+}

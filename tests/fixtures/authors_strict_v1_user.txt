@@ -1,0 +1,33 @@
+
+You are an expert in cybersecurity and software vulnerability detection. Given a code snippet with modifications, analyze whether the change fixes or mitigates a vulnerability. Use the commit message, function before and after changes, and CVE information (if available) to determine vulnerability.
+
+1) Analyze the Commit Message
+   Does the commit message mention security or vulnerability related terms like buffer overflow, fix, CVE, or patch?
+2) Compare Function Before and After Changes
+   What specific modifications were made to the code? Do the changes address known security issues, or do they introduce new risks?
+3) Check for CVE/CWE References
+   If a CVE is mentioned, what vulnerability does it relate to? If a CWE is provided, does the change align with known vulnerability patterns?
+4) Assess the Overall Security Impact
+   Does the modification fix an existing issue, introduce a new vulnerability, or is it neutral?
+
+Here is the data:
+- Commit Message: {commit_message}
+- Code Before Change: {func_before}
+- Code After Change: {func_after}
+- CVE ID (if available): {cve_id}
+- CWE ID (if available): {cwe_id}
+- Project: {project}
+- Programming Language: {lang}
+
+Question:
+Does this code change fix or mitigate a vulnerability? Answer with `Vulnerable` or `Not Vulnerable` and provide reasoning.
+
+Response Format (Strictly Follow This Format):
+  1. Classification: Reply with exactly `Vulnerable` or `Not Vulnerable` (do not use any variations). Vulnerable if the code change is related to a known vulnerability (i.e., the change either fixes or introduces a security issue). Not Vulnerable when the code change is not associated with a vulnerability (i.e., it is a regular code update or enhancement without security implications).
+  2. Reasoning: Provide a clear explanation of why the classification was made.
+
+DO NOT return any additional text. DO NOT repeat the input data. ONLY output the Classification and Reasoning:
+Your Response Should Look Like:
+Classification: <Vulnerable/Not Vulnerable>
+Reasoning: <Your explanation here>
+

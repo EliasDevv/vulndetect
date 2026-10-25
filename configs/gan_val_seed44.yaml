@@ -1,0 +1,56 @@
+# GAN-Schleife auf val mit Seed 44.
+
+experiment: gan_val_seed44
+seed: 44
+
+gan:
+  rounds: 200
+  snapshot_rounds: [0, 10, 50, 200]
+  max_new_strategies_per_update: 2
+
+  memory:
+    policy: summarize
+    max_entries: 12
+    max_entry_words: 30
+    dedup: true
+
+  generation:
+    validate: structural
+    temperature: 0.8
+    top_p: 0.95
+    max_new_tokens: 1024
+
+  phase_b:
+    enabled: true
+    n_items: 200
+
+  drift_probe:
+    enabled: true
+    split: val
+    n: 100
+    seed: 42
+
+model:
+  provider: huggingface
+  name: meta-llama/Llama-3.2-3B-Instruct
+  revision: 0cb88a4f764b7a12671c53f0838cd831a0843b95
+  dtype: float16
+  temperature: 0.0
+  max_new_tokens: 512
+  batch_size: 2
+
+eval:
+  temperature: 0.6
+  top_p: 0.9
+  unparseable: drop
+
+dataset:
+  name: bigvul
+  split: val
+  train_split: train
+  dir: data/processed/bigvul
+
+output:
+  loop_dir: results/gan_val
+  predictions_dir: results/predictions/gan_val
+  log_experiments: false

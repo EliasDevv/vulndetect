@@ -1,0 +1,65 @@
+{
+  "approach": "gan",
+  "model": "meta-llama/Llama-3.2-3B-Instruct",
+  "model_revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+  "seed": 42,
+  "config_path": "configs/gan_val.yaml",
+  "config_sha256": "a6e844a92b09a1ae9f9462d480e919bec2a67345916c218df1f97b7a8f5906d2",
+  "prompt_version": "fig1-v3",
+  "gan_prompt_versions": {
+    "generator": "gan-generator-v1",
+    "detector_block": "gan-detector-block-v1",
+    "strategy_update": "gan-strategy-update-v1",
+    "reflector": "gan-reflector-v1",
+    "summarize": "gan-summarize-v1"
+  },
+  "dataset": {
+    "name": "bigvul",
+    "split": "val",
+    "train_split": "train",
+    "dir": "data/processed/bigvul",
+    "n": 500,
+    "limit": null
+  },
+  "decoding": {
+    "temperature": 0.0,
+    "max_new_tokens": 512,
+    "batch_size": 2,
+    "chat_date_string": "26 Jul 2024"
+  },
+  "gan": {
+    "snapshot": "round0200",
+    "snapshot_path": "results/gan_val/seed42/snapshots/round0200.json",
+    "snapshots_from": null,
+    "round": 200,
+    "phase": "A",
+    "loop_git_commit": "42bb58ed8beb16ba2130f1f479975c185a212031",
+    "loop_config_sha256": "a6e844a92b09a1ae9f9462d480e919bec2a67345916c218df1f97b7a8f5906d2",
+    "memory_policy": "summarize",
+    "n_strategies": 12,
+    "strategies": [
+      "Simplify conditional statements carefully to avoid introducing new vulnerabilities.",
+      "Validate and sanitize variables before reusing them in loops and conditional statements.",
+      "Preserve critical checks in conditional statements to prevent introducing new vulnerabilities.",
+      "Validate and sanitize input before using flags or variables to prevent malicious input injection.",
+      "Reuse flags and variables with caution, resetting them properly to prevent exploitation of previous states.",
+      "Verify the initialization of member variables and pointers to prevent null pointer dereferences.",
+      "Use meaningful variable names to avoid misleading code reviews and make vulnerabilities more apparent.",
+      "Review code thoroughly before making changes to ensure no security-critical logic is inadvertently removed or modified.",
+      "Verify the bounds of array or buffer operations to prevent potential buffer overflow vulnerabilities.",
+      "Document security-critical logic and assumptions to make vulnerabilities more apparent, especially when code is modified or refactored.",
+      "Validate user-provided input and ensure proper memory allocation to prevent buffer overflow vulnerabilities.",
+      "Document memory allocation and deallocation in critical sections of code to ensure reviewers and maintainers are aware of potential vulnerabilities."
+    ],
+    "drift_probe": {
+      "n": 100,
+      "vulnerable_share": 0.28,
+      "accuracy": 0.62,
+      "n_unparseable": 1,
+      "n_strategies": 12
+    },
+    "prompt_equals_baseline": false,
+    "vulnerable_prediction_share": 0.274
+  },
+  "logged": false
+}

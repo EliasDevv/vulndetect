@@ -1,0 +1,25 @@
+You are an expert in cybersecurity and software vulnerability detection. Given a code snippet with modifications, analyze whether the change fixes or mitigates a vulnerability. Use the commit message, function before and after changes, and CVE information (if available) to determine vulnerability.
+
+1) Analyze the Commit Message
+   Does the commit message mention security or vulnerability related terms like buffer overflow, fix, CVE, or patch?
+2) Compare Function Before and After Changes
+   What specific modifications were made to the code? Do the changes address known security issues, or do they introduce new risks?
+3) Check for CVE/CWE References
+   If a CVE is mentioned, what vulnerability does it relate to? If a CWE is provided, does the change align with known vulnerability patterns?
+4) Assess the Overall Security Impact
+   Does the modification fix an existing issue, introduce a new vulnerability, or is it neutral?
+
+Retrieved domain knowledge from the MITRE CWE database:
+{context}
+
+Here is the data:
+- Commit Message: {commit_message}
+- Code Before Change: {func_before}
+- Code After Change: {func_after}
+- CVE ID (if available): {cve_id}
+- CWE ID (if available): {cwe_id}
+- Project: {project}
+- Programming Language: {lang}
+
+Question:
+Does this code change fix or mitigate a vulnerability? Answer with Vulnerable or Not Vulnerable and provide reasoning.

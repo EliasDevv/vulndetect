@@ -1,0 +1,986 @@
+{"id": "3ac044334c3ff6a61cb4238ff3ddaf17c7efcf49:567477695dfe", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "412b65d15a7f8a93794653968308fc100f2aa87c:f0b804e5d237", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0b23c81c3dd9ec38f7e6806a3955fed1925541a0:0e2c1d584d75", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "73be9f9ab67842cfbec36ee99e8d2301434c84ca:2afd6a4c5850", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0d0138ebe24b94065580bd2601f8bb7eb6152f56:4459de3f2c74", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "dabd6f450e9594a8962ef6f79447a8bfdc1c9f05:00bceeb7e330", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:d7eaa03355c9", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3a15cc0e1ee7168db0782133d2607a6bfa422d66:17098148ec28", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:2067b0f5b491", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "dd3ca4d6b81a9ae2ddf358b7b93d2f8c010921f5:399e6ad6065b", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "6ed0077520e2b0da1fd060c7f88db7b2e6068e4c:4faf6b0cdfbb", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a5cc68f3d63306d0d288f31edfc2ae6ef8ecd887:477242ecebdc", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3bfe67c9c4b45eb713326aae7a67c8f7390dae08:d019d715b47d", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "d5bf76b5a88d044a1be1d5656698e3ba737167e5:14902b2a3474", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:fdd1af71f62f", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:bc7db3f917cd", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "7d65a3a6ed8815e34a99c680ac3869fde49dbbd4:b574553764a3", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "f5ec0afb766f19519ea9623152cca3bbe2229500:0956ef8a840f", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "39641e74a560982fbf93f29bf96b37d27803cb56:7099cf197eb3", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "2c0d295e26306e15a92eb23a84a1802005c1c137:ce937b79971b", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:6a26bb9bc1ba", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:8a53b84e29e6", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "28aaa72a03df96fa1934876b0efbbc7e6b4b38af:f51ce83a9e60", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "a66628e425db725df1ac52a3c573a03357060ddd:185699e400ef", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:0a7a436285bf", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:e451caff798c", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "9fe90fe465e046a219411b192d8b08086faae39c:cd40e7d295ca", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:47f8e25812f5", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "98095c718d7580b5d6715e5bfd8698234ecb4470:30487636ecfa", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "035cb12f392860113dce96116a5150e2fde6f0cc:b34330a66773", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f5ef337d8fffd10ab327069467ccaedb843cf9db:fe48f1dd873e", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "cd30f03ac5bf2962f44bd02ae8d88245dff2f12c:e9bb477c356f", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7614790c80996d32a28218f4d1605b0908e9ddf6:ad562fc4c0ac", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3bfe67c9c4b45eb713326aae7a67c8f7390dae08:32748f1a63f5", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "cb243972b121b1ae6b60a78ff55a0506c69f3879:04238adea2e7", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7bc2b55a5c030685b399bb65b6baa9ccc3d1f167:d43343ac91a6", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "21eae25a8db5fdcd112dbcfcd9e5c37e32d32e2f:cad3a4fef371", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ad3e14d7c5268c2e24477c6ef54bbdf88add5d36:fc29523dce75", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c50ac050811d6485616a193eb0f37bfbd191cc89:34ace8f52c53", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "4a59cfaf9ab3d48fca4a15c0d2674bf7138e3d1a:bbd308e4325e", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:08940e937a97", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "759c01142a5d0f364a462346168a56de28a80f52:8306e1a65357", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:ef7fad522d8c", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "acc192347665943ca674acf117e4f74a88436922:616f0f38623a", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "89d7ae34cdda4195809a5a987f697a517a2a3177:d0bc6dd5b7b7", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8357ef3f8ffc7d99ef6571350724160de356158b:ab410ba2ee68", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c4baad50297d84bde1a7ad45e50c73adae4a2192:28a36435513f", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:39587e38b990", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "eeb4e45d5683f88488c083ecf142dc89bc3f0b47:6855cd8257d1", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7614790c80996d32a28218f4d1605b0908e9ddf6:a14c5dd77b25", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "910c36089940e81fb85c65b8e63dcd2fac71470c:5d16a8c0fce7", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e9bbefbf0f24c57645e7ad6a5a71ae649d18ac8e:f4d2ef4fd7da", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "d251157ac1928191af851d199a9ff255d330bec9:80678edf0e15", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f8675cbb337440a11bf9afb10ea11bae42bb92cb:ac35ac1fbe52", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "3724cd76a28be1d6049b5537232e97ac:8461b59f192e", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "a8c1f65c79cbbb2f7da782d4c9d15639a9b94b27:2f7954729c5a", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:8c64eb8db480", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "681fef8380eb818c0b845fca5d2ab1dcbab114ee:ba830a69e349", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "98095c718d7580b5d6715e5bfd8698234ecb4470:d36a568be427", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "fbd40ea0180a2d328c5adc61414dc8bab9335ce2:65244fc9a53d", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c50ac050811d6485616a193eb0f37bfbd191cc89:81fb0ede5bd1", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "126c7c98ea788241922c30df4a5633ea692cf8df:6d71ce45db28", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "759c01142a5d0f364a462346168a56de28a80f52:c52c172d613f", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "574823bfab82d9d8fa47f422778043fbb4b4f50e:4b72ab6f2fe5", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3bfe67c9c4b45eb713326aae7a67c8f7390dae08:c46d95652e73", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "cae13fe4cc3f24820ffb990c09110626837e85d4:26fcd3e05402", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:14f0a0235e10", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:18bd500a80ff", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:b6fc7c44ecce", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:cd792d1ad3f4", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "9fe90fe465e046a219411b192d8b08086faae39c:eca87f5ea2f2", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "412b65d15a7f8a93794653968308fc100f2aa87c:018b93c6daed", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "87580d767868360d2fed503980129504da84b63e:604663dc2b85", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "3cea86eb2fbb65949673eb4ba8ebb695c87a57ce:56040535784d", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "5593523f968bc86d42a035c6df47d5e0979b5ace:fcbec8847633", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:9d82f74f4aa3", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "51e0cb2e5ec18eaf6fb331bc573ff27b743898f4:6b158d838314", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "1eefa26e1795192c5a347a1e1e7a99e88c47f9c4:17f5ded23a9d", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c351b47ce85a3a147cfa801fa9f0149ab4160834:11de09c45b07", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "acc192347665943ca674acf117e4f74a88436922:801cba09b4e2", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "eea750a5623ddac7a61982eec8f1c93481857578:e0c66ed304fa", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c85ce65ecac078ab1a1835c87c4a6319cf74660a:d7357389c00c", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "412b65d15a7f8a93794653968308fc100f2aa87c:2dafe87e902c", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0b694217046d6b2bfa5814676e8615c18e6a45ff:b5b4991d4535", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:f81041eb1130", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f8675cbb337440a11bf9afb10ea11bae42bb92cb:ab9757924e04", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "4a59cfaf9ab3d48fca4a15c0d2674bf7138e3d1a:a2fb869f5d27", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:4c1f4e710053", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "8357ef3f8ffc7d99ef6571350724160de356158b:d15c0a2ce1af", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "5593523f968bc86d42a035c6df47d5e0979b5ace:5697894ae115", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:650aac1dc17e", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:966b4a101581", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:e0ede7f13057", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:4e434a44c0c7", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:d2e40647be05", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3ac044334c3ff6a61cb4238ff3ddaf17c7efcf49:21d307d95e88", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "1eefa26e1795192c5a347a1e1e7a99e88c47f9c4:60eccef69b1b", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0d0138ebe24b94065580bd2601f8bb7eb6152f56:dfa045c43ae3", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:d8c6c33a4b43", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "2d8a041b7bfe1097af21441cb77d6af95f4f4680:28b1052e43f2", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:6865fc02d2f0", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:16d677c4e7cf", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "574823bfab82d9d8fa47f422778043fbb4b4f50e:412567f49d06", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f301cff2c1ddd880d9a2c77b22602a137519867b:fc856b1668d8", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:898931692f28", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0f05aa7e29cf814a204830c82ba2619f9c636894:127632c5658c", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ce6841d9e41d621ba23cf18b190ee6a23b2cc833:69b308e9cc62", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "fbd40ea0180a2d328c5adc61414dc8bab9335ce2:91a001caab07", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:e65f63cdd72b", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:c31742a06e75", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ecb7f58a069be0dec4a6131b6351a761f808f22e?w=1:20b01aab7f86", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "0a7619875bf79877907205f6bee08465b89ff10b:d10c4491d70a", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:82811e890d17", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "4a59cfaf9ab3d48fca4a15c0d2674bf7138e3d1a:fa01ac7d30c1", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "537abce1bcf7378e760e904d6e5540a02a2fca9f:a920b4a64f73", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:5af4eedafae4", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f8675cbb337440a11bf9afb10ea11bae42bb92cb:5eac7774a8bd", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:b40480cd9ae9", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2c0d295e26306e15a92eb23a84a1802005c1c137:ce0a1d87e327", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0a7619875bf79877907205f6bee08465b89ff10b:b987c7e3e578", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:2957e02018b7", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "910c36089940e81fb85c65b8e63dcd2fac71470c:cf46165ec5cc", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "fdb1b40e7bb147c07bda988c9501ad223795d12d:1ee96e921713", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:6ef52df9d414", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "1ee0a224bc9aad1de496c795f96bc6ba2c394811:8850fee4efe5", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "d43527cfa0dbb3ccefec4a6f7b32c1434739aa29:427d1ea6a0ed", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:77ad093ac75b", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "b53dd4495ced2432a0b652ea895e651d07336f7e:a9b62e9d9c1a", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "11edc83b98a61e890d7bb01855389d40e984ea82:07eae03a20a6", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ca8cc70b2de822b939f87effc7c2b83bac280a44:b0a7fa9bcc3e", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0a9ab9bdb3e891762553f667066190c1d22ad62b:45d84b4ebe25", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "fbd40ea0180a2d328c5adc61414dc8bab9335ce2:b7c6cc0fd66d", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0720b02e4f303ea6b114d4ae9453e3a7ff55f8dc:155c8727415d", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "5b7a7c051c9ab9ee7c924a611f90ef2be03e0ad0:e834dc9b024b", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ee301cb2029db8a6289c5295daa42bba7715e99a:45606101529e", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c88547a8119e3b581318ab65e9b72f27f23e641d:c58263f9be8e", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:f6255141605e", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "5593523f968bc86d42a035c6df47d5e0979b5ace:6e6cd1340e3a", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:40ac8acab49e", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "78f11a255749d09025f54d4e2df4fbcb031530e2:b3833b691a3a", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:01806df6698b", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "6ed0077520e2b0da1fd060c7f88db7b2e6068e4c:634913842b7e", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:36455c55ea10", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "d917514bd6b270df431ea4e781a865764d406120:b8428d7c321b", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "98095c718d7580b5d6715e5bfd8698234ecb4470:60944669c6b3", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "a6fdc5bb27b20d889de0cd29318b3968aabb57bd:f9c34fb55aee", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:dcf828fc9082", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a2c118bfab8bc6b8bb213abfc35201e441693d55:4cdf9eff15cf", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "29a78a11844fc027fa44be7f8bd8dc1cf8bf89f6:48bf3186797b", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0a9ab9bdb3e891762553f667066190c1d22ad62b:7a68b028fdc3", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "dabd6f450e9594a8962ef6f79447a8bfdc1c9f05:78c1d110e042", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:8bc6fb7cc967", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f5ef337d8fffd10ab327069467ccaedb843cf9db:78ddc4ab5f0c", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3ac044334c3ff6a61cb4238ff3ddaf17c7efcf49:d2b97c852e11", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0b23c81c3dd9ec38f7e6806a3955fed1925541a0:95e7b5935cd1", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e9bbefbf0f24c57645e7ad6a5a71ae649d18ac8e:7d8e1a7e25cf", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ba6b44f6745b14dce414761a8e4b35d31b176bba:a624fcc205b7", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c351b47ce85a3a147cfa801fa9f0149ab4160834:9aca95e0c538", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "dabd6f450e9594a8962ef6f79447a8bfdc1c9f05:fe0e51af84ff", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0a9ab9bdb3e891762553f667066190c1d22ad62b:33ccdb86e199", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:2d745fb7eec7", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "6ed0077520e2b0da1fd060c7f88db7b2e6068e4c:f5014a707eaf", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "412b65d15a7f8a93794653968308fc100f2aa87c:458e2202c629", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c57997e76ec70862174a1b3b3aeb62a6f8570e85:e78c9b3c88ea", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3bfe67c9c4b45eb713326aae7a67c8f7390dae08:036fee88dc13", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "fbfa4d1083ea84c5429992ca3e996d7d4fbc8238:53bf6ba47035", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "f837b6744eb9ca9d8e4f2e93d9118bf787ca5e24:8e04ca9950b3", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "412b65d15a7f8a93794653968308fc100f2aa87c:d497fe959159", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:531283605e59", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "415e3d3e90ce9e18727e8843ae343eda5a58fad6:200a145e7ed4", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b65574bef233474e915fdf18614aa211e31cc6c2:fa0591b11fca", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "1e7aed70144b4673fc26e73062064b6724795e5f:5cfdd05f5dbe", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:40949b656475", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "cfb022640b5eec337b06f88a485487dc92ca1ac1:a98781ad1565", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "cace1e6998293b9b025d4bbdaf5cb5b6a1c2efb4:cefb0431eb65", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:0d724908c9ba", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "759c01142a5d0f364a462346168a56de28a80f52:27d30ae74031", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "98095c718d7580b5d6715e5bfd8698234ecb4470:bbed9c525cef", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:99895b2310a6", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "802f43594d6e4d2ac61086d239153c17873a0428:4de3d4d4b00e", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:d0e45855b2f0", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ca8cc70b2de822b939f87effc7c2b83bac280a44:6d0fb5f1bc67", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:e7c5f5aa27db", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:3c53ee2b7a00", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7d65a3a6ed8815e34a99c680ac3869fde49dbbd4:ca4abba1ead3", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ecb7f58a069be0dec4a6131b6351a761f808f22e?w=1:37d92a8cf5a5", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:c1a9160fa100", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3151527ee007b73a0ebd296010f1c0454a919c7d:c1cecf5d33f4", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ee301cb2029db8a6289c5295daa42bba7715e99a:17de3bd99313", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "19c47afbc402542720ddd280e1bbde3b2277b586:f73e205db6df", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "802f43594d6e4d2ac61086d239153c17873a0428:116fec134313", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3bfe67c9c4b45eb713326aae7a67c8f7390dae08:ebe0790d08c7", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c4baad50297d84bde1a7ad45e50c73adae4a2192:a209a1da02b6", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:eefd56afc8a3", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "fe3c71592ccc6fd6f3909215e326ffc8fe0c35ce:a3515d169039", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a8c1f65c79cbbb2f7da782d4c9d15639a9b94b27:d9044efedeb5", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:74ff80190d8c", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "9dc6161824d61e899c282cfe9aa40a4d3031974d:3ec38b648c36", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "76a3314ac3b711e01fae3b76a5d85f0eddeeec0b:53a1e9fe60cb", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:5c39c6c62303", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "eeb4e45d5683f88488c083ecf142dc89bc3f0b47:c24831e6f0b9", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "59eb9f8cfe7d1df379a2318316d1f04f80fba54a:fb4b0cbd7c13", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "9657bbe3cdce4aaa90e07d50c1c70ae52da0ba6a:a095b3e43728", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "802f43594d6e4d2ac61086d239153c17873a0428:1703d84e78bb", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "65756b4082cd79a2d99b2ccb5b392291fd53703f:bc2a8b5061a3", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "412b65d15a7f8a93794653968308fc100f2aa87c:a4457e1af362", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3a87aa2f10bd7f1408e1849bdb59c41dd63a9fe9:13823fb0ec10", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:9f3fb286c038", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e629194c62a9a129ce378e08cb1059a8a53f1795:e737656480f7", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e862f1a9b7df4e8196ebec45ac62295138aa3fc2:47c6857ce9b2", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:9295452ef8de", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7f51ec8c4ed9ba1f53d722e44fb6fb3cde933b72:c9d2d188eba9", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "8fff105e13041e49b82f92eef034f363a6b1c071:e2c39ac71272", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "fbfa4d1083ea84c5429992ca3e996d7d4fbc8238:47f5cd05b31d", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "dabd6f450e9594a8962ef6f79447a8bfdc1c9f05:bf4c210f683d", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "fd34ee82420c5e5cb04459d6e381944979d8e571:f3dc55eb8c57", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "fbd40ea0180a2d328c5adc61414dc8bab9335ce2:035ea203cbe2", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:b66ae592f252", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "70feee0e1ef331b22cc51f383d532a0d043fbdcc:0a9f3314603f", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:7e9c0cd4063a", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ca8cc70b2de822b939f87effc7c2b83bac280a44:6b69917f79dd", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "f8675cbb337440a11bf9afb10ea11bae42bb92cb:6f3b0f1352b5", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "eeb4e45d5683f88488c083ecf142dc89bc3f0b47:39488d8cd760", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "fbd40ea0180a2d328c5adc61414dc8bab9335ce2:f97869821e7b", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0a7619875bf79877907205f6bee08465b89ff10b:02d2e2a41596", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:06ae538a609a", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ba6b44f6745b14dce414761a8e4b35d31b176bba:545c09764417", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:cbd48902aec8", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "063be1485e0099bc81ace3a08b0ec9186dcad693:d6a54c835558", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f5ef337d8fffd10ab327069467ccaedb843cf9db:89ebc8aec1f2", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:5a9f0f7e171e", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f8675cbb337440a11bf9afb10ea11bae42bb92cb:ce12e135403d", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c88547a8119e3b581318ab65e9b72f27f23e641d:483a8ff3c603", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ca8cc70b2de822b939f87effc7c2b83bac280a44:48423f16d43a", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "98095c718d7580b5d6715e5bfd8698234ecb4470:e4b01fafc8b1", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e755d9faf5c7d75a8ea290892cb1b5cc07c412ec:611b65ab50bf", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "4a59cfaf9ab3d48fca4a15c0d2674bf7138e3d1a:926ebae0c0d8", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "412b65d15a7f8a93794653968308fc100f2aa87c:cc8405530a6b", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:ae3ef373167e", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "8909c9ad8ff03611c9c96c9a92656213e4bb495b:929ab3598763", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e629194c62a9a129ce378e08cb1059a8a53f1795:3c17921cd49c", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:ce6e281603de", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c69891a1345640096fbf396e8dd567fe879ce233:7d2291397711", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ee301cb2029db8a6289c5295daa42bba7715e99a:133bf56b0723", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:7e0a38137d9a", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2c0d295e26306e15a92eb23a84a1802005c1c137:d195c913c41c", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:592288a2255e", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:80d1c4a6f63d", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ee301cb2029db8a6289c5295daa42bba7715e99a:5a5dcddbb84d", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "dabd6f450e9594a8962ef6f79447a8bfdc1c9f05:a2f1962a822c", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e1c5050734123973b99d181c45e74b2cbb00272e:553acb073f56", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "d251157ac1928191af851d199a9ff255d330bec9:cac9115f847b", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "d251157ac1928191af851d199a9ff255d330bec9:00baf89bfffe", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "681fef8380eb818c0b845fca5d2ab1dcbab114ee:96911648ff6c", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "eea750a5623ddac7a61982eec8f1c93481857578:931026c144de", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:6cf70c81116e", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:0ac2238df51d", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "6ed0077520e2b0da1fd060c7f88db7b2e6068e4c:9293cafd2252", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0b23c81c3dd9ec38f7e6806a3955fed1925541a0:8913d1ea8e08", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0720b02e4f303ea6b114d4ae9453e3a7ff55f8dc:e998c372cd56", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "78f11a255749d09025f54d4e2df4fbcb031530e2:ee2111878ab1", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c1224573c773b6845e83505f717fbf820fc18415:71f063ad8786", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:22ca3c94311b", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:b7806bcbbb50", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "3cea86eb2fbb65949673eb4ba8ebb695c87a57ce:afc8102b8b07", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:5501a0945ae9", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:0ce110b6b480", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:2baa387427ef", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c3c87e770458aa004bd7ed3f29945ff436fd6511:ffa9cc78bd74", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:9f5f14569db3", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ea735ba37dc0fd5f5622d031830b9a559dec1cc9:242f3e484a29", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "acc192347665943ca674acf117e4f74a88436922:c85b46a156c6", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:cc25531173bf", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "fbd40ea0180a2d328c5adc61414dc8bab9335ce2:13b2dedbfe52", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "355b98553789b646ed97ad801a619ff898471b92:8c6a78b2e64f", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f8675cbb337440a11bf9afb10ea11bae42bb92cb:f7a519c3e1ef", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "415e3d3e90ce9e18727e8843ae343eda5a58fad6:51ae93529251", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:0738e659c7d1", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c50ac050811d6485616a193eb0f37bfbd191cc89:1dbcbd664bcc", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "1f86840f897717f86d523a13e99a447e6a5d2fa5:9e3c9c011f0b", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c88547a8119e3b581318ab65e9b72f27f23e641d:94016a479685", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:e6b655eb539c", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:33d64d6bd4cc", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ae7b4e1f213aa659aedf9c6ecad0bf5f0476e1e2:ad20dbddcb61", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "063be1485e0099bc81ace3a08b0ec9186dcad693:2a91ca3898b0", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:322f9c8d26d4", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e6838a29ecb484c97e4efef9429643b9851fba6e:9da1b9593f99", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "cd30f03ac5bf2962f44bd02ae8d88245dff2f12c:5546fd6db476", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "681fef8380eb818c0b845fca5d2ab1dcbab114ee:fa93bf4937a7", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:083d551b0958", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c1224573c773b6845e83505f717fbf820fc18415:e7bed4866388", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c2639afac631f5c1ffddf70ee8a6fe943d0bedf9:dbaea5ff5a19", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "547d690d676064069d44703a1917e0dab7e33445:ed04d1946bfc", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "504ada82b6fa38a30c846c1c29116af7290decb2:15eab424ab09", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "fd34ee82420c5e5cb04459d6e381944979d8e571:6ef994d34163", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:04c049237ed2", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:693d3943ca17", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:9d5cbfe22383", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:5a88f1cfe6ac", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "cfb022640b5eec337b06f88a485487dc92ca1ac1:62d9b63f5f37", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "acc192347665943ca674acf117e4f74a88436922:afa909d03deb", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "5593523f968bc86d42a035c6df47d5e0979b5ace:9de13831bb25", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "401d30ef93030afbf7e81e53a11b68fc36194502:7523e0c36c09", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c552cd7b8a0862f6b3c8c6a07f98bda3721101eb:8bc4a55cd2b9", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:4ddca27bd9aa", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ca8cc70b2de822b939f87effc7c2b83bac280a44:58ef8e9f307a", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "910c36089940e81fb85c65b8e63dcd2fac71470c:e9c38062bcf1", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:c9d4a6702896", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:66074550f398", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0720b02e4f303ea6b114d4ae9453e3a7ff55f8dc:60259d0d058a", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ee281f7cac9df44fe241a37f188b28be8845ded0:a7a88f065c81", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:848eab3d321f", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "759c01142a5d0f364a462346168a56de28a80f52:a55819293bd4", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "d2b9d2a5ad5ef04ff978c9923d19730cb05efd55:f5f547604f66", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "681fef8380eb818c0b845fca5d2ab1dcbab114ee:b4f2081532d4", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3bfe67c9c4b45eb713326aae7a67c8f7390dae08:7e33da7f639a", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f8675cbb337440a11bf9afb10ea11bae42bb92cb:5306ae157e95", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "5576cbc1d3e214dfbb5d3ffcdbe82aa8ba0088fc:bce37d7d3e03", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:dd4ec9554de0", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "819cbb120eaec7e014e5abd029260db1ca8c5735:011af00f9439", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:7cb37346616f", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:2c998f88ce8b", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:534ce7fe20c1", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2bceda4948deeaed0a5a99305d0d488eb952f64f:36e31d84a476", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:1699e16a419b", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "39c7ac1106be844a5296d3eb5971946cc09ffda0:22ad7142487b", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7bc2b55a5c030685b399bb65b6baa9ccc3d1f167:edd7136c9bc1", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "cae13fe4cc3f24820ffb990c09110626837e85d4:ed3406a6d51c", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "759c01142a5d0f364a462346168a56de28a80f52:b4cf183033aa", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e3171b346e6919f4162ea128d0f7b342cf878fd4:b230b0c52fc1", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7bc2b55a5c030685b399bb65b6baa9ccc3d1f167:8ce3e8dd8703", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:dcf74aa10056", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "eeb4e45d5683f88488c083ecf142dc89bc3f0b47:bf65cb9c89ba", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3ac044334c3ff6a61cb4238ff3ddaf17c7efcf49:b22299e759df", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e1c5050734123973b99d181c45e74b2cbb00272e:56b415344035", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ee301cb2029db8a6289c5295daa42bba7715e99a:a58d86ff9bfe", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:8af73363441c", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "cb243972b121b1ae6b60a78ff55a0506c69f3879:89104f0b54b5", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:c1fa150af77a", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "d43527cfa0dbb3ccefec4a6f7b32c1434739aa29:7e59906df286", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "a8c1f65c79cbbb2f7da782d4c9d15639a9b94b27:ea8ff98a737b", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "401d30ef93030afbf7e81e53a11b68fc36194502:1ba8c61f10f9", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a5cc68f3d63306d0d288f31edfc2ae6ef8ecd887:f52a9bd3c0a2", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "fbd40ea0180a2d328c5adc61414dc8bab9335ce2:3a0bc9c0f3c5", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f28015671a4b04785859d1b4b1327b367b6a10e9:9368254b4974", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "415e3d3e90ce9e18727e8843ae343eda5a58fad6:b6d848f67162", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "4374f256ce8182019353c0c639bb8d0695b4c941:49e3725fe79e", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "fbfa4d1083ea84c5429992ca3e996d7d4fbc8238:a2f83c367165", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "2d8a041b7bfe1097af21441cb77d6af95f4f4680:ad1f837180ad", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "65f75a32a93ae4044c528a987a68366ecd4b46b9:c30593da34ca", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:b79cf0001326", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0720b02e4f303ea6b114d4ae9453e3a7ff55f8dc:791ecece59d3", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:8b89ead7c6db", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:b1fff4a81c0b", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:e9657e84e3b9", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3bfe67c9c4b45eb713326aae7a67c8f7390dae08:55f488723d6a", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:27fa76ebd5b2", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "802f43594d6e4d2ac61086d239153c17873a0428:8e583f03bbfd", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "19c47afbc402542720ddd280e1bbde3b2277b586:736bbf9d4015", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:fd112246452b", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "681fef8380eb818c0b845fca5d2ab1dcbab114ee:610cebd64afd", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:f92b7ee0de55", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "6ed0077520e2b0da1fd060c7f88db7b2e6068e4c:6cc764b65e91", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:33b2b9f88ccd", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "fbd40ea0180a2d328c5adc61414dc8bab9335ce2:15ba944e5a78", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "355b98553789b646ed97ad801a619ff898471b92:05f5a671cd3f", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:21bd5fcec7ca", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0c17d1d2c61936401f4702e1846e2c19b200f958:a93a579c4cc7", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:b4704378ffe5", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:d8d49355f8ad", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "355b98553789b646ed97ad801a619ff898471b92:7b404ce3cf18", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "98095c718d7580b5d6715e5bfd8698234ecb4470:ee9cc95dd8f7", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0720b02e4f303ea6b114d4ae9453e3a7ff55f8dc:b5738324743f", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "f8675cbb337440a11bf9afb10ea11bae42bb92cb:819019e4864e", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "29a78a11844fc027fa44be7f8bd8dc1cf8bf89f6:0f40fe381f32", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:6bbc9a218013", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:f7b6ac39bdfb", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "d5bf76b5a88d044a1be1d5656698e3ba737167e5:4fd3fbcb60ab", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0720b02e4f303ea6b114d4ae9453e3a7ff55f8dc:6246369fbb32", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:f5d55f054cfd", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c0f5ecee4e741667b2493c742b60b6218d40b3aa:24f4529d29fb", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ee301cb2029db8a6289c5295daa42bba7715e99a:8e99c41f88f1", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c8c6a0f123d5e35c173125365c97e2c0fc7eca42:cfcdc4d3d51b", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:bba3a98ae4e8", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ee301cb2029db8a6289c5295daa42bba7715e99a:41de5b5946ad", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "56f66684592abf257c4004e6e1fff041c64a12ce:a616d042e01e", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "dabd6f450e9594a8962ef6f79447a8bfdc1c9f05:156d11849a5b", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:ea49e4888895", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:ac8ca0e8abce", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "cfb022640b5eec337b06f88a485487dc92ca1ac1:5a05148adf8f", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "2d8a041b7bfe1097af21441cb77d6af95f4f4680:ffb0129e01de", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e9bbefbf0f24c57645e7ad6a5a71ae649d18ac8e:c5152230a929", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "eeb4e45d5683f88488c083ecf142dc89bc3f0b47:636d7b897366", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:02473b28a06d", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "acc192347665943ca674acf117e4f74a88436922:ba92692265ec", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "acc192347665943ca674acf117e4f74a88436922:0e60cc82c02b", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:116470fc74b3", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "415e3d3e90ce9e18727e8843ae343eda5a58fad6:4ac0e4855da1", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:96670d3dc68e", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:49cc4120954a", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:f2f0c6b134a8", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:8f07fb019b9c", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "d251157ac1928191af851d199a9ff255d330bec9:171069e474ab", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0720b02e4f303ea6b114d4ae9453e3a7ff55f8dc:b6322c6f6c37", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3cea86eb2fbb65949673eb4ba8ebb695c87a57ce:d9a7b8d44000", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3983030c2ee3e54afa60fe24f23e4c98067a3634:f32976124e93", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "29a78a11844fc027fa44be7f8bd8dc1cf8bf89f6:671ad22e7cef", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0720b02e4f303ea6b114d4ae9453e3a7ff55f8dc:62f640b61e1c", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:c601d3c69008", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "d251157ac1928191af851d199a9ff255d330bec9:e1cf2b71864c", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c50ac050811d6485616a193eb0f37bfbd191cc89:12cf8f62db56", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2c0d295e26306e15a92eb23a84a1802005c1c137:f6489fbf0069", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:50be5d687ba4", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "574823bfab82d9d8fa47f422778043fbb4b4f50e:e2337f7280eb", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "401d30ef93030afbf7e81e53a11b68fc36194502:fe1ad6b7af04", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "6ed0077520e2b0da1fd060c7f88db7b2e6068e4c:d68b32ad4b45", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "78f11a255749d09025f54d4e2df4fbcb031530e2:133da3cac958", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "2c5a4fac8bc8198f6a2635ede776f8de40a0c3e1:e7562d205dc4", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "6ed0077520e2b0da1fd060c7f88db7b2e6068e4c:e6eb570fa754", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:f82f64713e38", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:3454969dd8e4", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:469d914d27a6", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c88547a8119e3b581318ab65e9b72f27f23e641d:359dba98f848", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c88547a8119e3b581318ab65e9b72f27f23e641d:db92019a4670", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:327f80fb6dd9", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "cfb022640b5eec337b06f88a485487dc92ca1ac1:d61641bccd19", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "29a78a11844fc027fa44be7f8bd8dc1cf8bf89f6:6577b233b2e9", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "cd30f03ac5bf2962f44bd02ae8d88245dff2f12c:7d3f3699f6b2", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "87580d767868360d2fed503980129504da84b63e:24f228de8a61", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0f05aa7e29cf814a204830c82ba2619f9c636894:b2716e6d2c0c", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c4baad50297d84bde1a7ad45e50c73adae4a2192:5066f9891781", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:bb2614a83967", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0b694217046d6b2bfa5814676e8615c18e6a45ff:3271729bf3cf", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "dabd6f450e9594a8962ef6f79447a8bfdc1c9f05:0d14765193c8", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0720b02e4f303ea6b114d4ae9453e3a7ff55f8dc:a5043e0f2aab", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "b8670c09f37bdf2847cc44f36511a53afc6161fd:a4f0d3c1bbbc", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3bfe67c9c4b45eb713326aae7a67c8f7390dae08:b98da0886629", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "415e3d3e90ce9e18727e8843ae343eda5a58fad6:13ea53c2b3b6", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "9fe90fe465e046a219411b192d8b08086faae39c:5a9a66aa2c63", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "f8675cbb337440a11bf9afb10ea11bae42bb92cb:7d3ea4d6f72a", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "c50ac050811d6485616a193eb0f37bfbd191cc89:73b6e3eb9d98", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b53dd4495ced2432a0b652ea895e651d07336f7e:dfe19bfc5b04", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "6ed0077520e2b0da1fd060c7f88db7b2e6068e4c:66cfcda026c5", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c50ac050811d6485616a193eb0f37bfbd191cc89:f558e45a2cd9", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "1e7aed70144b4673fc26e73062064b6724795e5f:21234b26f6a3", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "f837b6744eb9ca9d8e4f2e93d9118bf787ca5e24:9ac4b29fc7eb", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "681fef8380eb818c0b845fca5d2ab1dcbab114ee:a50d1d532783", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c50ac050811d6485616a193eb0f37bfbd191cc89:33ff9c9ea421", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "78f11a255749d09025f54d4e2df4fbcb031530e2:361ee751fc90", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "574823bfab82d9d8fa47f422778043fbb4b4f50e:6146aa8d1f61", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "d2b9d2a5ad5ef04ff978c9923d19730cb05efd55:7258473349c0", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3724cd76a28be1d6049b5537232e97ac:8097c1f80a72", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "eeb4e45d5683f88488c083ecf142dc89bc3f0b47:235f25a8b1f1", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c50ac050811d6485616a193eb0f37bfbd191cc89:7aadbd55d166", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c4baad50297d84bde1a7ad45e50c73adae4a2192:4823dd80b77c", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0720b02e4f303ea6b114d4ae9453e3a7ff55f8dc:05b40d60a9ee", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "60b234301adf258786d8b90be5c1d437fc8799e0:312fd5eea595", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "5576cbc1d3e214dfbb5d3ffcdbe82aa8ba0088fc:06a54314b306", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "60547808ca4e9cfac50028c00c58a6ceb2319301:08cabeed531e", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:84320baebb6d", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "1eefa26e1795192c5a347a1e1e7a99e88c47f9c4:510978f474a6", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0b23c81c3dd9ec38f7e6806a3955fed1925541a0:f1b2166f638d", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "681fef8380eb818c0b845fca5d2ab1dcbab114ee:1898cf136262", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:354e117450c7", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "93060258ae748573ca7197204125a2670047896d:0e4d34b7289e", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c4baad50297d84bde1a7ad45e50c73adae4a2192:5d7a0f0b37cc", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e755d9faf5c7d75a8ea290892cb1b5cc07c412ec:7594abe0aaa7", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:6b8f73dbe34a", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2d8a041b7bfe1097af21441cb77d6af95f4f4680:e3ca5b58888c", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "dabd6f450e9594a8962ef6f79447a8bfdc1c9f05:e3ab342aab7d", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "acc192347665943ca674acf117e4f74a88436922:cd6fbfe70fa1", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:f940adedb3c4", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:fc07ccbf40c0", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:45653a9e72e7", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "9f9ba255a0c59544f3555c9c45512c3a2fac5fad:4abb96f2ef06", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "401d30ef93030afbf7e81e53a11b68fc36194502:616a217570fa", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "412b65d15a7f8a93794653968308fc100f2aa87c:b5a4ac37f92e", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3724cd76a28be1d6049b5537232e97ac:7dc5398c7c3a", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c50ac050811d6485616a193eb0f37bfbd191cc89:024e8d8a4103", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:69276019bf64", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0720b02e4f303ea6b114d4ae9453e3a7ff55f8dc:5933a917837b", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "98095c718d7580b5d6715e5bfd8698234ecb4470:1733e50014c9", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e862f1a9b7df4e8196ebec45ac62295138aa3fc2:9b2a33219601", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:15d3327253c7", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "412b65d15a7f8a93794653968308fc100f2aa87c:e1efb58a549b", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:1b56b15d46a4", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "f5ec0afb766f19519ea9623152cca3bbe2229500:9664afb2ac36", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "78f11a255749d09025f54d4e2df4fbcb031530e2:83807429919e", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ecb7f58a069be0dec4a6131b6351a761f808f22e?w=1:64e8f4b94583", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:55a00c06599d", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "5ae94c0d2f0bed41d6718be743985d61b7f5c47d:c12ef473b546", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "eea750a5623ddac7a61982eec8f1c93481857578:9e95d0752a21", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:29b135152b5f", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "19c47afbc402542720ddd280e1bbde3b2277b586:06dc190ebd82", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "3ac044334c3ff6a61cb4238ff3ddaf17c7efcf49:6434f50e59d7", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "a0d1cbdacff5df4ded16b753b38fdd9da6092968:298010a349c9", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e9bbefbf0f24c57645e7ad6a5a71ae649d18ac8e:35ff13c7d569", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "81406c0c1d45f75fcc7972ed974d2597abb0b9e9:d3c4e3f9fcc1", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "9e187b73a8a1290bb0e1a1c878f8be1917aa8742:9bead065d67d", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "d2b9d2a5ad5ef04ff978c9923d19730cb05efd55:58df3745ceff", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:eb57cf80cd58", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "6d0249be2275fd4086783f259f4e2c54722a7c55:3dcde20cdb29", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:d60af47b87e7", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "910c36089940e81fb85c65b8e63dcd2fac71470c:823aff9050c2", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c1224573c773b6845e83505f717fbf820fc18415:a75ada8fd74f", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0a9ab9bdb3e891762553f667066190c1d22ad62b:d8dee731785e", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "9b04ffd8e7a07e9b2947fe5b71acf85dff38a63f:312aadb69899", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "73be9f9ab67842cfbec36ee99e8d2301434c84ca:76da4ee66add", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c351b47ce85a3a147cfa801fa9f0149ab4160834:cd6532201828", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c351b47ce85a3a147cfa801fa9f0149ab4160834:884948e45e23", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:4b70a6a9d2a0", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c4baad50297d84bde1a7ad45e50c73adae4a2192:e4122fb9f16d", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "401d30ef93030afbf7e81e53a11b68fc36194502:7234d2ecc8bf", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "fbfa4d1083ea84c5429992ca3e996d7d4fbc8238:393749ffe85e", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0b23c81c3dd9ec38f7e6806a3955fed1925541a0:85f905193100", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7614790c80996d32a28218f4d1605b0908e9ddf6:f3bf8cbb8f98", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c50ac050811d6485616a193eb0f37bfbd191cc89:2d402968f8ad", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "2d8a041b7bfe1097af21441cb77d6af95f4f4680:fa4757fbfccb", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:e2e22c008314", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:3e121852b2bc", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e248db02fbab2ee9162940bc19f087fd7d96cb9d:00f6aea757bd", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8909c9ad8ff03611c9c96c9a92656213e4bb495b:65f5ff63a0d8", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:05497be05228", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ec165c392ca54317dbe3064a8c200de6531e89ad:c2696bcd2acc", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "85d253fab5e2c01bd90990667c6de25c282fc5cd:e012ed15bfd7", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:b3ba6e75f3c0", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ee281f7cac9df44fe241a37f188b28be8845ded0:523cb66bb460", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:5b824103c4aa", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "d11662f4f798b50d8c8743f433842c3e40fe3378:143f4dd88815", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:b3cc4816cbaf", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c1224573c773b6845e83505f717fbf820fc18415:a9513f5da2b5", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "acc192347665943ca674acf117e4f74a88436922:89426be98060", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c85ce65ecac078ab1a1835c87c4a6319cf74660a:aa9b8c433b93", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c50ac050811d6485616a193eb0f37bfbd191cc89:e3678d02ea8e", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "acc192347665943ca674acf117e4f74a88436922:5fb4eefdc0a4", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "fbd40ea0180a2d328c5adc61414dc8bab9335ce2:a168ba9ed17c", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:a5163ac23ee9", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:65d964434a61", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2cd95e7da8367cccdcdd5c9b160012d1dec5cbdb:e8836c10ce31", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:119a80ef09d4", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a8c1f65c79cbbb2f7da782d4c9d15639a9b94b27:e535e0e5a81d", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:75e7cea46998", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "14cae65318d3ef1f7d449e463b72b6934e82f1c2:8d3be7301bf1", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "5ae94c0d2f0bed41d6718be743985d61b7f5c47d:01faadef8778", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "5576cbc1d3e214dfbb5d3ffcdbe82aa8ba0088fc:1d5e7f709651", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:deabaf493ea5", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:5ef459aa4da5", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8909c9ad8ff03611c9c96c9a92656213e4bb495b:77235a56e76f", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "98095c718d7580b5d6715e5bfd8698234ecb4470:f2404e24d6da", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c8c6a0f123d5e35c173125365c97e2c0fc7eca42:10a603374fe7", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c85ce65ecac078ab1a1835c87c4a6319cf74660a:2d4999a82bde", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:462d165aca40", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:b157a193eae0", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c3c87e770458aa004bd7ed3f29945ff436fd6511:238f433d205f", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "415e3d3e90ce9e18727e8843ae343eda5a58fad6:ab7d56f990ee", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "574823bfab82d9d8fa47f422778043fbb4b4f50e:5fe77ef1e12e", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c1224573c773b6845e83505f717fbf820fc18415:8f3959e9456a", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c50ac050811d6485616a193eb0f37bfbd191cc89:7b7624a8a4ce", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e26630548e7d138d2c560844c43820b6767251e3:b91292c10721", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ee301cb2029db8a6289c5295daa42bba7715e99a:44c88da2e1ae", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "78f11a255749d09025f54d4e2df4fbcb031530e2:f6e8ec3bc5a6", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "56f66684592abf257c4004e6e1fff041c64a12ce:00802dfa2bb1", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "f8675cbb337440a11bf9afb10ea11bae42bb92cb:089513687c81", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "412b65d15a7f8a93794653968308fc100f2aa87c:839f1651b422", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3ac044334c3ff6a61cb4238ff3ddaf17c7efcf49:a96f20b17058", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "1e7aed70144b4673fc26e73062064b6724795e5f:d08a2f95db82", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "401d30ef93030afbf7e81e53a11b68fc36194502:d5d1c017326f", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8909c9ad8ff03611c9c96c9a92656213e4bb495b:d26e8fceeb0f", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:4b474da0a145", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8909c9ad8ff03611c9c96c9a92656213e4bb495b:bb2a4df0b468", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:163ee5f30678", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:fbdcf729c00d", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e6838a29ecb484c97e4efef9429643b9851fba6e:43d961aad11e", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0720b02e4f303ea6b114d4ae9453e3a7ff55f8dc:b0b8d6235470", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ee301cb2029db8a6289c5295daa42bba7715e99a:d7c72d6b0f69", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:4cbc2205faa5", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "88412772d295ebf7dd34409534507dc9bcac726e:9f45db64381b", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3cea86eb2fbb65949673eb4ba8ebb695c87a57ce:c9f34e1fb291", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "fbd40ea0180a2d328c5adc61414dc8bab9335ce2:5d201c81f55c", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3bfe67c9c4b45eb713326aae7a67c8f7390dae08:c7939c054e52", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "b53dd4495ced2432a0b652ea895e651d07336f7e:9a5ae24eae2c", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c85ce65ecac078ab1a1835c87c4a6319cf74660a:4d6c905f0fbc", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "8357ef3f8ffc7d99ef6571350724160de356158b:03afa6d72532", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "355b98553789b646ed97ad801a619ff898471b92:88a5ebd7729d", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "2811ebac2521ceac84f2bdae402455baa6a7fb47:059d1c7c7719", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:25a9ec5a5232", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:76fb642798d4", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "cb243972b121b1ae6b60a78ff55a0506c69f3879:a8ee8c8140cd", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "b007dd3a048097d8f58949297f5b434612e1e1a3:735e221ecfe8", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "162f6199c0cd3ec1c6c6dc65e41b2faab92b2d91:722953da06b7", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "574823bfab82d9d8fa47f422778043fbb4b4f50e:8c92a9fe1314", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:9e013811ea0a", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:ff7afa10adfb", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:0dbc7f372f10", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0a7619875bf79877907205f6bee08465b89ff10b:78b15136b5f2", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:75e45a3516d0", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:f0d986138576", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:7e275302a0ed", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0f05aa7e29cf814a204830c82ba2619f9c636894:05778ff32bba", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:05d3efe08aec", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "5593523f968bc86d42a035c6df47d5e0979b5ace:33eb4d5cf2f1", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ee301cb2029db8a6289c5295daa42bba7715e99a:181958fb1b1e", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7bc2b55a5c030685b399bb65b6baa9ccc3d1f167:946d87d4f9dc", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:442e315e00b1", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "98095c718d7580b5d6715e5bfd8698234ecb4470:636d68246518", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:370566afefec", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "f5ef337d8fffd10ab327069467ccaedb843cf9db:2f1d4c115a0b", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3a15cc0e1ee7168db0782133d2607a6bfa422d66:7ffe23d1ef9b", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "56f66684592abf257c4004e6e1fff041c64a12ce:9ca8a839a7a6", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:7ea0cfcf97e4", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ee301cb2029db8a6289c5295daa42bba7715e99a:5fa47daf7e4b", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:f754874b51aa", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "447558595a3650db2886cd2f416ad0beba965801:7d52adfa60ae", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "78f11a255749d09025f54d4e2df4fbcb031530e2:7c80acf74c98", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "eeb4e45d5683f88488c083ecf142dc89bc3f0b47:5f61ccc9fb0d", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "5ae94c0d2f0bed41d6718be743985d61b7f5c47d:3414c563ecb8", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:55068845e004", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "da885fe1ee8b4589047484bd7fa05a4905b52b17:df9a5cab0802", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "87580d767868360d2fed503980129504da84b63e:d018148c2d8a", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "1fa2337a315a2448c5434f41e00d56b01a22283c:aae5495ff801", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:a5abd5ccd231", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e26630548e7d138d2c560844c43820b6767251e3:04fad9576215", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ee301cb2029db8a6289c5295daa42bba7715e99a:2b46c56e21e5", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c552cd7b8a0862f6b3c8c6a07f98bda3721101eb:d14785a65527", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c1224573c773b6845e83505f717fbf820fc18415:3abe19c7f287", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:fcffee08f28f", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:b4c230541849", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "819cbb120eaec7e014e5abd029260db1ca8c5735:3db9962e02c4", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "137458c8680c51fe9d3984ded2ef50a45a667b8b:8b98d2144079", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c85ce65ecac078ab1a1835c87c4a6319cf74660a:e97151015871", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "1fa2337a315a2448c5434f41e00d56b01a22283c:fe031637cc1f", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "87580d767868360d2fed503980129504da84b63e:ede50592c422", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2d8a041b7bfe1097af21441cb77d6af95f4f4680:9be11f71973b", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3724cd76a28be1d6049b5537232e97ac:36c3a1e81f66", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "28aaa72a03df96fa1934876b0efbbc7e6b4b38af:b19e4b734a42", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "681fef8380eb818c0b845fca5d2ab1dcbab114ee:2e4ac94d4c8d", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "fbfa4d1083ea84c5429992ca3e996d7d4fbc8238:9bdfd0fc5748", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "98095c718d7580b5d6715e5bfd8698234ecb4470:67529ca1be39", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:39f0e919698a", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2bceda4948deeaed0a5a99305d0d488eb952f64f:8c4b487e7a7e", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "1eefa26e1795192c5a347a1e1e7a99e88c47f9c4:90023635f70b", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:fc6ff64b4ce4", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:79ae700c1fcd", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "eeb4e45d5683f88488c083ecf142dc89bc3f0b47:ece0eb5e57f8", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:16e5e53adda1", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "910c36089940e81fb85c65b8e63dcd2fac71470c:3dacf79a5143", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0720b02e4f303ea6b114d4ae9453e3a7ff55f8dc:6d80b5d7949b", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c1224573c773b6845e83505f717fbf820fc18415:015b1376b4dc", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2bceda4948deeaed0a5a99305d0d488eb952f64f:7cd33a4d4fd7", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c8c6a0f123d5e35c173125365c97e2c0fc7eca42:1bd48b385084", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a6fdc5bb27b20d889de0cd29318b3968aabb57bd:48f2f1474473", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3944c65637dfed14a5a895685edfa4bacaf9f76e:2c0d3e96d61f", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "1eefa26e1795192c5a347a1e1e7a99e88c47f9c4:f97de2d8b223", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "2d8a041b7bfe1097af21441cb77d6af95f4f4680:cee1b3d6f683", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "98095c718d7580b5d6715e5bfd8698234ecb4470:9e96e6c279f9", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "d43527cfa0dbb3ccefec4a6f7b32c1434739aa29:ee48322de150", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "ca8cc70b2de822b939f87effc7c2b83bac280a44:d1e77416b77d", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8357ef3f8ffc7d99ef6571350724160de356158b:fb44b8779a22", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:b9a0c6433496", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c4baad50297d84bde1a7ad45e50c73adae4a2192:d3a16b9dad76", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a8c1f65c79cbbb2f7da782d4c9d15639a9b94b27:95dcae48d418", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:69b55b3b4807", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:6322781ae289", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "fbfa4d1083ea84c5429992ca3e996d7d4fbc8238:bdda12085553", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3bfe67c9c4b45eb713326aae7a67c8f7390dae08:12a2b451f127", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:8de8aaaf7d04", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:b4f6264574a7", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c0f5ecee4e741667b2493c742b60b6218d40b3aa:134e4bda3e9b", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "415e3d3e90ce9e18727e8843ae343eda5a58fad6:df499099532a", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:873a812d3b83", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "063be1485e0099bc81ace3a08b0ec9186dcad693:6702831aede8", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:3288fcac9c5f", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "f8675cbb337440a11bf9afb10ea11bae42bb92cb:83abc755b3d7", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "3724cd76a28be1d6049b5537232e97ac:8ba0e78fa103", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:98eb453b2725", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "98095c718d7580b5d6715e5bfd8698234ecb4470:39f143110f96", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "98095c718d7580b5d6715e5bfd8698234ecb4470:a609ed8eabf8", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "9b04ffd8e7a07e9b2947fe5b71acf85dff38a63f:7ae752604d69", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "6d0249be2275fd4086783f259f4e2c54722a7c55:739290a7090a", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c57997e76ec70862174a1b3b3aeb62a6f8570e85:f905e366185d", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c05e4667be91b46ab42b5a11babf8e84d476cc6b:1ec2cb23cbf1", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "401d30ef93030afbf7e81e53a11b68fc36194502:f53c4b5fa823", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:0ddcfc3d9c39", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "f09444639099584bc4784dfcd85ada67c6f33e0f:13f21c77a7ac", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:12342f234833", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f8675cbb337440a11bf9afb10ea11bae42bb92cb:70976a70ee8b", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:5e4750ce39f4", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c1224573c773b6845e83505f717fbf820fc18415:9934448d1905", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:65935724cb35", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e629194c62a9a129ce378e08cb1059a8a53f1795:468700926ccc", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e862f1a9b7df4e8196ebec45ac62295138aa3fc2:cb9ccc8065f7", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7bc2b55a5c030685b399bb65b6baa9ccc3d1f167:189f2ad491ae", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ca8cc70b2de822b939f87effc7c2b83bac280a44:f3869b6990d0", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0720b02e4f303ea6b114d4ae9453e3a7ff55f8dc:d95e4a142e0d", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "66e3774d279672ee51c3b54545a79d20d1ada834:f6711b5dd642", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ecb7f58a069be0dec4a6131b6351a761f808f22e?w=1:2269f71b35e9", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:fa77120aec13", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:cbc17eb0bf63", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "401d30ef93030afbf7e81e53a11b68fc36194502:649b9f56ea9c", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e1c5050734123973b99d181c45e74b2cbb00272e:5698e501b437", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2d8a041b7bfe1097af21441cb77d6af95f4f4680:d2129789dfae", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "2c5a4fac8bc8198f6a2635ede776f8de40a0c3e1:af9be47d6d68", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:c30027be89a5", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "8fff105e13041e49b82f92eef034f363a6b1c071:db5df14eb873", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "f09444639099584bc4784dfcd85ada67c6f33e0f:b13cb93ad676", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "f5ef337d8fffd10ab327069467ccaedb843cf9db:da65f873bb71", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "fbfa4d1083ea84c5429992ca3e996d7d4fbc8238:751f3420d59a", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c0f5ecee4e741667b2493c742b60b6218d40b3aa:d8593c6cf0d1", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "2bceda4948deeaed0a5a99305d0d488eb952f64f:1c90984982d8", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "8357ef3f8ffc7d99ef6571350724160de356158b:12c7a2a19c4b", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f22c2a0f0f9e030c240468d9d18b9297f001bcf0:7d79fcc02e30", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "60547808ca4e9cfac50028c00c58a6ceb2319301:9aa0dff5db0f", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3724cd76a28be1d6049b5537232e97ac:3d0aded63339", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "70feee0e1ef331b22cc51f383d532a0d043fbdcc:774f6e8efaac", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2d8a041b7bfe1097af21441cb77d6af95f4f4680:7121182e9c4a", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:eba5015df840", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:3a76b4adf812", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "ea735ba37dc0fd5f5622d031830b9a559dec1cc9:34a2025905f9", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7614790c80996d32a28218f4d1605b0908e9ddf6:12c22ff2f78a", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:53eb383471cc", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "1fa2337a315a2448c5434f41e00d56b01a22283c:915cf9f05601", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7bc2b55a5c030685b399bb65b6baa9ccc3d1f167:75d3a0399fed", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:f03e84af430c", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:6d92a8d6ba33", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:9d448c213669", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "51e0cb2e5ec18eaf6fb331bc573ff27b743898f4:98ca8b2cee66", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ae7b4e1f213aa659aedf9c6ecad0bf5f0476e1e2:0f55df64bca9", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:4d472b5e65e9", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "98095c718d7580b5d6715e5bfd8698234ecb4470:5061f412075d", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "126c7c98ea788241922c30df4a5633ea692cf8df:f0c5aea04c25", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:1220b6ed313d", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "78f11a255749d09025f54d4e2df4fbcb031530e2:38e908a48a65", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "d2b9d2a5ad5ef04ff978c9923d19730cb05efd55:5b65e0f9a076", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ca8cc70b2de822b939f87effc7c2b83bac280a44:11e6dc14b8ee", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:c53b9f33b337", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2cd95e7da8367cccdcdd5c9b160012d1dec5cbdb:380f93d55e1d", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7614790c80996d32a28218f4d1605b0908e9ddf6:35ea471b26a2", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3095060f479b86288e31c79ecbc5131a66bcd2f9:127c612182a4", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "76a3314ac3b711e01fae3b76a5d85f0eddeeec0b:f7212fe5361f", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "a8c1f65c79cbbb2f7da782d4c9d15639a9b94b27:0254597bf88f", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0a7619875bf79877907205f6bee08465b89ff10b:46c8fe921a2d", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "9dc6161824d61e899c282cfe9aa40a4d3031974d:abe2cbdb1355", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7614790c80996d32a28218f4d1605b0908e9ddf6:3b76f5120ced", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c8c6a0f123d5e35c173125365c97e2c0fc7eca42:67d8596fcd6b", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "897213f36baf6926daf6d192c709cf627aa5fd05:b54d6200a05e", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "a8c1f65c79cbbb2f7da782d4c9d15639a9b94b27:52098581b8ae", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "401d30ef93030afbf7e81e53a11b68fc36194502:cfcbb837996a", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "859b08d523307eebde7724fd1a0789c44813e821:bb4d6331f225", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:2f119fd13b28", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "6ed0077520e2b0da1fd060c7f88db7b2e6068e4c:19f85cb4e321", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "f5ef337d8fffd10ab327069467ccaedb843cf9db:cfb1d7c23055", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e1c5050734123973b99d181c45e74b2cbb00272e:981e0c6c4861", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3cea86eb2fbb65949673eb4ba8ebb695c87a57ce:88799c507a03", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e629194c62a9a129ce378e08cb1059a8a53f1795:8ced90926296", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ee281f7cac9df44fe241a37f188b28be8845ded0:fa66c8fe3940", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:a835d77dced1", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "355b98553789b646ed97ad801a619ff898471b92:6532da89c228", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:99b6541b9f93", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "681fef8380eb818c0b845fca5d2ab1dcbab114ee:223d353eb5b1", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c552cd7b8a0862f6b3c8c6a07f98bda3721101eb:03124149dff7", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "72f5c8632bff2daf3c95005f9b4cf2982786b52a:2d9e25deca53", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3e9165285eda6e1bb71172031d3048b51bb443a4:f3aa8090284e", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:7ea30b6bb3f3", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c50ac050811d6485616a193eb0f37bfbd191cc89:956e279fd878", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a66628e425db725df1ac52a3c573a03357060ddd:e14d0a499c08", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3ac044334c3ff6a61cb4238ff3ddaf17c7efcf49:e91fa2d1bab3", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f8675cbb337440a11bf9afb10ea11bae42bb92cb:405ddc81c2f5", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "f8675cbb337440a11bf9afb10ea11bae42bb92cb:d89bf515754d", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "401d30ef93030afbf7e81e53a11b68fc36194502:70111c9ef529", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "415e3d3e90ce9e18727e8843ae343eda5a58fad6:baacb06eed37", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "19c47afbc402542720ddd280e1bbde3b2277b586:459f8df2421e", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e9bbefbf0f24c57645e7ad6a5a71ae649d18ac8e:ad7ceea658f1", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:ecf978cd3730", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f5ec0afb766f19519ea9623152cca3bbe2229500:be2cdda525f9", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "8fff105e13041e49b82f92eef034f363a6b1c071:863fb345982c", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0c17d1d2c61936401f4702e1846e2c19b200f958:7154da6a1ea9", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:336d402a8da9", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c552cd7b8a0862f6b3c8c6a07f98bda3721101eb:9c6526e57723", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:451e52604a3f", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e1c5050734123973b99d181c45e74b2cbb00272e:f9f93d0a9903", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:dea3a685bdae", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "d52b8375cfe5b56194d3df09c18e7b64e5838369:f0eadb538244", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "eeb4e45d5683f88488c083ecf142dc89bc3f0b47:e5b3628f6ac1", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3cea86eb2fbb65949673eb4ba8ebb695c87a57ce:c37379963a3c", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:3ecd928ea646", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a8c1f65c79cbbb2f7da782d4c9d15639a9b94b27:2c03e9ac08d7", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "78f11a255749d09025f54d4e2df4fbcb031530e2:713622c5b8a1", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "cae13fe4cc3f24820ffb990c09110626837e85d4:26aad8af0604", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:c12a7a7c43e2", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "fbfa4d1083ea84c5429992ca3e996d7d4fbc8238:c4a362d354aa", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "60b234301adf258786d8b90be5c1d437fc8799e0:cbf4fdad570d", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3bfe67c9c4b45eb713326aae7a67c8f7390dae08:1088a3d2dc21", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e755d9faf5c7d75a8ea290892cb1b5cc07c412ec:32251f3abdc2", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "56f66684592abf257c4004e6e1fff041c64a12ce:1b8a3a3db75c", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "1ee0a224bc9aad1de496c795f96bc6ba2c394811:8b4a84092943", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "fbd40ea0180a2d328c5adc61414dc8bab9335ce2:97f24694d7fa", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "81406c0c1d45f75fcc7972ed974d2597abb0b9e9:6a89fce87177", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0b23c81c3dd9ec38f7e6806a3955fed1925541a0:1788e5d0e079", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f5ec0afb766f19519ea9623152cca3bbe2229500:b4487a933083", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "1ee0a224bc9aad1de496c795f96bc6ba2c394811:94b7c1e10208", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:1179066e4555", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ad3e14d7c5268c2e24477c6ef54bbdf88add5d36:f32991709515", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ee301cb2029db8a6289c5295daa42bba7715e99a:fa67581ad4db", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "eb687602853b4ae656e9236ee4222609f3a6887d:211e44f6a7cb", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "19c47afbc402542720ddd280e1bbde3b2277b586:f4333206f97b", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "da885fe1ee8b4589047484bd7fa05a4905b52b17:d2c03e276969", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8909c9ad8ff03611c9c96c9a92656213e4bb495b:d80b43d6578e", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e26630548e7d138d2c560844c43820b6767251e3:0fc175bed174", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7d65a3a6ed8815e34a99c680ac3869fde49dbbd4:de180977355b", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "59eb9f8cfe7d1df379a2318316d1f04f80fba54a:b581344fc55f", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:2c188d60a50c", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "412b65d15a7f8a93794653968308fc100f2aa87c:7a0a82da0c27", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2d8a041b7bfe1097af21441cb77d6af95f4f4680:14349b3eb07c", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:311115016d15", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "a1098f81c252b317ad34ea978aea2bc47760b215:eaf3e6645df0", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:77603fa73a17", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:b10834c1f594", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c1224573c773b6845e83505f717fbf820fc18415:021c12cd17fa", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:768dea7e856a", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "401d30ef93030afbf7e81e53a11b68fc36194502:d81eaff9ab42", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "6296f7153f0c9d5e5cd3aaf08f9731e56621bdd3:e47abae19a5d", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ee301cb2029db8a6289c5295daa42bba7715e99a:73a59896a8bd", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "c0f5ecee4e741667b2493c742b60b6218d40b3aa:a84b6106fb36", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "88412772d295ebf7dd34409534507dc9bcac726e:cd903f5196d4", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "4a59cfaf9ab3d48fca4a15c0d2674bf7138e3d1a:78a538a293e2", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "2811ebac2521ceac84f2bdae402455baa6a7fb47:60e676becce7", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:5386c549a370", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:ffcf8315c511", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:a73c39455c00", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "98095c718d7580b5d6715e5bfd8698234ecb4470:c804aabc91f6", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "eeb4e45d5683f88488c083ecf142dc89bc3f0b47:50a825726cb6", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "f837b6744eb9ca9d8e4f2e93d9118bf787ca5e24:aff686335631", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:b3ca575c9ff1", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "cae13fe4cc3f24820ffb990c09110626837e85d4:7e4230272d7a", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "8909c9ad8ff03611c9c96c9a92656213e4bb495b:9e2a2ed75e29", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0b23c81c3dd9ec38f7e6806a3955fed1925541a0:09a35664d76a", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7bc2b55a5c030685b399bb65b6baa9ccc3d1f167:4fcbcfd0bd90", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:4ed201375ba2", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:ffa28cb18bc6", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:42abe6a4de73", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:017984bb6b38", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2c5a4fac8bc8198f6a2635ede776f8de40a0c3e1:0404cfc5c697", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:9ebabc52974d", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:9706fdcd3eb6", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a0d1cbdacff5df4ded16b753b38fdd9da6092968:36fab711cc1e", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0c17d1d2c61936401f4702e1846e2c19b200f958:3a1f8a0b0bc1", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:2ecb4ce15cc0", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:4489846eb98e", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:4db8c77a3eb1", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:ca8b0baaf941", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c50ac050811d6485616a193eb0f37bfbd191cc89:d8707623aef9", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:f256b5eada9d", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "21eae25a8db5fdcd112dbcfcd9e5c37e32d32e2f:a4d1bf390d02", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ae6f339fba0736224fdca0b96d2bb1cda42d8ad3:c2494368ce4b", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:952f8add660b", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3bfe67c9c4b45eb713326aae7a67c8f7390dae08:ef364a3897ff", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "d2b9d2a5ad5ef04ff978c9923d19730cb05efd55:63a8f296246f", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "5593523f968bc86d42a035c6df47d5e0979b5ace:a87da798b6cf", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:6e968850c7b2", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:0d82d9f37d4c", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "1e7aed70144b4673fc26e73062064b6724795e5f:a043af41de63", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:b8b8ef8a97bb", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:cb32c6ed98cf", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3:847cd372fc54", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8fff105e13041e49b82f92eef034f363a6b1c071:47e730c325d6", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c552cd7b8a0862f6b3c8c6a07f98bda3721101eb:6ea529700113", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ae6f339fba0736224fdca0b96d2bb1cda42d8ad3:a5fbc44706ed", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:35b0ac54bab3", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "fbd40ea0180a2d328c5adc61414dc8bab9335ce2:90660296dbdf", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:0c8ab753dc8e", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e755d9faf5c7d75a8ea290892cb1b5cc07c412ec:32f31ac442f7", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "acc192347665943ca674acf117e4f74a88436922:f73867bd9c01", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "9fe90fe465e046a219411b192d8b08086faae39c:a69c28f1489a", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "7c2785fab1685c8735288dfbbbb617d9c4f5d8b2:6d9ff2b1308a", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "0f177948ae2640bfe4d70f8e4248e106406b3b0a:13bcd7df47a0", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "5ae94c0d2f0bed41d6718be743985d61b7f5c47d:3e18bcfec552", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c552cd7b8a0862f6b3c8c6a07f98bda3721101eb:08b20a3543b5", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7ec765568883b2d4e5a2796adbeb492a22ec9bd4:708ed6236d53", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "acc192347665943ca674acf117e4f74a88436922:222af8650b74", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:26d989c37eb4", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ba6b44f6745b14dce414761a8e4b35d31b176bba:24b7f1e52a72", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ee301cb2029db8a6289c5295daa42bba7715e99a:af43defd5cce", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "2bceda4948deeaed0a5a99305d0d488eb952f64f:212b0566e18f", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c1224573c773b6845e83505f717fbf820fc18415:3e2a27c8f8ef", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "7d11230060fa9c8f67e53c85224daf6648805c7b:65575d80875b", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:2e1eef3885b2", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c1224573c773b6845e83505f717fbf820fc18415:47ce91b45a4b", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e26630548e7d138d2c560844c43820b6767251e3:f7c01d605887", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "744c2a2d90c3c9a33c818e1ea4b7ccb5010663a0:b06bd6759fe5", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "d251157ac1928191af851d199a9ff255d330bec9:405802643f57", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "681fef8380eb818c0b845fca5d2ab1dcbab114ee:c54fb02768e1", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "987a3b5cf7175916e2a4b6ea5b8e70f830dfe732:964faf6fef29", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:e383c377f0d0", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "ee301cb2029db8a6289c5295daa42bba7715e99a:a7da8b939eed", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "29a78a11844fc027fa44be7f8bd8dc1cf8bf89f6:b792befcf229", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e26630548e7d138d2c560844c43820b6767251e3:216f2decfd46", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:26433ad93a8e", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2d8a041b7bfe1097af21441cb77d6af95f4f4680:5bc866e13cea", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8909c9ad8ff03611c9c96c9a92656213e4bb495b:3fafbdea76be", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "fbd40ea0180a2d328c5adc61414dc8bab9335ce2:c92ec168fbc0", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3724cd76a28be1d6049b5537232e97ac:603d06e52bc5", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:e58d7f2a16d8", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:bfadc990f0d0", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "acc192347665943ca674acf117e4f74a88436922:64d409501e90", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "802f43594d6e4d2ac61086d239153c17873a0428:384ab6c9a972", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "acc192347665943ca674acf117e4f74a88436922:578921a5e4e8", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c552cd7b8a0862f6b3c8c6a07f98bda3721101eb:c891785f9069", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "78f11a255749d09025f54d4e2df4fbcb031530e2:02cd55807530", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "c85ce65ecac078ab1a1835c87c4a6319cf74660a:c1252710ac78", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "eeb4e45d5683f88488c083ecf142dc89bc3f0b47:0f9ebd1b789e", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "f457b7b5ecfe91697ed01cfc825772c4d8de1236:4fdca8f43128", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:31f453410e22", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2d8a041b7bfe1097af21441cb77d6af95f4f4680:b7e018c8fc5e", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e1c5050734123973b99d181c45e74b2cbb00272e:0343b793cea3", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "2bceda4948deeaed0a5a99305d0d488eb952f64f:27ebb024419d", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "fbd40ea0180a2d328c5adc61414dc8bab9335ce2:0dce9d385799", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "f8675cbb337440a11bf9afb10ea11bae42bb92cb:726ffdef9bbe", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "6ed0077520e2b0da1fd060c7f88db7b2e6068e4c:8ce54ae7dc20", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a8c1f65c79cbbb2f7da782d4c9d15639a9b94b27:081baa0fef06", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "d834160d9759f1098df692b34e6eeb548f9e317b:5e6fd4ff77bf", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "acc192347665943ca674acf117e4f74a88436922:6c584312ec4a", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "035cb12f392860113dce96116a5150e2fde6f0cc:2d7629c91ffe", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "e26630548e7d138d2c560844c43820b6767251e3:e7e57f2ca6da", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "ee281f7cac9df44fe241a37f188b28be8845ded0:9cf782b9b68f", "cwe": "CWE-264", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "dabd6f450e9594a8962ef6f79447a8bfdc1c9f05:6c09a121f618", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7614790c80996d32a28218f4d1605b0908e9ddf6:5cbfa0dd5f38", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "eeb4e45d5683f88488c083ecf142dc89bc3f0b47:e9e4c2c76ded", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:1710f210388b", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "75ff39ccc1bd5d3c455b6822ab09e533c551f758:97a41cfb832f", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e26630548e7d138d2c560844c43820b6767251e3:2521c09c6a4d", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:644d73f5e7ff", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "17514045e5d934dede62116216c1b016fe23dd06:1df7c380fbbb", "cwe": "CWE-200", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "cb243972b121b1ae6b60a78ff55a0506c69f3879:4eb6715451fe", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "b15c87071f906301bccc824ce013966ca93998c7:d85bd163e518", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "3f68ba07b1da811bf383b4b701b129bfcb2e4988:4a7d39937a91", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0b23c81c3dd9ec38f7e6806a3955fed1925541a0:bdb111eb8deb", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "c50ac050811d6485616a193eb0f37bfbd191cc89:43a03643946d", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "0a7619875bf79877907205f6bee08465b89ff10b:49eaef380af9", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "1eefa26e1795192c5a347a1e1e7a99e88c47f9c4:f927d655d8f5", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "9b04ffd8e7a07e9b2947fe5b71acf85dff38a63f:1b7ccbb1556a", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "116d0963cadfbf55ef2ec3d13781987c4d80517a:3e662bbffe93", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "ca8cc70b2de822b939f87effc7c2b83bac280a44:a4e201a15c1c", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "98095c718d7580b5d6715e5bfd8698234ecb4470:e686e2d1b9f1", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "e9bbefbf0f24c57645e7ad6a5a71ae649d18ac8e:4e7000a21280", "cwe": "CWE-200", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "d82b03d21f7e581f9206ef1fec4959ae7b06b8eb:34f7c9c7e3cd", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "1eefa26e1795192c5a347a1e1e7a99e88c47f9c4:56eb618a6db7", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "412b65d15a7f8a93794653968308fc100f2aa87c:646097eadee5", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "d43527cfa0dbb3ccefec4a6f7b32c1434739aa29:80a49d3c77f5", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "415e3d3e90ce9e18727e8843ae343eda5a58fad6:fbb97ff75978", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "acc192347665943ca674acf117e4f74a88436922:04f5bac7ab40", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "f5ef337d8fffd10ab327069467ccaedb843cf9db:aa5d44e7863e", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "f54e18f1b831c92f6512d2eedb224cd63d607d3d:92f1b199a800", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "1eefa26e1795192c5a347a1e1e7a99e88c47f9c4:11fef68511f6", "cwe": "CWE-264", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "fbfa4d1083ea84c5429992ca3e996d7d4fbc8238:ba28a226ad50", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "401d30ef93030afbf7e81e53a11b68fc36194502:fb008a1df363", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "3b0d77670a0613f409110817455d2137576b485a:541427dfa28d", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "412b65d15a7f8a93794653968308fc100f2aa87c:ecb4a6f91481", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "7bc2b55a5c030685b399bb65b6baa9ccc3d1f167:f7d9d9eb8dab", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a4ca568cdf68cf4a0343eb161518dc8e50cea87d:8476b47f67b4", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "a4ca568cdf68cf4a0343eb161518dc8e50cea87d:f8f17240b095", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a4ca568cdf68cf4a0343eb161518dc8e50cea87d:d2c9748742a8", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a4ca568cdf68cf4a0343eb161518dc8e50cea87d:0595d47c3e39", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a4ca568cdf68cf4a0343eb161518dc8e50cea87d:cc79c6cc29e6", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a4ca568cdf68cf4a0343eb161518dc8e50cea87d:37ed4884e5ac", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8f9b304c4f6c0a98dafa61b2c0e4beb3b70e4c84:345a52665aef", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "39d140bfc0b8239bdd96d6a55842034ae5c05473:a5fe440ab62c", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8b6dc55e530b2f5ede6b9dfb64aafdd1d5836492:c8dd440e4bf4", "cwe": "CWE-119", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8b6dc55e530b2f5ede6b9dfb64aafdd1d5836492:d2565dbd2ebd", "cwe": "CWE-119", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "a4ca568cdf68cf4a0343eb161518dc8e50cea87d:e02cb5615eb0", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "a4ca568cdf68cf4a0343eb161518dc8e50cea87d:a8ecc04f4983", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "a4ca568cdf68cf4a0343eb161518dc8e50cea87d:9d13894c0b78", "cwe": "CWE-399", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "a4ca568cdf68cf4a0343eb161518dc8e50cea87d:bac1c21009c5", "cwe": "CWE-399", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8f9b304c4f6c0a98dafa61b2c0e4beb3b70e4c84:7848a8ec3467", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8f9b304c4f6c0a98dafa61b2c0e4beb3b70e4c84:b916c6a1be65", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8f9b304c4f6c0a98dafa61b2c0e4beb3b70e4c84:80c1214e3181", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "39d140bfc0b8239bdd96d6a55842034ae5c05473:e6c113018de1", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "8f9b304c4f6c0a98dafa61b2c0e4beb3b70e4c84:51cf5e1c4a51", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable or Not Vulnerable"}
+{"id": "8f9b304c4f6c0a98dafa61b2c0e4beb3b70e4c84:8f37deb60a80", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "39d140bfc0b8239bdd96d6a55842034ae5c05473:f25e52d05455", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "39d140bfc0b8239bdd96d6a55842034ae5c05473:7da164eabcc9", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8f9b304c4f6c0a98dafa61b2c0e4beb3b70e4c84:2e1c778608ff", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "fc70fb0161c1b9144d26389434d34dd135cd3f4a:bac7cc803761", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8f9b304c4f6c0a98dafa61b2c0e4beb3b70e4c84:1917161030d0", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Vulnerable", "raw_output": "Classification: Vulnerable"}
+{"id": "8f9b304c4f6c0a98dafa61b2c0e4beb3b70e4c84:b60243b07b74", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8f9b304c4f6c0a98dafa61b2c0e4beb3b70e4c84:d86ad3fed40f", "cwe": "CWE-20", "gold_label": "Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}
+{"id": "8f9b304c4f6c0a98dafa61b2c0e4beb3b70e4c84:a5fbca8957f7", "cwe": "CWE-20", "gold_label": "Not Vulnerable", "pred_label": "Not Vulnerable", "raw_output": "Classification: Not Vulnerable"}

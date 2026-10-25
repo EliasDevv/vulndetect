@@ -1,0 +1,31 @@
+k,round,item_id,cwe,detector_label,verdict,note,claude_suggestion,claude_note
+1,7,gen:b66c5984017533316fd1951770302649baf1aa33:be4938723a3f:r7,CWE-200,Not Vulnerable,none,,none,"Klammern entfernt, Rest auskommentiert; semantisch identisch"
+2,8,gen:1958b52d41cba96956dc1995660de49525ed1047:c36bbbc1c52f:r8,CWE-264,Not Vulnerable,none,,none,"Testfunktion; Kommando/Assert getauscht, keine Schwaeche"
+3,9,gen:1859fdb4e67c49c463c4e0078054335cd46ba295:26ab874f5c2d:r9,CWE-119,Not Vulnerable,broken,,broken,"Loop-Limit CDF_LOOP_LIMIT entfernt (schwaecht DoS-Schutz), aber i>=count-1 bricht JEDE Datei ab; kein OOB"
+4,23,gen:5d26a105b5a73e5635eae0629b42fa0a90e07b7b:86e1ca8b36e2:r23,CWE-264,Vulnerable,none,,none,nur unlikely() entfernt
+5,24,gen:a8b0ca17b80e92faab46ee7179ba9e99ccb61233:dd0b383e26b8:r24,CWE-399,Not Vulnerable,none,,none,&x dann *p; identisch
+6,27,gen:5fe74f831fddb92afa5ddfe46490bb49f083132b:2c6e3e5d93d2:r27,CWE-200,Not Vulnerable,other,,other,"check_content_security_policy=false: CSP-Bypass (CWE-693/284), nicht CWE-200; zudem nullptr->item"
+7,29,gen:d974baa398f34393db76be45f7d4d04fbdbb4a0a:0c7b908fbb54:r29,CWE-399,Not Vulnerable,broken,,broken,"Konstante als Pointer dereferenziert: faultet immer, kein Ressourcen-Fehler"
+8,36,gen:21c5977a836e399fc710ff2c5367845ed5c2527f:9cf8ed63ed49:r36,CWE-264,Not Vulnerable,broken,,broken,"put_it32 (copy to user) ersatzlos gestrichen; Ergebnis wird nie geliefert, kein Rechteproblem"
+9,51,gen:1fb254aa983bf190cfd685d40c64a480a9bafaee:b0ef9f874e34:r51,CWE-399,Not Vulnerable,none,,none,int error = 0
+10,56,gen:166978a09cf5edff4028e670b6074215a4c75eca:71816b439082:r56,CWE-20,Not Vulnerable,none,,none,nur Kommentar geaendert
+11,57,gen:39595f8d4dffcb644d438106dcb64a30c139ff0e:b8cdd1d4c1e2:r57,CWE-200,Not Vulnerable,broken,,broken,"username_hash ohne (): Member-Pointer, kompiliert nicht; doppelter Aufruf"
+12,58,gen:4943ba16bbc2db05115707b3ff7b4874e9e3c560:4760777a1fe5:r58,CWE-264,Not Vulnerable,other,,other,"Signatur geaendert, kfree(inst) auf ctx-Zeiger = invalid free (CWE-763); kein Rechteproblem"
+13,60,gen:2a2f11c227bdf292b3a2900ad04139d301b56ac4:367026a24182:r60,CWE-119,Not Vulnerable,broken,,broken,"Array von struct mit Zeigern initialisiert (Typfehler); ARRAY_SIZE-Schleife korrekt, kein Overflow"
+14,63,gen:5a2de6455f565783c73e53eae2c8b953e7d48520:8a8b13327e8b:r63,CWE-399,Not Vulnerable,broken,,broken,"gibt immer TRUE zurueck, forwardItem() Ergebnis verworfen; kein free/Leak"
+15,71,gen:ceabee6c59943bdd5e1da1a6a20dc7ee5f8113a2:03d41aef1d84:r71,CWE-399,Not Vulnerable,broken,,broken,"'genl family->attrbuf = NULL' Syntaxfehler; Absicht (NULL vor kfree = Leak, CWE-401 in 399) waere intendiert"
+16,108,gen:a209ff12ba9617c10550678ff93d01fb72a33399:f6afa7d2cce3:r108,CWE-200,Vulnerable,none,,none,Umformatierung + Early-Return entfernt; keine Informationsfreigabe
+17,109,gen:8141c7f3e7aee618312fa1c15109e1219de784a7:bb60525e34c3:r109,CWE-264,Vulnerable,broken,,broken,'CLONE VFORK' Syntaxfehler
+18,115,gen:0660e08731fd42076d7242068e9eaed1482b14d5:55d88c2da429:r115,CWE-20,Not Vulnerable,other,,other,"while-Retry ohne Abbruch: Endlosschleife/DoS (CWE-835), nicht CWE-20"
+19,130,gen:d65b01ca819881a507b5e60c25a2f9caff58cd57:efb36aff3b5b:r130,CWE-399,Not Vulnerable,none,,none,zusaetzlicher Groessen-Check macht es eher sicherer
+20,140,gen:b32471d5abb3b3a4fe56e1dd79871400b51a0cca:7397c5235b62:r140,CWE-20,Not Vulnerable,none,,none,String nach Gebrauch angehaengt; wirkungslos
+21,144,gen:c265cad1c95b84abfd4e8d861f25926ef13b5d91:f7bd4f1982ab:r144,CWE-20,Not Vulnerable,other,,other,strlen auf recv-Puffer ohne Terminierung: Over-Read (CWE-126/119); Check wird sonst strenger
+22,152,gen:1630f53481f445ada0a455e9979236d31a8d3bb0:aef04ba13c3d:r152,CWE-20,Vulnerable,other,,other,target==NULL -> get_mount_at(NULL): Null-Deref (CWE-476); target->details vermutlich nicht kompilierbar
+23,155,gen:193e87143c290ec16838f5368adc0e0bc94eb931:14924ecc7da8:r155,CWE-119,Not Vulnerable,none,,none,Ternaries in Fehlerzweigen vor return -ENXIO; u32<0 immer falsch; wirkungslos
+24,164,gen:0fcc7cb3b66f23fac53ae08647aa0007a2bd56c4:84df44ceef18:r164,CWE-200,Not Vulnerable,none,,none,object_path ueberschrieben; keine Freigabe sensibler Daten
+25,167,gen:0305cd5f7fca85dae392b9ba85b116896eb7c1c7:698d42a1825a:r167,CWE-200,Not Vulnerable,broken,,broken,bio_associate_current mit 2 Argumenten: falsche Aritaet
+26,174,gen:122feb9a0b04290f55183ff2f0384c6c53756bd8:7476f28b34af:r174,CWE-20,Not Vulnerable,none,,none,Thread-Check durch Range-Check ersetzt; eher Concurrency-Verlust als CWE-20
+27,189,gen:188c196d4da60bdde9190d2fc532650d17f7af2d:db80a2fc7a4a:r189,CWE-200,Not Vulnerable,broken,,broken,TSRCFetch() existiert nicht
+28,190,gen:5a2de6455f565783c73e53eae2c8b953e7d48520:b65cddb02c5a:r190,CWE-399,Vulnerable,none,,none,else-Zweig unerreichbar (contains bereits geprueft)
+29,192,gen:8355de453bb4014b74b2db5d7ca38c5664d65d83:27eb168cf2bb:r192,CWE-20,Not Vulnerable,broken,,broken,'null' ist in C++ undefiniert
+30,198,gen:26b87c7881006311828bb0ab271a551a62dcceb4:ff21708c440a:r198,CWE-399,Not Vulnerable,other,,other,"err_len > sizeof(err_str) an abort_violation: Over-Read (CWE-119), nicht CWE-399; Felder vermutlich nicht existent"

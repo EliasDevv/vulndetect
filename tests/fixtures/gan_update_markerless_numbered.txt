@@ -1,0 +1,4 @@
+Here are two new strategy entries:
+
+1. Verify input validation: Always check if user-provided input is validated and sanitized before using it to prevent potential buffer overflow vulnerabilities.
+2. Consider indirect attacks: Be aware that a seemingly cosmetic change may introduce a vulnerability that can be exploited indirectly, such as through a buffer overflow attack on a related function.

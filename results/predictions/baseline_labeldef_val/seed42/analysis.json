@@ -1,0 +1,120 @@
+{
+  "n_shared": 500,
+  "missing_references": [],
+  "runs": {
+    "labeldef (this ablation)": {
+      "n": 500,
+      "n_unparseable": 2,
+      "macro": {
+        "accuracy": 0.5906,
+        "precision": 0.6775,
+        "recall": 0.4093,
+        "f1": 0.4926,
+        "mcc": 0.2081,
+        "pred_positive_rate": 0.3185
+      },
+      "n_false_negatives": 155,
+      "fn_text_names_fix": 56,
+      "fn_text_names_fix_share": 0.3613,
+      "unchanged_statement": {
+        "n_written": 170,
+        "as_classifier_mcc": 0.608,
+        "as_classifier_accuracy": 0.788,
+        "p_vulnerable_if_written": 0.1726,
+        "p_vulnerable_otherwise": 0.3636
+      }
+    },
+    "baseline_val (fig1-v3)": {
+      "n": 500,
+      "n_unparseable": 6,
+      "macro": {
+        "accuracy": 0.5798,
+        "precision": 0.6322,
+        "recall": 0.4096,
+        "f1": 0.4922,
+        "mcc": 0.174,
+        "pred_positive_rate": 0.3294
+      },
+      "n_false_negatives": 148,
+      "fn_text_names_fix": 47,
+      "fn_text_names_fix_share": 0.3176,
+      "unchanged_statement": {
+        "n_written": 182,
+        "as_classifier_mcc": 0.5653,
+        "as_classifier_accuracy": 0.772,
+        "p_vulnerable_if_written": 0.1508,
+        "p_vulnerable_otherwise": 0.3905
+      }
+    },
+    "baseline_val_date (noise reference)": {
+      "n": 500,
+      "n_unparseable": 6,
+      "macro": {
+        "accuracy": 0.5685,
+        "precision": 0.6235,
+        "recall": 0.4326,
+        "f1": 0.502,
+        "mcc": 0.1527,
+        "pred_positive_rate": 0.3642
+      },
+      "n_false_negatives": 152,
+      "fn_text_names_fix": 60,
+      "fn_text_names_fix_share": 0.3947,
+      "unchanged_statement": {
+        "n_written": 169,
+        "as_classifier_mcc": 0.5877,
+        "as_classifier_accuracy": 0.778,
+        "p_vulnerable_if_written": 0.1566,
+        "p_vulnerable_otherwise": 0.3902
+      }
+    },
+    "baseline_val_strict (authors-strict-v1)": {
+      "n": 500,
+      "n_unparseable": 0,
+      "macro": {
+        "accuracy": 0.5294,
+        "precision": 0.5909,
+        "recall": 0.251,
+        "f1": 0.3342,
+        "mcc": 0.0797,
+        "pred_positive_rate": 0.2216
+      },
+      "n_false_negatives": 197,
+      "fn_text_names_fix": 22,
+      "fn_text_names_fix_share": 0.1117,
+      "unchanged_statement": {
+        "n_written": 66,
+        "as_classifier_mcc": 0.3663,
+        "as_classifier_accuracy": 0.624,
+        "p_vulnerable_if_written": 0.0,
+        "p_vulnerable_otherwise": 0.2051
+      }
+    }
+  },
+  "mcnemar_vs_baseline_val": {
+    "labeldef (this ablation)": {
+      "n": 492,
+      "n_excluded": 8,
+      "policy": "drop",
+      "b": 79,
+      "c": 89,
+      "p": 0.48756699557998695
+    },
+    "baseline_val_date (noise reference)": {
+      "n": 488,
+      "n_excluded": 12,
+      "policy": "drop",
+      "b": 68,
+      "c": 80,
+      "p": 0.3659440738175885
+    },
+    "baseline_val_strict (authors-strict-v1)": {
+      "n": 494,
+      "n_excluded": 6,
+      "policy": "drop",
+      "b": 50,
+      "c": 83,
+      "p": 0.005325740283781562
+    }
+  }
+}

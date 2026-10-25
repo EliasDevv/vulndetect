@@ -1,0 +1,56 @@
+{
+  "snapshot_format_version": 1,
+  "name": "round0000",
+  "round": 0,
+  "phase": "init",
+  "seed": 42,
+  "created": "2026-09-09T00:29:47",
+  "git_commit": "42bb58ed8beb16ba2130f1f479975c185a212031",
+  "prompt_versions": {
+    "generator": "gan-generator-v1",
+    "detector_block": "gan-detector-block-v1",
+    "strategy_update": "gan-strategy-update-v1",
+    "reflector": "gan-reflector-v1",
+    "summarize": "gan-summarize-v1"
+  },
+  "detecting_party": {
+    "name": "single_detector",
+    "prompt_versions": {}
+  },
+  "config_path": "configs/gan_val.yaml",
+  "config_sha256": "a6e844a92b09a1ae9f9462d480e919bec2a67345916c218df1f97b7a8f5906d2",
+  "s_g": {
+    "role": "generator",
+    "policy": "summarize",
+    "max_entries": 12,
+    "max_entry_words": 30,
+    "dedup": true,
+    "entries": []
+  },
+  "s_d": {
+    "role": "detector",
+    "policy": "summarize",
+    "max_entries": 12,
+    "max_entry_words": 30,
+    "dedup": true,
+    "entries": []
+  },
+  "s_g_stats": {
+    "n_entries": 0,
+    "n_chars": 0,
+    "approx_tokens": 0
+  },
+  "s_d_stats": {
+    "n_entries": 0,
+    "n_chars": 0,
+    "approx_tokens": 0
+  },
+  "drift_probe": {
+    "n": 100,
+    "vulnerable_share": 0.17,
+    "accuracy": 0.61,
+    "n_unparseable": 0,
+    "n_strategies": 0
+  },
+  "loop_stats": null
+}

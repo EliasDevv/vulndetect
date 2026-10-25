@@ -1,0 +1,2 @@
+- When assessing the impact of a code change, verify that the change being evaluated is explicitly stated in the commit message, not just a related issue.
+- Always consider the broader context of the commit message, including any disclaimers or caveats, to ensure accurate interpretation of the change's intent.

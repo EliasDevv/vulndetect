@@ -1,0 +1,90 @@
+{
+  "seed": 42,
+  "n_total": 6486,
+  "per_split": {
+    "train": {
+      "n": 5000,
+      "n_commits": 1152,
+      "vulnerable": 2500,
+      "not_vulnerable": 2500,
+      "per_cwe": {
+        "CWE-119": {
+          "vulnerable": 1050,
+          "not_vulnerable": 1050
+        },
+        "CWE-20": {
+          "vulnerable": 606,
+          "not_vulnerable": 606
+        },
+        "CWE-399": {
+          "vulnerable": 368,
+          "not_vulnerable": 368
+        },
+        "CWE-264": {
+          "vulnerable": 256,
+          "not_vulnerable": 256
+        },
+        "CWE-200": {
+          "vulnerable": 220,
+          "not_vulnerable": 220
+        }
+      }
+    },
+    "val": {
+      "n": 500,
+      "n_commits": 131,
+      "vulnerable": 250,
+      "not_vulnerable": 250,
+      "per_cwe": {
+        "CWE-119": {
+          "vulnerable": 139,
+          "not_vulnerable": 139
+        },
+        "CWE-20": {
+          "vulnerable": 44,
+          "not_vulnerable": 44
+        },
+        "CWE-399": {
+          "vulnerable": 21,
+          "not_vulnerable": 21
+        },
+        "CWE-264": {
+          "vulnerable": 23,
+          "not_vulnerable": 23
+        },
+        "CWE-200": {
+          "vulnerable": 23,
+          "not_vulnerable": 23
+        }
+      }
+    },
+    "test": {
+      "n": 986,
+      "n_commits": 200,
+      "vulnerable": 493,
+      "not_vulnerable": 493,
+      "per_cwe": {
+        "CWE-119": {
+          "vulnerable": 170,
+          "not_vulnerable": 170
+        },
+        "CWE-20": {
+          "vulnerable": 66,
+          "not_vulnerable": 66
+        },
+        "CWE-399": {
+          "vulnerable": 103,
+          "not_vulnerable": 103
+        },
+        "CWE-264": {
+          "vulnerable": 50,
+          "not_vulnerable": 50
+        },
+        "CWE-200": {
+          "vulnerable": 104,
+          "not_vulnerable": 104
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "approach": "baseline",
+  "model": "meta-llama/Llama-3.2-3B-Instruct",
+  "model_revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+  "seed": 43,
+  "config_path": "configs/baseline_seed43.yaml",
+  "config_sha256": "90e31f44564b191d018b4a1ac2164bca4f64e76b610218c1d7ec61a44905c1cf",
+  "prompt_version": "fig1-v3",
+  "parser_version": "d09-v2",
+  "unparseable_policy": "drop",
+  "dataset": {
+    "name": "bigvul",
+    "split": "test",
+    "dir": "data/processed/bigvul",
+    "n": 986,
+    "limit": null
+  },
+  "decoding": {
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "do_sample": true,
+    "max_new_tokens": 512,
+    "batch_size": 2,
+    "chat_date_string": "26 Jul 2024"
+  },
+  "logged": true
+}

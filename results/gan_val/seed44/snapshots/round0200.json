@@ -1,0 +1,82 @@
+{
+  "snapshot_format_version": 1,
+  "name": "round0200",
+  "round": 200,
+  "phase": "A",
+  "seed": 44,
+  "created": "2026-09-11T02:14:29",
+  "git_commit": "3dfd54d0b7dfa7068dd310d7ee5e56eb65ca8094",
+  "prompt_versions": {
+    "generator": "gan-generator-v1",
+    "detector_block": "gan-detector-block-v1",
+    "strategy_update": "gan-strategy-update-v1",
+    "reflector": "gan-reflector-v1",
+    "summarize": "gan-summarize-v1"
+  },
+  "detecting_party": {
+    "name": "single_detector",
+    "prompt_versions": {}
+  },
+  "config_path": "configs/gan_val_seed44.yaml",
+  "config_sha256": "60ea03b90019557acc3172113b8d5db21af1641e7943d8be52a44473f5155b45",
+  "s_g": {
+    "role": "generator",
+    "policy": "summarize",
+    "max_entries": 12,
+    "max_entry_words": 30,
+    "dedup": true,
+    "entries": [
+      "**Prevent integer overflows**: Cast values to prevent unchecked integer overflows and data corruption.",
+      "**Misleading naming conventions**: Use confusing names to conceal function purposes.",
+      "**Combine flags**: Use bitwise operators to combine multiple flags into a single value.",
+      "**Modularize complex logic**: Break down complex conditionals into smaller, more modular blocks.",
+      "**Hide sensitive data**: Store sensitive data within complex data structures or arrays.",
+      "**Use implicit value conversion**: Cast values implicitly to make it harder to detect potential issues.",
+      "**Avoid explicit error handling**: Omit explicit error handling to conceal potential errors.",
+      "**Use ambiguity in return values**: Employ ambiguous return types to obscure the true outcome of a function.",
+      "**Create a \"placeholder\" variable**: Introduce an unused variable to overshadow the actual problematic variable.",
+      "**Prevent indirect control flow**: Embed complex logic within switch statements or nested loops.",
+      "**Embed error handling**: Hide error handling within a complex, multi-step process.",
+      "**Leverage implementation-specific details**: Utilize specific implementation details to conceal vulnerabilities."
+    ]
+  },
+  "s_d": {
+    "role": "detector",
+    "policy": "summarize",
+    "max_entries": 12,
+    "max_entry_words": 30,
+    "dedup": true,
+    "entries": [
+      "Validate and sanitize all function parameters to prevent buffer overflow vulnerabilities.",
+      "Document all potential security-critical operations to ensure coding standards and prevent hidden vulnerabilities.",
+      "Ensure all conditional checks are exhaustive, covering all possible cases, including edge cases.",
+      "Verify function parameters are copied or cloned to prevent unintended modifications to original data.",
+      "Implement explicit checks for null before using function parameters to prevent null pointer dereferences and buffer overflows.",
+      "Implement bounds checking for array or vector indices to prevent out-of-bounds access and potential buffer overflows.",
+      "Review conditional statements with multiple checks for security issues.",
+      "Verify shared variables are properly synchronized to prevent concurrent modification issues.",
+      "Document assumptions about variable behavior, especially in arithmetic operations involving multiple variables.",
+      "Implement explicit checks for sensitive data exposure in all functions that handle sensitive information.",
+      "Review error handling mechanisms to ensure errors are properly propagated to the caller.",
+      "Regularly review and refactor code to prevent introducing new security vulnerabilities and unexpected behavior."
+    ]
+  },
+  "s_g_stats": {
+    "n_entries": 12,
+    "n_chars": 1213,
+    "approx_tokens": 303
+  },
+  "s_d_stats": {
+    "n_entries": 12,
+    "n_chars": 1271,
+    "approx_tokens": 318
+  },
+  "drift_probe": {
+    "n": 100,
+    "vulnerable_share": 0.2,
+    "accuracy": 0.51,
+    "n_unparseable": 1,
+    "n_strategies": 12
+  },
+  "loop_stats": null
+}

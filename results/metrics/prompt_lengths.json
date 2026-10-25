@@ -1,0 +1,53 @@
+{
+  "measured": "2026-09-11",
+  "model": "meta-llama/Llama-3.2-3B-Instruct",
+  "model_revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+  "prompt_version": "fig1-v3",
+  "chat_date_string": "26 Jul 2024",
+  "chat_template": true,
+  "dataset_dir": "data/processed/bigvul",
+  "per_split": {
+    "train": {
+      "tokens": {
+        "n": 5000,
+        "median": 808.5,
+        "p99": 12149,
+        "max": 57769
+      },
+      "chars": {
+        "n": 5000,
+        "median": 3139.0,
+        "p99": 45038,
+        "max": 225811
+      }
+    },
+    "val": {
+      "tokens": {
+        "n": 500,
+        "median": 925.5,
+        "p99": 14717,
+        "max": 21013
+      },
+      "chars": {
+        "n": 500,
+        "median": 3608.5,
+        "p99": 61351,
+        "max": 86975
+      }
+    },
+    "test": {
+      "tokens": {
+        "n": 986,
+        "median": 812.0,
+        "p99": 10562,
+        "max": 17096
+      },
+      "chars": {
+        "n": 986,
+        "median": 3075.0,
+        "p99": 35867,
+        "max": 59666
+      }
+    }
+  }
+}

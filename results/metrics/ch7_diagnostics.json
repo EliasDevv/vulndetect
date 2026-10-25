@@ -1,0 +1,1793 @@
+{
+  "generated": "2026-09-16T15:05:42",
+  "round0_check": {
+    "42": {
+      "n": 986,
+      "n_label_differs": 0,
+      "n_raw_output_differs": 0,
+      "identical": true
+    },
+    "43": {
+      "n": 986,
+      "n_label_differs": 0,
+      "n_raw_output_differs": 0,
+      "identical": true
+    },
+    "44": {
+      "n": 986,
+      "n_label_differs": 0,
+      "n_raw_output_differs": 0,
+      "identical": true
+    }
+  },
+  "dual_agent_rules": {
+    "42": {
+      "n": 986,
+      "n_validator_unparseable": 0,
+      "post_hoc": true,
+      "validator": {
+        "macro_f1": 0.4717290934645034,
+        "macro_accuracy": 0.5250144659262306,
+        "pred_positive_rate": 0.3998542804045374,
+        "parse_failure_rate": 0.0
+      },
+      "validator_then_detector": {
+        "macro_f1": 0.4717290934645034,
+        "macro_accuracy": 0.5250144659262306,
+        "pred_positive_rate": 0.3998542804045374,
+        "parse_failure_rate": 0.0
+      },
+      "detector": {
+        "macro_f1": 0.5452545710849174,
+        "macro_accuracy": 0.5944853807411311,
+        "pred_positive_rate": 0.3889019781775191,
+        "parse_failure_rate": 0.009127789046653144
+      },
+      "n_both_readable": 977,
+      "n_validator_changed_detector": 552
+    },
+    "43": {
+      "n": 986,
+      "n_validator_unparseable": 0,
+      "post_hoc": true,
+      "validator": {
+        "macro_f1": 0.4754542893944886,
+        "macro_accuracy": 0.5306411281465536,
+        "pred_positive_rate": 0.3977425420572194,
+        "parse_failure_rate": 0.0
+      },
+      "validator_then_detector": {
+        "macro_f1": 0.4754542893944886,
+        "macro_accuracy": 0.5306411281465536,
+        "pred_positive_rate": 0.3977425420572194,
+        "parse_failure_rate": 0.0
+      },
+      "detector": {
+        "macro_f1": 0.49363272666789226,
+        "macro_accuracy": 0.555222311018144,
+        "pred_positive_rate": 0.3774623005028559,
+        "parse_failure_rate": 0.006085192697768763
+      },
+      "n_both_readable": 980,
+      "n_validator_changed_detector": 566
+    },
+    "44": {
+      "n": 986,
+      "n_validator_unparseable": 0,
+      "post_hoc": true,
+      "validator": {
+        "macro_f1": 0.4536753866165631,
+        "macro_accuracy": 0.5087417160224128,
+        "pred_positive_rate": 0.40126702889724025,
+        "parse_failure_rate": 0.0
+      },
+      "validator_then_detector": {
+        "macro_f1": 0.4536753866165631,
+        "macro_accuracy": 0.5087417160224128,
+        "pred_positive_rate": 0.40126702889724025,
+        "parse_failure_rate": 0.0
+      },
+      "detector": {
+        "macro_f1": 0.512803494245275,
+        "macro_accuracy": 0.577919848693506,
+        "pred_positive_rate": 0.37239705662339934,
+        "parse_failure_rate": 0.010141987829614604
+      },
+      "n_both_readable": 976,
+      "n_validator_changed_detector": 545
+    }
+  },
+  "dual_detector_vs_baseline": {
+    "42": 0,
+    "43": 0,
+    "44": 0
+  },
+  "loop_stats": {
+    "42": {
+      "seed": 42,
+      "duration_hours": 5.025083333333333,
+      "gate": {
+        "sources_consumed": 257,
+        "rounds_completed": 200,
+        "n_rejected": 57,
+        "rejected_share": 0.22178988326848248,
+        "by_reason": {
+          "length_out_of_range": 12,
+          "markdown_fence": 23,
+          "unchanged": 2,
+          "missing_sections": 18,
+          "function_name_lost": 2
+        }
+      },
+      "phase_a": {
+        "n_detector_correct": 50,
+        "n_detector_wrong": 150,
+        "n_detector_unparseable": 0
+      },
+      "pass_through": {
+        "n_admitted": 200,
+        "n_passed": 150,
+        "final_rate": 0.75,
+        "at_round": {
+          "10": 0.8,
+          "50": 0.8,
+          "100": 0.75,
+          "200": 0.75
+        }
+      },
+      "phase_b": {
+        "n_items": 200,
+        "accuracy": 0.56,
+        "vulnerable_prediction_share": 0.4,
+        "wrong_by_gold": {
+          "Vulnerable": 54,
+          "Not Vulnerable": 34
+        },
+        "n_unparseable": 2
+      },
+      "probe": {
+        "final": {
+          "n": 100,
+          "vulnerable_share": 0.21,
+          "accuracy": 0.63,
+          "n_unparseable": 2,
+          "n_strategies": 12
+        },
+        "round0000": {
+          "n": 100,
+          "vulnerable_share": 0.17,
+          "accuracy": 0.61,
+          "n_unparseable": 0,
+          "n_strategies": 0
+        },
+        "round0010": {
+          "n": 100,
+          "vulnerable_share": 0.24,
+          "accuracy": 0.66,
+          "n_unparseable": 0,
+          "n_strategies": 12
+        },
+        "round0050": {
+          "n": 100,
+          "vulnerable_share": 0.2,
+          "accuracy": 0.58,
+          "n_unparseable": 3,
+          "n_strategies": 12
+        },
+        "round0200": {
+          "n": 100,
+          "vulnerable_share": 0.28,
+          "accuracy": 0.62,
+          "n_unparseable": 1,
+          "n_strategies": 12
+        }
+      },
+      "prompt_tokens": {
+        "context_window": 131072,
+        "max_by_role": {
+          "detection": 15828,
+          "generator": 2917,
+          "probe": 20444,
+          "reflector": 15933,
+          "summarize": 589,
+          "update": 16255
+        },
+        "n_over_context": 0
+      }
+    },
+    "43": {
+      "seed": 43,
+      "duration_hours": 4.1867777777777775,
+      "gate": {
+        "sources_consumed": 263,
+        "rounds_completed": 200,
+        "n_rejected": 63,
+        "rejected_share": 0.23954372623574144,
+        "by_reason": {
+          "length_out_of_range": 31,
+          "markdown_fence": 21,
+          "missing_sections": 7,
+          "unbalanced_braces": 3,
+          "unchanged": 1
+        }
+      },
+      "phase_a": {
+        "n_detector_correct": 20,
+        "n_detector_wrong": 180,
+        "n_detector_unparseable": 0
+      },
+      "pass_through": {
+        "n_admitted": 200,
+        "n_passed": 180,
+        "final_rate": 0.9,
+        "at_round": {
+          "10": 1.0,
+          "50": 0.9,
+          "100": 0.89,
+          "200": 0.9
+        }
+      },
+      "phase_b": {
+        "n_items": 200,
+        "accuracy": 0.525,
+        "vulnerable_prediction_share": 0.295,
+        "wrong_by_gold": {
+          "Vulnerable": 68,
+          "Not Vulnerable": 27
+        },
+        "n_unparseable": 0
+      },
+      "probe": {
+        "final": {
+          "n": 100,
+          "vulnerable_share": 0.27,
+          "accuracy": 0.62,
+          "n_unparseable": 1,
+          "n_strategies": 12
+        },
+        "round0000": {
+          "n": 100,
+          "vulnerable_share": 0.17,
+          "accuracy": 0.61,
+          "n_unparseable": 0,
+          "n_strategies": 0
+        },
+        "round0010": {
+          "n": 100,
+          "vulnerable_share": 0.18,
+          "accuracy": 0.6,
+          "n_unparseable": 0,
+          "n_strategies": 12
+        },
+        "round0050": {
+          "n": 100,
+          "vulnerable_share": 0.19,
+          "accuracy": 0.57,
+          "n_unparseable": 3,
+          "n_strategies": 12
+        },
+        "round0200": {
+          "n": 100,
+          "vulnerable_share": 0.23,
+          "accuracy": 0.61,
+          "n_unparseable": 0,
+          "n_strategies": 12
+        }
+      },
+      "prompt_tokens": {
+        "context_window": 131072,
+        "max_by_role": {
+          "detection": 17881,
+          "generator": 3941,
+          "probe": 20406,
+          "reflector": 17935,
+          "summarize": 626,
+          "update": 18232
+        },
+        "n_over_context": 0
+      }
+    },
+    "44": {
+      "seed": 44,
+      "duration_hours": 4.382916666666667,
+      "gate": {
+        "sources_consumed": 262,
+        "rounds_completed": 200,
+        "n_rejected": 62,
+        "rejected_share": 0.2366412213740458,
+        "by_reason": {
+          "missing_sections": 7,
+          "markdown_fence": 35,
+          "length_out_of_range": 17,
+          "unchanged": 3
+        }
+      },
+      "phase_a": {
+        "n_detector_correct": 31,
+        "n_detector_wrong": 169,
+        "n_detector_unparseable": 0
+      },
+      "pass_through": {
+        "n_admitted": 200,
+        "n_passed": 169,
+        "final_rate": 0.845,
+        "at_round": {
+          "10": 1.0,
+          "50": 0.84,
+          "100": 0.84,
+          "200": 0.845
+        }
+      },
+      "phase_b": {
+        "n_items": 200,
+        "accuracy": 0.57,
+        "vulnerable_prediction_share": 0.27,
+        "wrong_by_gold": {
+          "Vulnerable": 66,
+          "Not Vulnerable": 20
+        },
+        "n_unparseable": 0
+      },
+      "probe": {
+        "final": {
+          "n": 100,
+          "vulnerable_share": 0.27,
+          "accuracy": 0.59,
+          "n_unparseable": 0,
+          "n_strategies": 12
+        },
+        "round0000": {
+          "n": 100,
+          "vulnerable_share": 0.17,
+          "accuracy": 0.61,
+          "n_unparseable": 0,
+          "n_strategies": 0
+        },
+        "round0010": {
+          "n": 100,
+          "vulnerable_share": 0.19,
+          "accuracy": 0.61,
+          "n_unparseable": 0,
+          "n_strategies": 12
+        },
+        "round0050": {
+          "n": 100,
+          "vulnerable_share": 0.34,
+          "accuracy": 0.6,
+          "n_unparseable": 0,
+          "n_strategies": 12
+        },
+        "round0200": {
+          "n": 100,
+          "vulnerable_share": 0.2,
+          "accuracy": 0.51,
+          "n_unparseable": 1,
+          "n_strategies": 12
+        }
+      },
+      "prompt_tokens": {
+        "context_window": 131072,
+        "max_by_role": {
+          "detection": 13054,
+          "generator": 3206,
+          "probe": 20382,
+          "reflector": 10641,
+          "summarize": 545,
+          "update": 10927
+        },
+        "n_over_context": 0
+      }
+    }
+  },
+  "triple_agent": {
+    "round0_check": {
+      "42": {
+        "n": 986,
+        "n_label_differs": 0,
+        "n_raw_output_differs": 0,
+        "identical": true
+      },
+      "43": {
+        "n": 986,
+        "n_label_differs": 0,
+        "n_raw_output_differs": 0,
+        "identical": true
+      },
+      "44": {
+        "n": 986,
+        "n_label_differs": 0,
+        "n_raw_output_differs": 0,
+        "identical": true
+      }
+    },
+    "stages": {
+      "round0000/seed42": {
+        "n": 986,
+        "n_validator_unparseable": 0,
+        "post_hoc": true,
+        "validator": {
+          "macro_f1": 0.4717290934645034,
+          "macro_accuracy": 0.5250144659262306,
+          "pred_positive_rate": 0.3998542804045374,
+          "parse_failure_rate": 0.0
+        },
+        "validator_then_detector": {
+          "macro_f1": 0.4717290934645034,
+          "macro_accuracy": 0.5250144659262306,
+          "pred_positive_rate": 0.3998542804045374,
+          "parse_failure_rate": 0.0
+        },
+        "detector": {
+          "macro_f1": 0.5452545710849174,
+          "macro_accuracy": 0.5944853807411311,
+          "pred_positive_rate": 0.3889019781775191,
+          "parse_failure_rate": 0.009127789046653144
+        },
+        "n_both_readable": 977,
+        "n_validator_changed_detector": 552
+      },
+      "final/seed42": {
+        "n": 986,
+        "n_validator_unparseable": 2,
+        "post_hoc": true,
+        "validator": {
+          "macro_f1": 0.47620947358652277,
+          "macro_accuracy": 0.5325607053001477,
+          "pred_positive_rate": 0.393432150713044,
+          "parse_failure_rate": 0.002028397565922921
+        },
+        "validator_then_detector": {
+          "macro_f1": 0.47833858033858034,
+          "macro_accuracy": 0.5334749520420565,
+          "pred_positive_rate": 0.3945396636487442,
+          "parse_failure_rate": 0.0
+        },
+        "detector": {
+          "macro_f1": 0.5271427806666719,
+          "macro_accuracy": 0.5709140039290068,
+          "pred_positive_rate": 0.41585664366149944,
+          "parse_failure_rate": 0.007099391480730223
+        },
+        "n_both_readable": 977,
+        "n_validator_changed_detector": 507
+      },
+      "round0000/seed43": {
+        "n": 986,
+        "n_validator_unparseable": 0,
+        "post_hoc": true,
+        "validator": {
+          "macro_f1": 0.4754542893944886,
+          "macro_accuracy": 0.5306411281465536,
+          "pred_positive_rate": 0.3977425420572194,
+          "parse_failure_rate": 0.0
+        },
+        "validator_then_detector": {
+          "macro_f1": 0.4754542893944886,
+          "macro_accuracy": 0.5306411281465536,
+          "pred_positive_rate": 0.3977425420572194,
+          "parse_failure_rate": 0.0
+        },
+        "detector": {
+          "macro_f1": 0.49363272666789226,
+          "macro_accuracy": 0.555222311018144,
+          "pred_positive_rate": 0.3774623005028559,
+          "parse_failure_rate": 0.006085192697768763
+        },
+        "n_both_readable": 980,
+        "n_validator_changed_detector": 566
+      },
+      "final/seed43": {
+        "n": 986,
+        "n_validator_unparseable": 1,
+        "post_hoc": true,
+        "validator": {
+          "macro_f1": 0.5172960205195375,
+          "macro_accuracy": 0.560212241377204,
+          "pred_positive_rate": 0.4133266609668363,
+          "parse_failure_rate": 0.0010141987829614604
+        },
+        "validator_then_detector": {
+          "macro_f1": 0.5172960205195375,
+          "macro_accuracy": 0.5604534351998658,
+          "pred_positive_rate": 0.4130542334117434,
+          "parse_failure_rate": 0.0
+        },
+        "detector": {
+          "macro_f1": 0.5607720683003725,
+          "macro_accuracy": 0.5869056838614972,
+          "pred_positive_rate": 0.44796394136181317,
+          "parse_failure_rate": 0.005070993914807302
+        },
+        "n_both_readable": 980,
+        "n_validator_changed_detector": 436
+      },
+      "round0000/seed44": {
+        "n": 986,
+        "n_validator_unparseable": 0,
+        "post_hoc": true,
+        "validator": {
+          "macro_f1": 0.4536753866165631,
+          "macro_accuracy": 0.5087417160224128,
+          "pred_positive_rate": 0.40126702889724025,
+          "parse_failure_rate": 0.0
+        },
+        "validator_then_detector": {
+          "macro_f1": 0.4536753866165631,
+          "macro_accuracy": 0.5087417160224128,
+          "pred_positive_rate": 0.40126702889724025,
+          "parse_failure_rate": 0.0
+        },
+        "detector": {
+          "macro_f1": 0.512803494245275,
+          "macro_accuracy": 0.577919848693506,
+          "pred_positive_rate": 0.37239705662339934,
+          "parse_failure_rate": 0.010141987829614604
+        },
+        "n_both_readable": 976,
+        "n_validator_changed_detector": 545
+      },
+      "final/seed44": {
+        "n": 986,
+        "n_validator_unparseable": 0,
+        "post_hoc": true,
+        "validator": {
+          "macro_f1": 0.5031653747424538,
+          "macro_accuracy": 0.5537784176607706,
+          "pred_positive_rate": 0.39908856876989374,
+          "parse_failure_rate": 0.0
+        },
+        "validator_then_detector": {
+          "macro_f1": 0.5031653747424538,
+          "macro_accuracy": 0.5537784176607706,
+          "pred_positive_rate": 0.39908856876989374,
+          "parse_failure_rate": 0.0
+        },
+        "detector": {
+          "macro_f1": 0.5874304458452567,
+          "macro_accuracy": 0.6022486929083397,
+          "pred_positive_rate": 0.47254901256959103,
+          "parse_failure_rate": 0.004056795131845842
+        },
+        "n_both_readable": 982,
+        "n_validator_changed_detector": 496
+      }
+    },
+    "loop_stats": {
+      "42": {
+        "seed": 42,
+        "duration_hours": 6.688055555555556,
+        "gate": {
+          "sources_consumed": 275,
+          "rounds_completed": 200,
+          "n_rejected": 75,
+          "rejected_share": 0.2727272727272727,
+          "by_reason": {
+            "length_out_of_range": 30,
+            "markdown_fence": 25,
+            "missing_sections": 14,
+            "unbalanced_braces": 4,
+            "function_name_lost": 2
+          }
+        },
+        "phase_a": {
+          "n_detector_correct": 92,
+          "n_detector_wrong": 108,
+          "n_detector_unparseable": 0
+        },
+        "pass_through": {
+          "n_admitted": 200,
+          "n_passed": 108,
+          "final_rate": 0.54,
+          "at_round": {
+            "10": 0.6,
+            "50": 0.44,
+            "100": 0.52,
+            "200": 0.54
+          }
+        },
+        "phase_b": {
+          "n_items": 200,
+          "accuracy": 0.595,
+          "vulnerable_prediction_share": 0.525,
+          "wrong_by_gold": {
+            "Vulnerable": 38,
+            "Not Vulnerable": 43
+          },
+          "n_unparseable": 0
+        },
+        "probe": {
+          "final": {
+            "n": 100,
+            "vulnerable_share": 0.39,
+            "accuracy": 0.59,
+            "n_unparseable": 0,
+            "n_strategies": 12,
+            "stage1": {
+              "n": 100,
+              "vulnerable_share": 0.2,
+              "accuracy": 0.56,
+              "n_unparseable": 1
+            }
+          },
+          "round0000": {
+            "n": 100,
+            "vulnerable_share": 0.41,
+            "accuracy": 0.61,
+            "n_unparseable": 0,
+            "n_strategies": 0,
+            "stage1": {
+              "n": 100,
+              "vulnerable_share": 0.17,
+              "accuracy": 0.61,
+              "n_unparseable": 0
+            }
+          },
+          "round0010": {
+            "n": 100,
+            "vulnerable_share": 0.46,
+            "accuracy": 0.48,
+            "n_unparseable": 0,
+            "n_strategies": 12,
+            "stage1": {
+              "n": 100,
+              "vulnerable_share": 0.29,
+              "accuracy": 0.61,
+              "n_unparseable": 1
+            }
+          },
+          "round0050": {
+            "n": 100,
+            "vulnerable_share": 0.55,
+            "accuracy": 0.55,
+            "n_unparseable": 0,
+            "n_strategies": 12,
+            "stage1": {
+              "n": 100,
+              "vulnerable_share": 0.17,
+              "accuracy": 0.57,
+              "n_unparseable": 2
+            }
+          },
+          "round0200": {
+            "n": 100,
+            "vulnerable_share": 0.44,
+            "accuracy": 0.46,
+            "n_unparseable": 0,
+            "n_strategies": 12,
+            "stage1": {
+              "n": 100,
+              "vulnerable_share": 0.22,
+              "accuracy": 0.62,
+              "n_unparseable": 0
+            }
+          }
+        },
+        "prompt_tokens": {
+          "context_window": 131072,
+          "max_by_role": {
+            "detection": 16298,
+            "generator": 2924,
+            "probe": 20886,
+            "reflector": 16185,
+            "summarize": 613,
+            "update": 16617
+          },
+          "n_over_context": 0
+        }
+      },
+      "43": {
+        "seed": 43,
+        "duration_hours": 6.419583333333334,
+        "gate": {
+          "sources_consumed": 271,
+          "rounds_completed": 200,
+          "n_rejected": 71,
+          "rejected_share": 0.26199261992619927,
+          "by_reason": {
+            "markdown_fence": 31,
+            "length_out_of_range": 21,
+            "unchanged": 5,
+            "missing_sections": 11,
+            "function_name_lost": 3
+          }
+        },
+        "phase_a": {
+          "n_detector_correct": 64,
+          "n_detector_wrong": 136,
+          "n_detector_unparseable": 0
+        },
+        "pass_through": {
+          "n_admitted": 200,
+          "n_passed": 136,
+          "final_rate": 0.68,
+          "at_round": {
+            "10": 0.4,
+            "50": 0.68,
+            "100": 0.64,
+            "200": 0.68
+          }
+        },
+        "phase_b": {
+          "n_items": 200,
+          "accuracy": 0.535,
+          "vulnerable_prediction_share": 0.445,
+          "wrong_by_gold": {
+            "Vulnerable": 52,
+            "Not Vulnerable": 41
+          },
+          "n_unparseable": 0
+        },
+        "probe": {
+          "final": {
+            "n": 100,
+            "vulnerable_share": 0.41,
+            "accuracy": 0.61,
+            "n_unparseable": 0,
+            "n_strategies": 12,
+            "stage1": {
+              "n": 100,
+              "vulnerable_share": 0.23,
+              "accuracy": 0.63,
+              "n_unparseable": 0
+            }
+          },
+          "round0000": {
+            "n": 100,
+            "vulnerable_share": 0.41,
+            "accuracy": 0.61,
+            "n_unparseable": 0,
+            "n_strategies": 0,
+            "stage1": {
+              "n": 100,
+              "vulnerable_share": 0.17,
+              "accuracy": 0.61,
+              "n_unparseable": 0
+            }
+          },
+          "round0010": {
+            "n": 100,
+            "vulnerable_share": 0.39,
+            "accuracy": 0.57,
+            "n_unparseable": 0,
+            "n_strategies": 8,
+            "stage1": {
+              "n": 100,
+              "vulnerable_share": 0.25,
+              "accuracy": 0.58,
+              "n_unparseable": 1
+            }
+          },
+          "round0050": {
+            "n": 100,
+            "vulnerable_share": 0.42,
+            "accuracy": 0.62,
+            "n_unparseable": 0,
+            "n_strategies": 12,
+            "stage1": {
+              "n": 100,
+              "vulnerable_share": 0.23,
+              "accuracy": 0.6,
+              "n_unparseable": 2
+            }
+          },
+          "round0200": {
+            "n": 100,
+            "vulnerable_share": 0.34,
+            "accuracy": 0.58,
+            "n_unparseable": 0,
+            "n_strategies": 12,
+            "stage1": {
+              "n": 100,
+              "vulnerable_share": 0.25,
+              "accuracy": 0.61,
+              "n_unparseable": 0
+            }
+          }
+        },
+        "prompt_tokens": {
+          "context_window": 131072,
+          "max_by_role": {
+            "detection": 18202,
+            "generator": 3847,
+            "probe": 20752,
+            "reflector": 16393,
+            "summarize": 557,
+            "update": 16722
+          },
+          "n_over_context": 0
+        }
+      },
+      "44": {
+        "seed": 44,
+        "duration_hours": 6.320888888888889,
+        "gate": {
+          "sources_consumed": 262,
+          "rounds_completed": 200,
+          "n_rejected": 62,
+          "rejected_share": 0.2366412213740458,
+          "by_reason": {
+            "missing_sections": 8,
+            "markdown_fence": 34,
+            "unbalanced_braces": 3,
+            "length_out_of_range": 14,
+            "unchanged": 3
+          }
+        },
+        "phase_a": {
+          "n_detector_correct": 78,
+          "n_detector_wrong": 122,
+          "n_detector_unparseable": 0
+        },
+        "pass_through": {
+          "n_admitted": 200,
+          "n_passed": 122,
+          "final_rate": 0.61,
+          "at_round": {
+            "10": 0.7,
+            "50": 0.58,
+            "100": 0.63,
+            "200": 0.61
+          }
+        },
+        "phase_b": {
+          "n_items": 200,
+          "accuracy": 0.605,
+          "vulnerable_prediction_share": 0.485,
+          "wrong_by_gold": {
+            "Vulnerable": 41,
+            "Not Vulnerable": 38
+          },
+          "n_unparseable": 0
+        },
+        "probe": {
+          "final": {
+            "n": 100,
+            "vulnerable_share": 0.42,
+            "accuracy": 0.56,
+            "n_unparseable": 0,
+            "n_strategies": 12,
+            "stage1": {
+              "n": 100,
+              "vulnerable_share": 0.23,
+              "accuracy": 0.61,
+              "n_unparseable": 3
+            }
+          },
+          "round0000": {
+            "n": 100,
+            "vulnerable_share": 0.41,
+            "accuracy": 0.61,
+            "n_unparseable": 0,
+            "n_strategies": 0,
+            "stage1": {
+              "n": 100,
+              "vulnerable_share": 0.17,
+              "accuracy": 0.61,
+              "n_unparseable": 0
+            }
+          },
+          "round0010": {
+            "n": 100,
+            "vulnerable_share": 0.44,
+            "accuracy": 0.54,
+            "n_unparseable": 0,
+            "n_strategies": 11,
+            "stage1": {
+              "n": 100,
+              "vulnerable_share": 0.15,
+              "accuracy": 0.55,
+              "n_unparseable": 2
+            }
+          },
+          "round0050": {
+            "n": 100,
+            "vulnerable_share": 0.42,
+            "accuracy": 0.68,
+            "n_unparseable": 0,
+            "n_strategies": 12,
+            "stage1": {
+              "n": 100,
+              "vulnerable_share": 0.16,
+              "accuracy": 0.56,
+              "n_unparseable": 1
+            }
+          },
+          "round0200": {
+            "n": 100,
+            "vulnerable_share": 0.41,
+            "accuracy": 0.65,
+            "n_unparseable": 0,
+            "n_strategies": 12,
+            "stage1": {
+              "n": 100,
+              "vulnerable_share": 0.19,
+              "accuracy": 0.59,
+              "n_unparseable": 0
+            }
+          }
+        },
+        "prompt_tokens": {
+          "context_window": 131072,
+          "max_by_role": {
+            "detection": 13391,
+            "generator": 3238,
+            "probe": 20919,
+            "reflector": 8932,
+            "summarize": 580,
+            "update": 9279
+          },
+          "n_over_context": 0
+        }
+      }
+    },
+    "final_memories": {
+      "s_d/seed42": [
+        "**Verify Vulnerability Fixes**: Confirm fixes in \"fix\" or \"patch\" commits to ensure security patches are applied correctly.",
+        "**Check for Redundant Conditions**: Identify conditions that may bypass security checks and evaluate their impact on overall control flow.",
+        "**Validate Input and Normalize Data**: Ensure input values are validated against expected ranges or formats and normalized to a consistent format.",
+        "**Check for Duplicate Conditional Statements**: Identify duplicate or overlapping conditional statements that may mask vulnerabilities or security issues.",
+        "**Verify Boolean Values**: Ensure boolean values aren't used to bypass or mask security checks.",
+        "**Assess Variable Shadowing**: Investigate the impact of variable shadowing, where a local variable hides a variable with the same name.",
+        "**Check for Unintended Consequences**: Assess whether simplifying complex code or removing security checks introduces new vulnerabilities or unintended consequences.",
+        "**Verify Information Flow**: Assess whether sensitive information is being retrieved or processed in a way that could be exploited by an attacker.",
+        "**Check for Redundant Assignments**: Check for assignments that are not necessary for the code's functionality, as they may mask vulnerabilities or security issues.",
+        "**Assess Code Changes Against Known Vulnerability Patterns**: Compare the code changes against known vulnerability patterns and CWEs to identify potential security risks.",
+        "**Consider Indirect Effects**: Assess whether a code change may introduce new vulnerabilities or unintended consequences through indirect interactions with other parts of the system.",
+        "**Document Security Changes**: Ensure that security issues are clearly stated and addressed in commit messages, code changes, and documentation."
+      ],
+      "s_g/seed42": [
+        "**Bypass Security Checks**: Include overlapping conditionals to bypass security checks and exploit vulnerabilities.",
+        "**Disguise Complexity**: Use complex looping constructs or conditional statements to obscure control flow.",
+        "**Mislead Reviewers**: Use ambiguous code patterns to confuse reviewers about intended functionality.",
+        "**Hide Complexity in Miscellaneous Functions**: Use complex logic in unrelated functions to obscure control flow.",
+        "**Manipulate Data Validation**: Use validation mechanisms that only check for specific, expected values, allowing other data to pass through undetected.",
+        "**Disguise Error Handling**: Introduce generic error handling mechanisms that mask specific error conditions.",
+        "**Mask Dependencies**: Rely on external dependencies or libraries that are not immediately apparent.",
+        "**Introduce Unrelated Changes**: Make changes that assume unrelated functionality is being addressed.",
+        "**Use Indirect References**: Employ indirect references or function calls to obscure sensitive data origins.",
+        "**Introduce False Positives**: Make changes that trigger security checks or false positives.",
+        "**Hide Vulnerability in Low-Severity Fixes**: Introduce minor fixes that are below the threshold for automated security scans.",
+        "**Obfuscate Context with Function Names**: Use vague or misleading function names to disguise the intent of the code change."
+      ],
+      "s_d/seed43": [
+        "Review code changes for potential security vulnerabilities, even if they improve readability and maintainability.",
+        "Be cautious of conditional checks, new variables, and simplifications that may mask issues.",
+        "Analyze performance gains for potential security issues like data corruption or unexpected behavior.",
+        "Review constant values added to variables in calculations for potential vulnerabilities.",
+        "Assess changes to buffer management patterns for potential memory corruption issues.",
+        "Monitor changes to reference count increments or decrements for potential use-after-free vulnerabilities.",
+        "Review code for implicit assumptions about variable values or ranges that can mask potential vulnerabilities.",
+        "Review code for silent failure conditions, including implicit assumptions about buffer sizes or lengths.",
+        "Validate pointer assignments before use to prevent silent failures and ensure correct memory access.",
+        "Verify that code changes do not introduce new vulnerabilities or mask existing ones.",
+        "Assess the impact of adding new features or options on existing security vulnerabilities.",
+        "Review code for changes to memory allocation patterns that can mask or introduce security vulnerabilities."
+      ],
+      "s_g/seed43": [
+        "**Exploit format string vulnerabilities**: Modify format specifiers to use incorrectly formatted strings.",
+        "**Disguise vulnerabilities**: Introduce default values or unrelated checks to obscure security vulnerabilities.",
+        "**Misleading documentation**: Use ambiguous terms and comments to obscure security changes.",
+        "**Disguise control flow vulnerabilities**: Use intermediate control flow mechanisms to obscure vulnerabilities.",
+        "**Introduce unrelated complexity**: Add non-security-related complexity to obscure vulnerabilities.",
+        "**Mislabel security issues**: Attribute security issues to unrelated functions or code paths.",
+        "**Insert red herrings**: Add unnecessary and unrelated checks or conditions to mislead automated analysis.",
+        "**Manipulate CWE mappings**: Map a CWE ID to a similar but distinct description to mislead automated security analysis.",
+        "**Introduce ambiguous error handling**: Use vague error messages or unclear error conditions to obscure the true cause of a security vulnerability.",
+        "**Introduce false positives**: Add a known good condition or a redundant check to trigger a security scanner, leading to false positives.",
+        "**Misinterpret security context**: Attribute a security vulnerability to an unrelated aspect of the code or context.",
+        "**Manipulate semantic meaning**: Use syntactic sugar or formatting tricks to change the perceived meaning of the code."
+      ],
+      "s_d/seed44": [
+        "Validate all input data before storing it in memory to prevent security vulnerabilities.",
+        "Review code for alignment with known vulnerability patterns and intended security fixes.",
+        "Verify correct bounds checking for array or buffer operations to prevent buffer overflow attacks.",
+        "Assess the overall system impact of code changes, considering removal or disabling of existing security checks.",
+        "Verify that changes explicitly address known vulnerabilities by referencing CVE or CWE IDs.",
+        "Review code for removal or disabling of security checks without adequate replacements or mitigations.",
+        "Verify that the commit message and code changes align in intent and scope.",
+        "Verify that the code explicitly references the CVE or CWE ID being addressed in the change.",
+        "Assess the relevance of CVE references to the code snippet being analyzed.",
+        "Verify that the code after a change is not identical to the code before the change.",
+        "Assess the potential impact of all changes, including minor or unrelated ones, on the code's security.",
+        "Explicitly verify that the change fixes the vulnerability by checking for different behavior or stating no fix."
+      ],
+      "s_g/seed44": [
+        "**Implement Secure Coding Practices**: Use secure coding practices to prevent security vulnerabilities.",
+        "**Simplify and Refactor Code**: Remove complex code and unnecessary checks to minimize potential issues.",
+        "**Choose and Verify Secure Components**: Select and test secure libraries, methods, and components before using them.",
+        "**Catch Specific Errors and Handle Exceptions**: Handle specific errors with narrow exception handling and modify error messages.",
+        "**Sanitize Function Input and Use Clear Data Types**: Regularly sanitize function inputs and use clear data types and variables.",
+        "**Document Code and Error Messages**: Ensure thorough documentation and modify error messages to reference system or library functions.",
+        "**Minimize Type Casting and Unchecked Conversions**: Limit type casting to contextually relevant conversions and ensure function returns are unambiguous.",
+        "**Use Clear and Descriptive Variable Names**: Use variable names that accurately represent their purpose to avoid confusion.",
+        "**Regularly Test System and Library Functionality**: Test system and library functionality before using new or updated components.",
+        "**Use Thorough Error Messages**: Modify error messages to reference system or library functions for clarity and context.",
+        "**Avoid Misleading Variable Names and Redundancy**: Use accurate variable names and avoid unnecessary code to prevent confusion and issues.",
+        "**Introduce Obfuscated or Unintuitive Changes**: Make a change that may appear minor but alters the code's behavior in an unexpected way, making it harder for reviewers to understand."
+      ]
+    },
+    "leakage": {
+      "n_test_functions": 986,
+      "n_test_function_names": 929,
+      "memories": {
+        "s_d/seed42": {
+          "n_entries": 12,
+          "candidates": [],
+          "hits_function_name": [],
+          "hits_test_identifier": [],
+          "hits_code_3gram_all": [
+            "\" or \"",
+            "aren ' t"
+          ],
+          "hits_code_3gram_identifier_like": []
+        },
+        "s_d/seed43": {
+          "n_entries": 12,
+          "candidates": [],
+          "hits_function_name": [],
+          "hits_test_identifier": [],
+          "hits_code_3gram_all": [],
+          "hits_code_3gram_identifier_like": []
+        },
+        "s_d/seed44": {
+          "n_entries": 12,
+          "candidates": [],
+          "hits_function_name": [],
+          "hits_test_identifier": [],
+          "hits_code_3gram_all": [],
+          "hits_code_3gram_identifier_like": []
+        },
+        "s_g/seed42": {
+          "n_entries": 12,
+          "candidates": [],
+          "hits_function_name": [],
+          "hits_test_identifier": [],
+          "hits_code_3gram_all": [],
+          "hits_code_3gram_identifier_like": []
+        },
+        "s_g/seed43": {
+          "n_entries": 12,
+          "candidates": [],
+          "hits_function_name": [],
+          "hits_test_identifier": [],
+          "hits_code_3gram_all": [],
+          "hits_code_3gram_identifier_like": []
+        },
+        "s_g/seed44": {
+          "n_entries": 12,
+          "candidates": [],
+          "hits_function_name": [],
+          "hits_test_identifier": [],
+          "hits_code_3gram_all": [],
+          "hits_code_3gram_identifier_like": []
+        }
+      }
+    }
+  },
+  "hand_check": {
+    "n": 30,
+    "counts": {
+      "intended": 0,
+      "other": 6,
+      "broken": 11,
+      "none": 13
+    },
+    "intended_share": 0.0,
+    "intended_ci95": [
+      0.0,
+      0.11570330822202778
+    ],
+    "any_weakness_share": 0.2,
+    "any_weakness_ci95": [
+      0.07713551200106562,
+      0.3856665109966071
+    ],
+    "n_author_confirmed_preliminary": 30,
+    "detector_vulnerable_by_category": {
+      "intended": 0,
+      "other": 1,
+      "broken": 1,
+      "none": 3
+    }
+  },
+  "d87d": {
+    "runs": {
+      "greedy_round0000": {
+        "dir": "results/predictions/gan_val_greedy/seed42/round0000",
+        "finished": "2026-09-09T06:22",
+        "regime": "fp16",
+        "prompt_version": "fig1-v3",
+        "decoding": {
+          "temperature": 0.0,
+          "max_new_tokens": 512,
+          "batch_size": 2,
+          "chat_date_string": "26 Jul 2024"
+        }
+      },
+      "greedy_final": {
+        "dir": "results/predictions/gan_val_greedy/seed42/final",
+        "finished": "2026-09-09T10:26",
+        "regime": "fp16",
+        "prompt_version": "fig1-v3",
+        "decoding": {
+          "temperature": 0.0,
+          "max_new_tokens": 512,
+          "batch_size": 2,
+          "chat_date_string": "26 Jul 2024"
+        }
+      },
+      "greedy_round0000_other_date": {
+        "dir": "results/predictions/gan_val_greedy_date/seed42/round0000",
+        "finished": "2026-09-13T05:59",
+        "regime": "fp16",
+        "prompt_version": "fig1-v3",
+        "decoding": {
+          "temperature": 0.0,
+          "top_p": null,
+          "max_new_tokens": 512,
+          "batch_size": 2,
+          "chat_date_string": "04 Sep 2026",
+          "eval_override": true,
+          "loop_detector_temperature": 0.0
+        }
+      },
+      "sampled_round0000": {
+        "dir": "results/predictions/gan_val/seed42/round0000",
+        "finished": "2026-09-09T13:32",
+        "regime": "fp16",
+        "prompt_version": "fig1-v3",
+        "decoding": {
+          "temperature": 0.6,
+          "top_p": 0.9,
+          "max_new_tokens": 512,
+          "batch_size": 2,
+          "chat_date_string": "26 Jul 2024",
+          "eval_override": true,
+          "loop_detector_temperature": 0.0
+        }
+      },
+      "sampled_final": {
+        "dir": "results/predictions/gan_val/seed42/final",
+        "finished": "2026-09-09T14:47",
+        "regime": "fp16",
+        "prompt_version": "fig1-v3",
+        "decoding": {
+          "temperature": 0.6,
+          "top_p": 0.9,
+          "max_new_tokens": 512,
+          "batch_size": 2,
+          "chat_date_string": "26 Jul 2024",
+          "eval_override": true,
+          "loop_detector_temperature": 0.0
+        }
+      },
+      "sampled_baseline_pinned_date": {
+        "dir": "results/predictions/baseline_val/seed42",
+        "finished": "2026-09-07T09:05",
+        "regime": "fp16",
+        "prompt_version": "fig1-v3",
+        "decoding": {
+          "temperature": 0.6,
+          "top_p": 0.9,
+          "do_sample": true,
+          "max_new_tokens": 512,
+          "batch_size": 2,
+          "chat_date_string": "26 Jul 2024"
+        }
+      },
+      "sampled_baseline_other_date": {
+        "dir": "results/predictions/baseline_val_date/seed42",
+        "finished": "2026-09-07T10:04",
+        "regime": "fp16",
+        "prompt_version": "fig1-v3",
+        "decoding": {
+          "temperature": 0.6,
+          "top_p": 0.9,
+          "do_sample": true,
+          "max_new_tokens": 512,
+          "batch_size": 2,
+          "chat_date_string": "04 Sep 2026"
+        }
+      }
+    },
+    "greedy_memory_effect": {
+      "changed": 124,
+      "n": 496,
+      "share": 0.25,
+      "regime": "fp16",
+      "same_prompt_version": true
+    },
+    "greedy_date_effect": {
+      "changed": 56,
+      "n": 496,
+      "share": 0.11290322580645161,
+      "regime": "fp16",
+      "same_prompt_version": true
+    },
+    "sampled_memory_effect": {
+      "changed": 157,
+      "n": 484,
+      "share": 0.3243801652892562,
+      "regime": "fp16",
+      "same_prompt_version": true
+    },
+    "sampled_date_effect": {
+      "changed": 148,
+      "n": 488,
+      "share": 0.30327868852459017,
+      "regime": "fp16",
+      "same_prompt_version": true
+    },
+    "criterion_d_holds": true
+  },
+  "leakage": {
+    "n_test_functions": 986,
+    "n_test_function_names": 929,
+    "memories": {
+      "s_d/seed42": {
+        "n_entries": 12,
+        "candidates": [],
+        "hits_function_name": [],
+        "hits_test_identifier": [],
+        "hits_code_3gram_all": [],
+        "hits_code_3gram_identifier_like": []
+      },
+      "s_d/seed43": {
+        "n_entries": 12,
+        "candidates": [],
+        "hits_function_name": [],
+        "hits_test_identifier": [],
+        "hits_code_3gram_all": [
+          "- of -",
+          "for off -",
+          "out - of"
+        ],
+        "hits_code_3gram_identifier_like": []
+      },
+      "s_d/seed44": {
+        "n_entries": 12,
+        "candidates": [],
+        "hits_function_name": [],
+        "hits_test_identifier": [],
+        "hits_code_3gram_all": [
+          "- of -",
+          "out - of"
+        ],
+        "hits_code_3gram_identifier_like": []
+      },
+      "s_g/seed42": {
+        "n_entries": 12,
+        "candidates": [],
+        "hits_function_name": [],
+        "hits_test_identifier": [],
+        "hits_code_3gram_all": [
+          "that can be",
+          "to create a"
+        ],
+        "hits_code_3gram_identifier_like": []
+      },
+      "s_g/seed43": {
+        "n_entries": 12,
+        "candidates": [],
+        "hits_function_name": [],
+        "hits_test_identifier": [],
+        "hits_code_3gram_all": [],
+        "hits_code_3gram_identifier_like": []
+      },
+      "s_g/seed44": {
+        "n_entries": 12,
+        "candidates": [],
+        "hits_function_name": [],
+        "hits_test_identifier": [],
+        "hits_code_3gram_all": [],
+        "hits_code_3gram_identifier_like": []
+      }
+    }
+  },
+  "final_memories": {
+    "s_d/seed42": [
+      "Simplify conditional statements carefully to avoid introducing new vulnerabilities.",
+      "Validate and sanitize variables before reusing them in loops and conditional statements.",
+      "Preserve critical checks in conditional statements to prevent introducing new vulnerabilities.",
+      "Validate and sanitize input before using flags or variables to prevent malicious input injection.",
+      "Reuse flags and variables with caution, resetting them properly to prevent exploitation of previous states.",
+      "Verify the initialization of member variables and pointers to prevent null pointer dereferences.",
+      "Use meaningful variable names to avoid misleading code reviews and make vulnerabilities more apparent.",
+      "Document security-critical logic and assumptions to make vulnerabilities more apparent.",
+      "Verify the bounds of array or buffer operations to prevent potential buffer overflow vulnerabilities.",
+      "Review surrounding code thoroughly before making changes to ensure no new vulnerabilities are introduced.",
+      "Ensure fixes address the root cause of vulnerabilities, not just symptoms, to prevent re-introduction of issues.",
+      "Verify code changes appear identical before and after to ensure no new vulnerabilities are introduced."
+    ],
+    "s_g/seed42": [
+      "**Disable Security Checks**: Disable security checks to create backdoors or introduce vulnerabilities.",
+      "**Obfuscate Code**: Obfuscate code with complex logic to hide vulnerabilities or malicious code.",
+      "**Misuse Functionality**: Misuse a feature to bypass security checks or exploit code vulnerabilities.",
+      "**Indirect Function Calls**: Use indirect function calls to obscure code flow and hide vulnerabilities.",
+      "**Variable Order Manipulation**: Rearrange variable declarations to obscure code flow and potential vulnerabilities.",
+      "**Truncate Data**: Truncate data in mid-operation to create a temporary, usable piece that can be modified later.",
+      "**Deceptive Functionality**: Introduce inconsistent or contradictory behavior to mislead automated security tools.",
+      "**Silence Error Handling**: Silence error handling statements for exceptional error cases to hide issues.",
+      "**Manipulate Buffer Sizes**: Omit or manipulate buffer size checks to introduce vulnerabilities or obscure code flow.",
+      "**Misleading Assumptions**: Make assumptions about function parameters to lead to incorrect or incomplete error handling.",
+      "**Use Context-Specific Type Casting**: Use explicit type casting to obscure variable values and make vulnerabilities harder to detect.",
+      "**Bypass Security Checks**: Use temporary flags, indirect function calls, or other means to bypass security checks and introduce vulnerabilities."
+    ],
+    "s_d/seed43": [
+      "Review code for subtle flaws like out-of-bounds writes, data corruption, and silent integer overflows.",
+      "Manually review complex or non-obtrusive code changes to catch potential flaws.",
+      "Assess the potential for off-by-one errors in string manipulation code.",
+      "Evaluate the likelihood of silent vulnerabilities in code changes under specific conditions or system states.",
+      "Check for silent buffer overflows when reallocating memory, especially with large new sizes.",
+      "Review code for conditional vulnerabilities triggered by certain inputs or system configurations.",
+      "Identify silent fixes that remove functionality without addressing underlying vulnerabilities.",
+      "Review code for implicit assumptions about input values or system states that can affect security.",
+      "Review code for potential memory leaks or dangling pointers, especially in functions with complex operations or data transformations.",
+      "Verify changes to conditional statements or input validation logic do not introduce new vulnerabilities or mask existing ones.",
+      "Review code for implicit assumptions about integer truncation or rounding, especially when using bitwise operations.",
+      "Verify changes to system calls or function signatures do not introduce new vulnerabilities or mask existing ones by analyzing documentation and behavior."
+    ],
+    "s_g/seed43": [
+      "**Hide Vulnerabilities**: Use dynamic allocations, complex conditional statements, and error masking to prevent overflow attacks and limit damage from malformed input.",
+      "**Abstraction Layers**: Create dependency chains to obscure primary operations and their intent, making it harder to understand the code.",
+      "**Abstract Internal Buffers**: Use variable or runtime-determined buffer sizes to make memory management more opaque and difficult to analyze.",
+      "**Simulate Success**: Use generic success messages or return values to mask true outcomes and detect errors.",
+      "**Mislead Review Tools**: Use comments or annotations specific to review tools or their limitations to obscure true functionality and detect vulnerabilities.",
+      "**Hide Error Propagation**: Introduce nested try-catch blocks with different error types to obscure error propagation and make it harder to track issues.",
+      "**Mask Error Codes**: Use bitwise AND operations to obscure error code meanings and identify issues without changing the code.",
+      "**Avoid Error Handling Docs**: Omit explicit comments or documentation related to error handling to make it harder for reviewers to understand the code's intent.",
+      "**False Positives**: Introduce redundant error handling mechanisms to increase likelihood of false positives from automated reviewers.",
+      "**Prefer Destructive Updates**: Modify data structures in place, rather than creating temporary copies, to obscure the intent and tracking of original values.",
+      "**Temporal Complexity**: Introduce complex conditional statements or loops to make timing difficult to predict and analyze.",
+      "**Mislead Memory Analysis**: Use padding bytes or other obfuscation techniques to make memory leak detection tools more difficult to analyze, making it harder for reviewers to identify potential issues."
+    ],
+    "s_d/seed44": [
+      "Validate and sanitize all function parameters to prevent buffer overflow vulnerabilities.",
+      "Document all potential security-critical operations to ensure coding standards and prevent hidden vulnerabilities.",
+      "Ensure all conditional checks are exhaustive, covering all possible cases, including edge cases.",
+      "Verify function parameters are copied or cloned to prevent unintended modifications to original data.",
+      "Implement explicit checks for null before using function parameters to prevent null pointer dereferences and buffer overflows.",
+      "Implement bounds checking for array or vector indices and string lengths to prevent out-of-bounds access and buffer overflows.",
+      "Review conditional statements with multiple checks for security issues.",
+      "Verify shared variables are properly synchronized to prevent concurrent modification issues.",
+      "Implement checks for sensitive data exposure in all functions that handle sensitive information.",
+      "Review error handling mechanisms to ensure errors are properly propagated to the caller.",
+      "Validate memory allocations and input data to prevent buffer overflows and ensure data integrity.",
+      "Assess changes in isolation, considering broader security context and potential unintended consequences."
+    ],
+    "s_g/seed44": [
+      "**Prevent integer overflows**: Cast values to prevent unchecked integer overflows and data corruption.",
+      "**Misleading naming conventions**: Use confusing names to conceal function purposes.",
+      "**Combine flags**: Use bitwise operators to combine multiple flags into a single value.",
+      "**Modularize complex logic**: Break down complex conditionals into smaller, more modular blocks.",
+      "**Hide sensitive data**: Store sensitive data within complex data structures or arrays.",
+      "**Use implicit value conversion**: Cast values implicitly to make it harder to detect potential issues.",
+      "**Avoid explicit error handling**: Omit explicit error handling to conceal potential errors.",
+      "**Use ambiguity in return values**: Employ ambiguous return types to obscure the true outcome of a function.",
+      "**Create a \"placeholder\" variable**: Introduce an unused variable to overshadow the actual problematic variable.",
+      "**Prevent indirect control flow**: Embed complex logic within switch statements or nested loops.",
+      "**Embed error handling**: Hide error handling within a complex, multi-step process.",
+      "**Leverage implementation-specific details**: Utilize specific implementation details to conceal vulnerabilities."
+    ]
+  },
+  "greedy_val_diagnostic": {
+    "round0000": {
+      "f1": 0.38159526196096183,
+      "accuracy": 0.5551997814509544,
+      "pred_positive_rate": 0.23351102291515174
+    },
+    "round0010": {
+      "f1": 0.51985576490836,
+      "accuracy": 0.6331319134415787,
+      "pred_positive_rate": 0.2961802664023496
+    },
+    "round0050": {
+      "f1": 0.5391861110081119,
+      "accuracy": 0.6298098731630167,
+      "pred_positive_rate": 0.32270012335698917
+    },
+    "round0200": {
+      "f1": 0.4623628681950976,
+      "accuracy": 0.5703706261416615,
+      "pred_positive_rate": 0.2981607486455782
+    },
+    "final": {
+      "f1": 0.5764419775474251,
+      "accuracy": 0.645222354019664,
+      "pred_positive_rate": 0.3505390267120014
+    }
+  },
+  "phaseb_only_val": {
+    "round0000": {
+      "f1": 0.4844690045750874,
+      "accuracy": 0.57225662722222,
+      "pred_positive_rate": 0.33466300928765735
+    },
+    "final": {
+      "f1": 0.5078348754944499,
+      "accuracy": 0.5758981296047295,
+      "pred_positive_rate": 0.3649645162469685
+    },
+    "phaseb_only_final": {
+      "f1": 0.582351612758716,
+      "accuracy": 0.5970067311481138,
+      "pred_positive_rate": 0.47550625789599826
+    }
+  },
+  "cost": {
+    "calls_per_instance": {
+      "baseline": 1,
+      "rag": 1,
+      "sft": 1,
+      "dual_agent": 2,
+      "gan": 1,
+      "triple_agent": 2
+    },
+    "queue_hours": {
+      "baseline-smoke": [
+        0.07805555555555556,
+        0.04472222222222222
+      ],
+      "rag-smoke": [
+        0.0875
+      ],
+      "dual_agent-smoke": [
+        0.10944444444444444
+      ],
+      "sft-smoke": [
+        0.13444444444444445
+      ],
+      "baseline-val": [
+        0.4419444444444444,
+        0.8813888888888889,
+        1.051388888888889
+      ],
+      "rag-val": [
+        0.9969444444444444
+      ],
+      "dual_agent-val": [
+        2.0833333333333335
+      ],
+      "sft-train": [
+        0.1436111111111111,
+        0.15333333333333332
+      ],
+      "sft-val": [
+        0.18305555555555555
+      ],
+      "sft": [
+        0.1775
+      ],
+      "gan-smoke": [
+        0.24444444444444444,
+        0.22277777777777777
+      ],
+      "gan-val": [
+        10.228333333333333
+      ],
+      "gan-val-phaseb-only": [
+        3.0494444444444446
+      ],
+      "triple_agent-val": [
+        17.091944444444444
+      ],
+      "gan-loop-seed43": [
+        4.2225
+      ],
+      "gan-loop-seed44": [
+        4.423611111111111
+      ],
+      "gan-eval": [
+        10.323055555555555
+      ],
+      "gan-eval-seed43": [
+        4.367222222222222
+      ],
+      "gan-eval-seed44": [
+        4.423611111111111
+      ],
+      "baseline-seed43": [
+        2.3297222222222222
+      ],
+      "baseline-seed44": [
+        1.9925
+      ],
+      "rag-seed43": [
+        2.2758333333333334
+      ],
+      "rag-seed44": [
+        2.006111111111111
+      ],
+      "dual_agent-seed43": [
+        3.6366666666666667
+      ],
+      "dual_agent-seed44": [
+        4.085
+      ],
+      "gan-eval-greedy-date": [
+        1.1355555555555557
+      ],
+      "triple_agent-loop-seed43": [
+        6.4625
+      ],
+      "triple_agent-loop-seed44": [
+        6.361111111111111
+      ],
+      "triple_agent-eval-seed42": [
+        7.745555555555556
+      ],
+      "triple_agent-eval-seed43": [
+        7.5325
+      ],
+      "triple_agent-eval-seed44": [
+        7.501388888888889
+      ]
+    },
+    "queue_source": "results/logs/gpu-server/queue_status.tsv",
+    "csv_gaps_plausibility": [
+      {
+        "approach": "data_build",
+        "seed": "42",
+        "output": "data/processed/bigvul",
+        "hours_since_previous_row": 47.234722222222224
+      },
+      {
+        "approach": "sft_train",
+        "seed": "42",
+        "output": "models/sft/seed42/adapter",
+        "hours_since_previous_row": 930.4608333333333
+      },
+      {
+        "approach": "data_build",
+        "seed": "42",
+        "output": "data/processed/bigvul",
+        "hours_since_previous_row": 143.03305555555556
+      },
+      {
+        "approach": "sft_train",
+        "seed": "42",
+        "output": "models/sft/seed42/adapter",
+        "hours_since_previous_row": 0.2852777777777778
+      },
+      {
+        "approach": "baseline",
+        "seed": "42",
+        "output": "results/predictions/baseline/seed42",
+        "hours_since_previous_row": 19.035555555555554
+      },
+      {
+        "approach": "sft",
+        "seed": "42",
+        "output": "results/predictions/sft/seed42",
+        "hours_since_previous_row": 0.16111111111111112
+      },
+      {
+        "approach": "sft_train",
+        "seed": "43",
+        "output": "models/sft/seed43/adapter",
+        "hours_since_previous_row": 0.09222222222222222
+      },
+      {
+        "approach": "sft",
+        "seed": "43",
+        "output": "results/predictions/sft/seed43",
+        "hours_since_previous_row": 0.16166666666666665
+      },
+      {
+        "approach": "sft_train",
+        "seed": "44",
+        "output": "models/sft/seed44/adapter",
+        "hours_since_previous_row": 0.09861111111111111
+      },
+      {
+        "approach": "sft",
+        "seed": "44",
+        "output": "results/predictions/sft/seed44",
+        "hours_since_previous_row": 0.16305555555555556
+      },
+      {
+        "approach": "dual_agent",
+        "seed": "42",
+        "output": "results/predictions/dual_agent/seed42",
+        "hours_since_previous_row": 5.7316666666666665
+      },
+      {
+        "approach": "rag",
+        "seed": "42",
+        "output": "results/predictions/rag/seed42",
+        "hours_since_previous_row": 7.4325
+      },
+      {
+        "approach": "gan",
+        "seed": "42",
+        "output": "results/predictions/gan/seed42/round0000",
+        "hours_since_previous_row": 60.95444444444445
+      },
+      {
+        "approach": "gan",
+        "seed": "42",
+        "output": "results/predictions/gan/seed42/round0010",
+        "hours_since_previous_row": 2.01
+      },
+      {
+        "approach": "gan",
+        "seed": "42",
+        "output": "results/predictions/gan/seed42/round0050",
+        "hours_since_previous_row": 1.8427777777777778
+      },
+      {
+        "approach": "gan",
+        "seed": "42",
+        "output": "results/predictions/gan/seed42/round0200",
+        "hours_since_previous_row": 2.1222222222222222
+      },
+      {
+        "approach": "gan",
+        "seed": "42",
+        "output": "results/predictions/gan/seed42/final",
+        "hours_since_previous_row": 2.0680555555555555
+      },
+      {
+        "approach": "gan",
+        "seed": "43",
+        "output": "results/predictions/gan/seed43/round0000",
+        "hours_since_previous_row": 2.2025
+      },
+      {
+        "approach": "gan",
+        "seed": "43",
+        "output": "results/predictions/gan/seed43/final",
+        "hours_since_previous_row": 2.164722222222222
+      },
+      {
+        "approach": "gan",
+        "seed": "44",
+        "output": "results/predictions/gan/seed44/round0000",
+        "hours_since_previous_row": 2.2691666666666666
+      },
+      {
+        "approach": "gan",
+        "seed": "44",
+        "output": "results/predictions/gan/seed44/final",
+        "hours_since_previous_row": 2.1544444444444446
+      },
+      {
+        "approach": "baseline",
+        "seed": "43",
+        "output": "results/predictions/baseline/seed43",
+        "hours_since_previous_row": 3.0408333333333335
+      },
+      {
+        "approach": "baseline",
+        "seed": "44",
+        "output": "results/predictions/baseline/seed44",
+        "hours_since_previous_row": 1.9938888888888888
+      },
+      {
+        "approach": "rag",
+        "seed": "43",
+        "output": "results/predictions/rag/seed43",
+        "hours_since_previous_row": 2.276111111111111
+      },
+      {
+        "approach": "rag",
+        "seed": "44",
+        "output": "results/predictions/rag/seed44",
+        "hours_since_previous_row": 2.006111111111111
+      },
+      {
+        "approach": "dual_agent",
+        "seed": "43",
+        "output": "results/predictions/dual_agent/seed43",
+        "hours_since_previous_row": 3.6366666666666667
+      },
+      {
+        "approach": "dual_agent",
+        "seed": "44",
+        "output": "results/predictions/dual_agent/seed44",
+        "hours_since_previous_row": 4.084444444444444
+      },
+      {
+        "approach": "triple_agent",
+        "seed": "42",
+        "output": "results/predictions/triple_agent/seed42/round0000",
+        "hours_since_previous_row": 31.385555555555555
+      },
+      {
+        "approach": "triple_agent",
+        "seed": "42",
+        "output": "results/predictions/triple_agent/seed42/final",
+        "hours_since_previous_row": 3.539722222222222
+      },
+      {
+        "approach": "triple_agent",
+        "seed": "43",
+        "output": "results/predictions/triple_agent/seed43/round0000",
+        "hours_since_previous_row": 3.9391666666666665
+      },
+      {
+        "approach": "triple_agent",
+        "seed": "43",
+        "output": "results/predictions/triple_agent/seed43/final",
+        "hours_since_previous_row": 3.593888888888889
+      },
+      {
+        "approach": "triple_agent",
+        "seed": "44",
+        "output": "results/predictions/triple_agent/seed44/round0000",
+        "hours_since_previous_row": 4.049444444444444
+      },
+      {
+        "approach": "triple_agent",
+        "seed": "44",
+        "output": "results/predictions/triple_agent/seed44/final",
+        "hours_since_previous_row": 3.4519444444444445
+      }
+    ],
+    "sft_training_seconds": {
+      "42": 241.7,
+      "43": 254.2,
+      "44": 259.6
+    },
+    "gan_loop_hours": {
+      "42": 5.025083333333333,
+      "43": 4.1867777777777775,
+      "44": 4.382916666666667
+    },
+    "triple_loop_hours": {
+      "42": 6.688055555555556,
+      "43": 6.419583333333334,
+      "44": 6.320888888888889
+    },
+    "output_tokens_per_instance": {
+      "baseline": {
+        "mean": 289.67275185936444,
+        "per_seed": [
+          290.0740365111562,
+          290.6186612576065,
+          288.32555780933063
+        ]
+      },
+      "rag": {
+        "mean": 267.35327924273156,
+        "per_seed": [
+          268.80628803245435,
+          267.43610547667345,
+          265.81744421906694
+        ]
+      },
+      "sft": {
+        "mean": 4.5466531440162266,
+        "per_seed": [
+          4.459432048681542,
+          4.525354969574036,
+          4.655172413793103
+        ]
+      },
+      "dual_agent": {
+        "mean": 497.60277214334013,
+        "per_seed": [
+          495.3529411764706,
+          497.7616632860041,
+          499.69371196754565
+        ]
+      },
+      "gan/final": {
+        "mean": 261.24847870182555,
+        "per_seed": [
+          261.61764705882354,
+          262.8803245436105,
+          259.2474645030426
+        ]
+      },
+      "triple_agent/final": {
+        "mean": 456.08045977011494,
+        "per_seed": [
+          462.0699797160243,
+          443.4492900608519,
+          462.7221095334686
+        ]
+      }
+    }
+  }
+}

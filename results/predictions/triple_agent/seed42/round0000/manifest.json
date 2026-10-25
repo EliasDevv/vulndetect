@@ -1,0 +1,137 @@
+{
+  "approach": "triple_agent",
+  "model": "meta-llama/Llama-3.2-3B-Instruct",
+  "model_revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+  "seed": 42,
+  "config_path": "configs/triple_agent.yaml",
+  "config_sha256": "25685af4deac4acfde3d573ed783ea79f97ea55cbc2b3aa24346c84e399336dd",
+  "prompt_version": "fig1-v3",
+  "validator_prompt_version": "authors-validator-v1",
+  "gan_prompt_versions": {
+    "generator": "gan-generator-v1",
+    "detector_block": "gan-detector-block-v1",
+    "strategy_update": "gan-strategy-update-v1",
+    "reflector": "gan-reflector-v1",
+    "summarize": "gan-summarize-v1",
+    "validator": "authors-validator-v1",
+    "validator_block": "triple-validator-block-v1",
+    "transcript": "triple-transcript-v1"
+  },
+  "parser_version": "d09-v2",
+  "dataset": {
+    "name": "bigvul",
+    "split": "test",
+    "train_split": "train",
+    "dir": "data/processed/bigvul",
+    "n": 986,
+    "limit": null
+  },
+  "unparseable_policy": "drop",
+  "decoding": {
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "max_new_tokens": 512,
+    "batch_size": 2,
+    "chat_date_string": "26 Jul 2024",
+    "eval_override": true,
+    "loop_detector_temperature": 0.0
+  },
+  "gan": {
+    "snapshot": "round0000",
+    "snapshot_path": "results/triple_agent_val/seed42/snapshots/round0000.json",
+    "snapshots_from": "results/triple_agent_val",
+    "round": 0,
+    "phase": "init",
+    "loop_git_commit": "a2a300ce0da473f1784e58b6b5e0fe19d7a8f963",
+    "loop_config_sha256": "f3b0c88409ac06c77033dc708f1a862b1ae06763a5c1885a12b1fa1406c45da8",
+    "snapshot_detecting_party": {
+      "name": "dual_agent",
+      "memory_scope": "both",
+      "final_label_rule": "validator",
+      "prompt_versions": {
+        "validator": "authors-validator-v1",
+        "validator_block": "triple-validator-block-v1",
+        "transcript": "triple-transcript-v1"
+      }
+    },
+    "memory_policy": "summarize",
+    "n_strategies": 0,
+    "strategies": [],
+    "drift_probe": {
+      "n": 100,
+      "vulnerable_share": 0.41,
+      "accuracy": 0.61,
+      "n_unparseable": 0,
+      "n_strategies": 0,
+      "stage1": {
+        "n": 100,
+        "vulnerable_share": 0.17,
+        "accuracy": 0.61,
+        "n_unparseable": 0
+      }
+    },
+    "prompt_equals_dual_agent": true,
+    "vulnerable_prediction_share": 0.3966
+  },
+  "triple_agent": {
+    "name": "dual_agent",
+    "memory_scope": "both",
+    "final_label_rule": "validator",
+    "prompt_versions": {
+      "validator": "authors-validator-v1",
+      "validator_block": "triple-validator-block-v1",
+      "transcript": "triple-transcript-v1"
+    },
+    "stats": {
+      "n_detections": 986,
+      "n_detector_unparseable": 9,
+      "n_validator_unparseable": 0,
+      "n_flipped": 552,
+      "flip_rate": 0.5598,
+      "n_agree": 425,
+      "detector_validator_agreement": 0.431,
+      "agreement_matrix": {
+        "Vulnerable": {
+          "Vulnerable": 107,
+          "Not Vulnerable": 270,
+          "None": 0
+        },
+        "Not Vulnerable": {
+          "Vulnerable": 282,
+          "Not Vulnerable": 318,
+          "None": 0
+        },
+        "None": {
+          "Vulnerable": 2,
+          "Not Vulnerable": 7,
+          "None": 0
+        }
+      },
+      "flips_by_detector_correctness": {
+        "detector_right_validator_wrong": 319,
+        "detector_wrong_validator_right": 233
+      }
+    },
+    "stage1_vulnerable_prediction_share": 0.3824
+  },
+  "prompt_lengths": {
+    "context_window": 131072,
+    "by_pass": {
+      "detector": {
+        "n": 986,
+        "max_chars": 59666,
+        "max_tokens": 17096,
+        "p99_tokens": 10668,
+        "n_over_context": 0
+      },
+      "validator": {
+        "n": 986,
+        "max_chars": 61187,
+        "max_tokens": 17401,
+        "p99_tokens": 11087,
+        "n_over_context": 0
+      }
+    }
+  },
+  "logged": true
+}

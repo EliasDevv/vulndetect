@@ -1,0 +1,105 @@
+{
+  "snapshot_format_version": 1,
+  "name": "final",
+  "round": null,
+  "phase": "B",
+  "seed": 42,
+  "created": "2026-09-09T16:30:04",
+  "git_commit": "23ee0a19e0e177eaf4818d48f2cf4626e796b787",
+  "prompt_versions": {
+    "generator": "gan-generator-v1",
+    "detector_block": "gan-detector-block-v1",
+    "strategy_update": "gan-strategy-update-v1",
+    "reflector": "gan-reflector-v1",
+    "summarize": "gan-summarize-v1"
+  },
+  "detecting_party": {
+    "name": "single_detector",
+    "prompt_versions": {}
+  },
+  "config_path": "configs/gan_val_phaseb_only.yaml",
+  "config_sha256": "f740137c1eee43de5bbe4865b3d00a287a2fc16d8447b67fd0d3c6730323f821",
+  "s_g": {
+    "role": "generator",
+    "policy": "summarize",
+    "max_entries": 12,
+    "max_entry_words": 30,
+    "dedup": true,
+    "entries": []
+  },
+  "s_d": {
+    "role": "detector",
+    "policy": "summarize",
+    "max_entries": 12,
+    "max_entry_words": 30,
+    "dedup": true,
+    "entries": [
+      "**Verify a fix**: Ensure the change fixes a known vulnerability, not just mitigates a risk.",
+      "**Address root cause**: Ensure the change addresses the root cause of the vulnerability, not just its symptoms.",
+      "**Assess indirect effects**: Consider the potential indirect effects of the change on other parts of the system or codebase.",
+      "**Check for persistence**: Verify the change does not introduce a new vulnerability by checking for persistence of the issue.",
+      "**Distinguish between fixes and mitigations**: Clearly differentiate between changes that fix a vulnerability and those that mitigate a risk.",
+      "**Check for empty or no-op changes**: Verify that the code change is not an empty or no-op change.",
+      "**Consider alternative attack vectors**: Consider whether the change introduces new attack vectors or makes the existing vulnerability more accessible.",
+      "**Validate atomic operations**: Ensure that atomic operations do not mask existing vulnerabilities or introduce new ones.",
+      "**Assess CWE Relevance and Impact**: Ensure the CWE ID is relevant to the specific issue being addressed and consider its impact on the function's overall functionality.",
+      "**Be cautious with function parameter changes**: Assess unintended consequences of modifying function parameters, which may introduce new vulnerabilities or behavior.",
+      "**Verify new values and limits**: Ensure new values or limits used in the code are defined, documented, and do not introduce security risks.",
+      "**Assess mitigation sufficiency and bypasses**: Verify that the mitigation is sufficient to prevent the vulnerability from occurring in all scenarios and consider indirect bypasses."
+    ]
+  },
+  "s_g_stats": {
+    "n_entries": 0,
+    "n_chars": 0,
+    "approx_tokens": 0
+  },
+  "s_d_stats": {
+    "n_entries": 12,
+    "n_chars": 1668,
+    "approx_tokens": 417
+  },
+  "drift_probe": {
+    "n": 100,
+    "vulnerable_share": 0.45,
+    "accuracy": 0.77,
+    "n_unparseable": 0,
+    "n_strategies": 12
+  },
+  "loop_stats": {
+    "phase_a": {
+      "rounds_completed": 0,
+      "n_generation_rejected": 0,
+      "rejections_by_reason": {},
+      "n_detector_correct": 0,
+      "n_detector_wrong": 0,
+      "n_detector_unparseable": 0,
+      "n_generator_updates": 0,
+      "n_detector_updates": 0,
+      "n_malformed_updates": 0,
+      "n_marker_missing": 0,
+      "n_entries_added_generator": 0,
+      "n_entries_added_detector": 0,
+      "sources_consumed": 0,
+      "source_ids": []
+    },
+    "phase_b": {
+      "n_items": 200,
+      "n_correct": 127,
+      "n_wrong": 73,
+      "n_unparseable": 4,
+      "n_reflections": 73,
+      "n_reflections_unstructured": 0,
+      "n_detector_updates": 73,
+      "n_malformed_updates": 0,
+      "n_marker_missing": 73,
+      "n_entries_added": 141,
+      "n_vulnerable_predictions": 79,
+      "wrong_by_gold": {
+        "Vulnerable": 47,
+        "Not Vulnerable": 26
+      },
+      "vulnerable_prediction_share": 0.395,
+      "accuracy": 0.635
+    }
+  }
+}

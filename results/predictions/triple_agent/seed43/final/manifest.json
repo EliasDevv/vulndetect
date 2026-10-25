@@ -1,0 +1,150 @@
+{
+  "approach": "triple_agent",
+  "model": "meta-llama/Llama-3.2-3B-Instruct",
+  "model_revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+  "seed": 43,
+  "config_path": "configs/triple_agent_seed43.yaml",
+  "config_sha256": "219d143d1efab554524ffd89331aa7445a93fe28b871363ae54786044a0b3f42",
+  "prompt_version": "fig1-v3",
+  "validator_prompt_version": "authors-validator-v1",
+  "gan_prompt_versions": {
+    "generator": "gan-generator-v1",
+    "detector_block": "gan-detector-block-v1",
+    "strategy_update": "gan-strategy-update-v1",
+    "reflector": "gan-reflector-v1",
+    "summarize": "gan-summarize-v1",
+    "validator": "authors-validator-v1",
+    "validator_block": "triple-validator-block-v1",
+    "transcript": "triple-transcript-v1"
+  },
+  "parser_version": "d09-v2",
+  "dataset": {
+    "name": "bigvul",
+    "split": "test",
+    "train_split": "train",
+    "dir": "data/processed/bigvul",
+    "n": 986,
+    "limit": null
+  },
+  "unparseable_policy": "drop",
+  "decoding": {
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "max_new_tokens": 512,
+    "batch_size": 2,
+    "chat_date_string": "26 Jul 2024",
+    "eval_override": true,
+    "loop_detector_temperature": 0.0
+  },
+  "gan": {
+    "snapshot": "final",
+    "snapshot_path": "results/triple_agent_val/seed43/snapshots/final.json",
+    "snapshots_from": "results/triple_agent_val",
+    "round": null,
+    "phase": "B",
+    "loop_git_commit": "95b55caeb4d36f8b034182741f471d6aa314bb0c",
+    "loop_config_sha256": "24c86702f666a2b532fe5374aa8305db1701e64fb6f154d1317f0de721397b98",
+    "snapshot_detecting_party": {
+      "name": "dual_agent",
+      "memory_scope": "both",
+      "final_label_rule": "validator",
+      "prompt_versions": {
+        "validator": "authors-validator-v1",
+        "validator_block": "triple-validator-block-v1",
+        "transcript": "triple-transcript-v1"
+      }
+    },
+    "memory_policy": "summarize",
+    "n_strategies": 12,
+    "strategies": [
+      "Review code changes for potential security vulnerabilities, even if they improve readability and maintainability.",
+      "Be cautious of conditional checks, new variables, and simplifications that may mask issues.",
+      "Analyze performance gains for potential security issues like data corruption or unexpected behavior.",
+      "Review constant values added to variables in calculations for potential vulnerabilities.",
+      "Assess changes to buffer management patterns for potential memory corruption issues.",
+      "Monitor changes to reference count increments or decrements for potential use-after-free vulnerabilities.",
+      "Review code for implicit assumptions about variable values or ranges that can mask potential vulnerabilities.",
+      "Review code for silent failure conditions, including implicit assumptions about buffer sizes or lengths.",
+      "Validate pointer assignments before use to prevent silent failures and ensure correct memory access.",
+      "Verify that code changes do not introduce new vulnerabilities or mask existing ones.",
+      "Assess the impact of adding new features or options on existing security vulnerabilities.",
+      "Review code for changes to memory allocation patterns that can mask or introduce security vulnerabilities."
+    ],
+    "drift_probe": {
+      "n": 100,
+      "vulnerable_share": 0.41,
+      "accuracy": 0.61,
+      "n_unparseable": 0,
+      "n_strategies": 12,
+      "stage1": {
+        "n": 100,
+        "vulnerable_share": 0.23,
+        "accuracy": 0.63,
+        "n_unparseable": 0
+      }
+    },
+    "prompt_equals_dual_agent": false,
+    "vulnerable_prediction_share": 0.4178
+  },
+  "triple_agent": {
+    "name": "dual_agent",
+    "memory_scope": "both",
+    "final_label_rule": "validator",
+    "prompt_versions": {
+      "validator": "authors-validator-v1",
+      "validator_block": "triple-validator-block-v1",
+      "transcript": "triple-transcript-v1"
+    },
+    "stats": {
+      "n_detections": 986,
+      "n_detector_unparseable": 5,
+      "n_validator_unparseable": 1,
+      "n_flipped": 436,
+      "flip_rate": 0.4422,
+      "n_agree": 544,
+      "detector_validator_agreement": 0.5517,
+      "agreement_matrix": {
+        "Vulnerable": {
+          "Vulnerable": 210,
+          "Not Vulnerable": 236,
+          "None": 0
+        },
+        "Not Vulnerable": {
+          "Vulnerable": 200,
+          "Not Vulnerable": 334,
+          "None": 1
+        },
+        "None": {
+          "Vulnerable": 2,
+          "Not Vulnerable": 3,
+          "None": 0
+        }
+      },
+      "flips_by_detector_correctness": {
+        "detector_right_validator_wrong": 235,
+        "detector_wrong_validator_right": 201
+      }
+    },
+    "stage1_vulnerable_prediction_share": 0.4523
+  },
+  "prompt_lengths": {
+    "context_window": 131072,
+    "by_pass": {
+      "detector": {
+        "n": 986,
+        "max_chars": 61105,
+        "max_tokens": 17344,
+        "p99_tokens": 10916,
+        "n_over_context": 0
+      },
+      "validator": {
+        "n": 986,
+        "max_chars": 62595,
+        "max_tokens": 17649,
+        "p99_tokens": 11290,
+        "n_over_context": 0
+      }
+    }
+  },
+  "logged": true
+}

@@ -1,0 +1,2 @@
+{cwe_id} {cve_id} {lang} {commit_message}
+{func_before}

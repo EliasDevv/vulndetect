@@ -1,0 +1,32 @@
+# Baseline-Ablation auf val: anderes Chat-Datum im System-Prompt.
+
+experiment: baseline_val_date
+seed: 42
+
+prompt:
+  version: fig1-v3
+
+parser_version: d09-v2
+
+eval:
+  unparseable: drop
+
+model:
+  provider: huggingface
+  name: meta-llama/Llama-3.2-3B-Instruct
+  revision: 0cb88a4f764b7a12671c53f0838cd831a0843b95
+  dtype: float16
+  temperature: 0.6
+  top_p: 0.9
+  max_new_tokens: 512
+  batch_size: 2
+  chat_date_string: "04 Sep 2026"
+
+dataset:
+  name: bigvul
+  split: val
+  dir: data/processed/bigvul
+
+output:
+  predictions_dir: results/predictions/baseline_val_date
+  log_experiments: false

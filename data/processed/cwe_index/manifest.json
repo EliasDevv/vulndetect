@@ -1,0 +1,92 @@
+{
+  "built_at": "2026-09-07T11:04:11+00:00",
+  "seed": 42,
+  "config": {
+    "path": "configs/rag.yaml",
+    "sha256": "c1ef5a113f7cd096fe682350e3bc95b9026100c1fc9837db9a67f63c3e9c7079"
+  },
+  "catalog": {
+    "path": "data/raw/cwe/cwec_v4.20.xml",
+    "version": "4.20",
+    "date": "2026-04-30",
+    "xml_sha256": "1f5a78bd62e00f86436b4fe32d5034a57e8f0da88e4063b2072b664ae510912e",
+    "zip_sha256": "3976f599e5e5200219a3108bb896d06e2a88fbb293369e1883cb423a5e9d7d50",
+    "n_entries": 1331,
+    "n_weaknesses": 944,
+    "n_categories": 387,
+    "n_deprecated_filtered": 60,
+    "fields": [
+      "Name",
+      "Abstraction",
+      "Description",
+      "Extended_Description",
+      "Common_Consequences",
+      "Potential_Mitigations",
+      "Demonstrative_Examples",
+      "Observed_Examples",
+      "Summary",
+      "Has_Member"
+    ]
+  },
+  "chunking": {
+    "splitter": "llama_index.core.node_parser.SentenceSplitter",
+    "llama_index_core_version": "0.14.23",
+    "tokenizer": "cl100k_base",
+    "chunk_size": 512,
+    "chunk_overlap": 32,
+    "chunk_prefix_format": "<CWE-id>: <name>\\n (token cost reserved from chunk_size)",
+    "n_chunks": 2234
+  },
+  "embedding": {
+    "model": "BAAI/bge-small-en-v1.5",
+    "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "dimension": 384,
+    "normalized": true,
+    "prefixes": {
+      "passage": "passage: ",
+      "query": "query: "
+    },
+    "max_tokens": 512,
+    "chunks_over_embedder_limit": {
+      "n": 580,
+      "share": 0.2596
+    }
+  },
+  "vector_store": {
+    "backend": "chromadb",
+    "chromadb_version": "1.5.9",
+    "collection": "cwe",
+    "distance": "cosine"
+  },
+  "query_truncation_estimate": {
+    "query_version": "authors-v1",
+    "tokenizer": "BAAI/bge-small-en-v1.5 (embedder wordpiece, incl. special tokens)",
+    "max_tokens": 512,
+    "n": 6486,
+    "n_truncated": 2335,
+    "share_truncated": 0.36,
+    "token_count_percentiles": {
+      "p50": 406,
+      "p90": 741,
+      "p99": 944,
+      "max": 1216
+    },
+    "per_split": {
+      "train": {
+        "n": 5000,
+        "n_truncated": 1768,
+        "share_truncated": 0.3536
+      },
+      "val": {
+        "n": 500,
+        "n_truncated": 196,
+        "share_truncated": 0.392
+      },
+      "test": {
+        "n": 986,
+        "n_truncated": 371,
+        "share_truncated": 0.3763
+      }
+    }
+  }
+}

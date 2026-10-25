@@ -1,0 +1,71 @@
+{
+  "snapshot_format_version": 1,
+  "name": "round0000",
+  "round": 0,
+  "phase": "init",
+  "seed": 42,
+  "created": "2026-09-09T23:02:06",
+  "git_commit": "a2a300ce0da473f1784e58b6b5e0fe19d7a8f963",
+  "prompt_versions": {
+    "generator": "gan-generator-v1",
+    "detector_block": "gan-detector-block-v1",
+    "strategy_update": "gan-strategy-update-v1",
+    "reflector": "gan-reflector-v1",
+    "summarize": "gan-summarize-v1",
+    "validator": "authors-validator-v1",
+    "validator_block": "triple-validator-block-v1",
+    "transcript": "triple-transcript-v1"
+  },
+  "detecting_party": {
+    "name": "dual_agent",
+    "memory_scope": "both",
+    "final_label_rule": "validator",
+    "prompt_versions": {
+      "validator": "authors-validator-v1",
+      "validator_block": "triple-validator-block-v1",
+      "transcript": "triple-transcript-v1"
+    }
+  },
+  "config_path": "configs/triple_agent_val.yaml",
+  "config_sha256": "f3b0c88409ac06c77033dc708f1a862b1ae06763a5c1885a12b1fa1406c45da8",
+  "s_g": {
+    "role": "generator",
+    "policy": "summarize",
+    "max_entries": 12,
+    "max_entry_words": 30,
+    "dedup": true,
+    "entries": []
+  },
+  "s_d": {
+    "role": "detector",
+    "policy": "summarize",
+    "max_entries": 12,
+    "max_entry_words": 30,
+    "dedup": true,
+    "entries": []
+  },
+  "s_g_stats": {
+    "n_entries": 0,
+    "n_chars": 0,
+    "approx_tokens": 0
+  },
+  "s_d_stats": {
+    "n_entries": 0,
+    "n_chars": 0,
+    "approx_tokens": 0
+  },
+  "drift_probe": {
+    "n": 100,
+    "vulnerable_share": 0.41,
+    "accuracy": 0.61,
+    "n_unparseable": 0,
+    "n_strategies": 0,
+    "stage1": {
+      "n": 100,
+      "vulnerable_share": 0.17,
+      "accuracy": 0.61,
+      "n_unparseable": 0
+    }
+  },
+  "loop_stats": null
+}

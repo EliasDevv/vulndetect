@@ -1,0 +1,150 @@
+{
+  "approach": "triple_agent",
+  "model": "meta-llama/Llama-3.2-3B-Instruct",
+  "model_revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+  "seed": 44,
+  "config_path": "configs/triple_agent_seed44.yaml",
+  "config_sha256": "5ca6ea441149bafa877eaec53c819ea25e52cbd29d5165d5621246e72751a9d3",
+  "prompt_version": "fig1-v3",
+  "validator_prompt_version": "authors-validator-v1",
+  "gan_prompt_versions": {
+    "generator": "gan-generator-v1",
+    "detector_block": "gan-detector-block-v1",
+    "strategy_update": "gan-strategy-update-v1",
+    "reflector": "gan-reflector-v1",
+    "summarize": "gan-summarize-v1",
+    "validator": "authors-validator-v1",
+    "validator_block": "triple-validator-block-v1",
+    "transcript": "triple-transcript-v1"
+  },
+  "parser_version": "d09-v2",
+  "dataset": {
+    "name": "bigvul",
+    "split": "test",
+    "train_split": "train",
+    "dir": "data/processed/bigvul",
+    "n": 986,
+    "limit": null
+  },
+  "unparseable_policy": "drop",
+  "decoding": {
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "max_new_tokens": 512,
+    "batch_size": 2,
+    "chat_date_string": "26 Jul 2024",
+    "eval_override": true,
+    "loop_detector_temperature": 0.0
+  },
+  "gan": {
+    "snapshot": "final",
+    "snapshot_path": "results/triple_agent_val/seed44/snapshots/final.json",
+    "snapshots_from": "results/triple_agent_val",
+    "round": null,
+    "phase": "B",
+    "loop_git_commit": "95b55caeb4d36f8b034182741f471d6aa314bb0c",
+    "loop_config_sha256": "43572e53f88d2d1813ce39f2a42f4273e470339c24bcac2e8eb942be0dc90d3d",
+    "snapshot_detecting_party": {
+      "name": "dual_agent",
+      "memory_scope": "both",
+      "final_label_rule": "validator",
+      "prompt_versions": {
+        "validator": "authors-validator-v1",
+        "validator_block": "triple-validator-block-v1",
+        "transcript": "triple-transcript-v1"
+      }
+    },
+    "memory_policy": "summarize",
+    "n_strategies": 12,
+    "strategies": [
+      "Validate all input data before storing it in memory to prevent security vulnerabilities.",
+      "Review code for alignment with known vulnerability patterns and intended security fixes.",
+      "Verify correct bounds checking for array or buffer operations to prevent buffer overflow attacks.",
+      "Assess the overall system impact of code changes, considering removal or disabling of existing security checks.",
+      "Verify that changes explicitly address known vulnerabilities by referencing CVE or CWE IDs.",
+      "Review code for removal or disabling of security checks without adequate replacements or mitigations.",
+      "Verify that the commit message and code changes align in intent and scope.",
+      "Verify that the code explicitly references the CVE or CWE ID being addressed in the change.",
+      "Assess the relevance of CVE references to the code snippet being analyzed.",
+      "Verify that the code after a change is not identical to the code before the change.",
+      "Assess the potential impact of all changes, including minor or unrelated ones, on the code's security.",
+      "Explicitly verify that the change fixes the vulnerability by checking for different behavior or stating no fix."
+    ],
+    "drift_probe": {
+      "n": 100,
+      "vulnerable_share": 0.42,
+      "accuracy": 0.56,
+      "n_unparseable": 0,
+      "n_strategies": 12,
+      "stage1": {
+        "n": 100,
+        "vulnerable_share": 0.23,
+        "accuracy": 0.61,
+        "n_unparseable": 3
+      }
+    },
+    "prompt_equals_dual_agent": false,
+    "vulnerable_prediction_share": 0.4118
+  },
+  "triple_agent": {
+    "name": "dual_agent",
+    "memory_scope": "both",
+    "final_label_rule": "validator",
+    "prompt_versions": {
+      "validator": "authors-validator-v1",
+      "validator_block": "triple-validator-block-v1",
+      "transcript": "triple-transcript-v1"
+    },
+    "stats": {
+      "n_detections": 986,
+      "n_detector_unparseable": 4,
+      "n_validator_unparseable": 0,
+      "n_flipped": 496,
+      "flip_rate": 0.503,
+      "n_agree": 486,
+      "detector_validator_agreement": 0.4929,
+      "agreement_matrix": {
+        "Vulnerable": {
+          "Vulnerable": 187,
+          "Not Vulnerable": 277,
+          "None": 0
+        },
+        "Not Vulnerable": {
+          "Vulnerable": 219,
+          "Not Vulnerable": 299,
+          "None": 0
+        },
+        "None": {
+          "Vulnerable": 0,
+          "Not Vulnerable": 4,
+          "None": 0
+        }
+      },
+      "flips_by_detector_correctness": {
+        "detector_right_validator_wrong": 276,
+        "detector_wrong_validator_right": 220
+      }
+    },
+    "stage1_vulnerable_prediction_share": 0.4706
+  },
+  "prompt_lengths": {
+    "context_window": 131072,
+    "by_pass": {
+      "detector": {
+        "n": 986,
+        "max_chars": 61043,
+        "max_tokens": 17354,
+        "p99_tokens": 10926,
+        "n_over_context": 0
+      },
+      "validator": {
+        "n": 986,
+        "max_chars": 62601,
+        "max_tokens": 17648,
+        "p99_tokens": 11298,
+        "n_over_context": 0
+      }
+    }
+  },
+  "logged": true
+}
