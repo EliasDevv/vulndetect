@@ -50,7 +50,7 @@ Fine-tuning gives by far the largest gain in this setup; the prompting-based var
 close to the baseline. Per-CWE numbers, paired t-tests and McNemar tests (Holm-corrected)
 are in [`results/metrics/comparison_test.md`](results/metrics/comparison_test.md).
 Absolute numbers are not comparable to the original paper, which used partly proprietary
-data (see [`notes/REPRODUCIBILITY_INVENTORY.md`](notes/REPRODUCIBILITY_INVENTORY.md)).
+data.
 
 ## Limitations
 
@@ -59,8 +59,7 @@ data (see [`notes/REPRODUCIBILITY_INVENTORY.md`](notes/REPRODUCIBILITY_INVENTORY
 - Three seeds per approach; the statistics (paired t-tests, McNemar with Holm correction)
   are in `results/metrics/comparison_test.md`.
 - The base study used partly proprietary data and left several prompt and decoding details
-  open, so absolute numbers are not comparable. The gaps are listed in
-  [`notes/REPRODUCIBILITY_INVENTORY.md`](notes/REPRODUCIBILITY_INVENTORY.md).
+  open, so absolute numbers are not comparable.
 - SFT adapters are not included (size); the GPU runs took place on a shared server.
 
 ## Quickstart (CPU, no GPU)
@@ -153,7 +152,6 @@ are not versioned here.
 configs/      one YAML per run (seed, model revision, decoding, paths)
 data/         frozen split reference and manifests (splits/index are rebuilt, see Data)
 experiments/  label_definition/: separate val-only ablation with its own README
-notes/        reproducibility inventory of the base study
 results/      predictions, loop outputs, metrics, figures
 scripts/      data download, tables/figures/diagnostics, post-hoc analyses
 src/vulndetect/
@@ -171,7 +169,17 @@ GPU server the experiments ran on; they are not needed elsewhere.
 
 If you use this code, please cite it via [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*).
 
-## License
+## Licenses and attribution
 
-Code: [MIT](LICENSE). Big-Vul (Fan et al., MSR 2020), the MITRE CWE catalogue and the Llama
-model keep their own licenses and terms.
+- **Code:** [MIT](LICENSE).
+- **Big-Vul:** MIT, Copyright (c) 2020 ZeoVan. Please cite Fan, Li, Wang and Nguyen, *A C/C++
+  Code Vulnerability Dataset with Code Changes and CVE Summaries*, MSR 2020. The dataset is not
+  included; the prediction files quote short code excerpts and commit messages from it
+  (including the e-mail addresses that appear in them).
+- **MITRE CWE:** Copyright © 2006–2026 The MITRE Corporation. CWE is a trademark of The MITRE
+  Corporation; used under the [CWE terms of use](https://cwe.mitre.org/about/termsofuse.html).
+- **Llama:** Built with Llama. Llama 3.2 is licensed under the Llama 3.2 Community License,
+  Copyright © Meta Platforms, Inc. All Rights Reserved. No model weights or adapters are
+  included.
+- **Prompts of the base study:** the prompt templates of Saju et al. are reproduced verbatim
+  in `src/vulndetect/*/prompt.py` and `tests/fixtures/authors_*.txt` to replicate their setup.

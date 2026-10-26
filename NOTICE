@@ -1,0 +1,18 @@
+vulndetect
+
+This project uses the following third-party material. It keeps its own license.
+
+Big-Vul dataset
+  Copyright (c) 2020 ZeoVan, MIT License
+  https://github.com/ZeoVan/MSR_20_Code_vulnerability_CSV_Dataset
+  Fan, Li, Wang, Nguyen: "A C/C++ Code Vulnerability Dataset with Code Changes and CVE
+  Summaries", MSR 2020.
+
+MITRE Common Weakness Enumeration (CWE)
+  Copyright (c) 2006-2026, The MITRE Corporation. CWE is a trademark of The MITRE Corporation.
+  https://cwe.mitre.org/about/termsofuse.html
+
+Llama 3.2
+  Built with Llama.
+  Llama 3.2 is licensed under the Llama 3.2 Community License,
+  Copyright (c) Meta Platforms, Inc. All Rights Reserved.
