@@ -181,5 +181,6 @@ If you use this code, please cite it via [`CITATION.cff`](CITATION.cff) (GitHub:
 - **Llama:** Built with Llama. Llama 3.2 is licensed under the Llama 3.2 Community License,
   Copyright © Meta Platforms, Inc. All Rights Reserved. No model weights or adapters are
   included.
-- **Prompts of the base study:** the prompt templates of Saju et al. are reproduced verbatim
-  in `src/vulndetect/*/prompt.py` and `tests/fixtures/authors_*.txt` to replicate their setup.
+- **Prompts of the base study:** the prompt templates of Saju, Muhtadi and Azim
+  ([arXiv:2601.00254](https://arxiv.org/abs/2601.00254), CC BY 4.0) are reproduced verbatim in
+  `src/vulndetect/*/prompt.py` and `tests/fixtures/authors_*.txt` to replicate their setup.

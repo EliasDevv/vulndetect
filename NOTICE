@@ -16,3 +16,9 @@ Llama 3.2
   Built with Llama.
   Llama 3.2 is licensed under the Llama 3.2 Community License,
   Copyright (c) Meta Platforms, Inc. All Rights Reserved.
+
+Prompt templates of the base study
+  Saju, Muhtadi, Azim: "An Empirical Evaluation of LLM-Based Approaches for Code Vulnerability
+  Detection: RAG, SFT, and Dual-Agent Systems", arXiv:2601.00254, licensed under CC BY 4.0
+  (https://creativecommons.org/licenses/by/4.0/). Their prompt templates are reproduced verbatim
+  in src/vulndetect/*/prompt.py and tests/fixtures/authors_*.txt.
