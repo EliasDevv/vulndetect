@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "vulndetect: LLM-based vulnerability detection in C/C++"
+type: software
+authors:
+  - family-names: Masur
+    given-names: Elias
+repository-code: "https://github.com/EliasDevv/vulndetect"
+license: MIT
+version: 1.0.0
+date-released: "2026-10-26"
+abstract: >-
+  Replication and extension of an empirical evaluation of LLM-based approaches to code
+  vulnerability detection (RAG, SFT, Dual-Agent) on Big-Vul, with GAN-style and Triple-Agent
+  strategy loops. Code of a Bachelor's thesis at Leipzig University.
+keywords:
+  - vulnerability detection
+  - large language models
+  - retrieval-augmented generation
+  - QLoRA

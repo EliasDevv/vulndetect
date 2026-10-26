@@ -1,10 +1,19 @@
 # vulndetect — LLM-based vulnerability detection in C/C++
 
+[![CI](https://github.com/EliasDevv/vulndetect/actions/workflows/ci.yml/badge.svg)](https://github.com/EliasDevv/vulndetect/actions/workflows/ci.yml)
+![Python 3.12](https://img.shields.io/badge/python-3.12-blue)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 Replication and extension of *"An Empirical Evaluation of LLM-Based Approaches for Code
 Vulnerability Detection: RAG, SFT, and Dual-Agent Systems"* (Saju et al., 2026,
 [arXiv:2601.00254](https://arxiv.org/abs/2601.00254)) on the public
 [Big-Vul](https://github.com/ZeoVan/MSR_20_Code_vulnerability_CSV_Dataset) dataset.
 Written as part of my Bachelor's thesis at Leipzig University.
+
+**In short:** on one shared dataset, one parser and one evaluation harness, QLoRA fine-tuning
+is the only one of six approaches that clearly beats the baseline (F1 0.69 vs. 0.52). RAG, the
+Dual-Agent and the GAN-style strategy loops stay close to it or fall below it, and none of the
+absolute numbers reaches those reported by the base study.
 
 Six approaches share one dataset, one output parser and one evaluation harness, and all run
 on `meta-llama/Llama-3.2-3B-Instruct` (pinned revision, Hugging Face transformers):
@@ -32,11 +41,38 @@ three seeds (42–44), mean ± std:
 | GAN (final)          | 0.595 ± 0.008 | 0.632 ± 0.014 | 0.512 ± 0.021 | 0.555 ± 0.012 |
 | Triple-Agent (final) | 0.549 ± 0.014 | 0.563 ± 0.015 | 0.451 ± 0.024 | 0.499 ± 0.021 |
 
+![Macro-F1 on the test split per approach, compared with the base study](docs/fig_overview.png)
+
+Each dot is one seed, the bar the mean over seeds, the diamond the value reported by the base
+study, the dashed line the F1 of always answering *Vulnerable*.
+
 Fine-tuning gives by far the largest gain in this setup; the prompting-based variants stay
 close to the baseline. Per-CWE numbers, paired t-tests and McNemar tests (Holm-corrected)
 are in [`results/metrics/comparison_test.md`](results/metrics/comparison_test.md).
 Absolute numbers are not comparable to the original paper, which used partly proprietary
 data (see [`notes/REPRODUCIBILITY_INVENTORY.md`](notes/REPRODUCIBILITY_INVENTORY.md)).
+
+## Limitations
+
+- One small open model (`Llama-3.2-3B-Instruct`, fp16) and one dataset (Big-Vul, five CWE
+  classes, function-level C/C++); results need not transfer to larger models or other data.
+- Three seeds per approach; the statistics (paired t-tests, McNemar with Holm correction)
+  are in `results/metrics/comparison_test.md`.
+- The base study used partly proprietary data and left several prompt and decoding details
+  open, so absolute numbers are not comparable. The gaps are listed in
+  [`notes/REPRODUCIBILITY_INVENTORY.md`](notes/REPRODUCIBILITY_INVENTORY.md).
+- SFT adapters are not included (size); the GPU runs took place on a shared server.
+
+## Quickstart (CPU, no GPU)
+
+Re-derive the comparison tables and statistics from the committed predictions:
+
+```bash
+uv sync --extra dev
+make eval          # results/metrics/comparison_test.{md,json}
+```
+
+New model runs need a GPU and the setup below.
 
 ## Requirements
 
@@ -115,7 +151,7 @@ are not versioned here.
 
 ```
 configs/      one YAML per run (seed, model revision, decoding, paths)
-data/         processed splits, CWE index, frozen split reference
+data/         frozen split reference and manifests (splits/index are rebuilt, see Data)
 experiments/  label_definition/: separate val-only ablation with its own README
 notes/        reproducibility inventory of the base study
 results/      predictions, loop outputs, metrics, figures
@@ -130,6 +166,10 @@ tests/        unit and configuration tests
 
 `scripts/gpu_queue.sh`, `gpu_wait_run.sh` and `fetch_results.sh` are helpers for the shared
 GPU server the experiments ran on; they are not needed elsewhere.
+
+## Citation
+
+If you use this code, please cite it via [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*).
 
 ## License
 

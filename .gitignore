@@ -24,3 +24,4 @@ models/
 data/processed/bigvul/*.jsonl
 data/processed/cwe_index/*
 !data/processed/cwe_index/manifest.json
+results/metrics/*.tex

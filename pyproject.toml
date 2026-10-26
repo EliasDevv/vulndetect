@@ -1,6 +1,6 @@
 [project]
 name = "vulndetect"
-version = "0.1.0"
+version = "1.0.0"
 description = "LLM-based code vulnerability detection on Big-Vul: Baseline, RAG, SFT, Dual-Agent, GAN, Triple-Agent (Bachelor thesis)"
 readme = "README.md"
 requires-python = ">=3.12"
