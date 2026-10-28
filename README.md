@@ -8,7 +8,8 @@ Replication and extension of *"An Empirical Evaluation of LLM-Based Approaches f
 Vulnerability Detection: RAG, SFT, and Dual-Agent Systems"* (Saju et al., 2026,
 [arXiv:2601.00254](https://arxiv.org/abs/2601.00254)) on the public
 [Big-Vul](https://github.com/ZeoVan/MSR_20_Code_vulnerability_CSV_Dataset) dataset.
-Written as part of my Bachelor's thesis at Leipzig University.
+Written as part of my Bachelor's thesis at Leipzig University
+([read the thesis as PDF](<Adversarial and Multi-Agent Large Language Models for Code Vulnerability Detection - A Replication and Extension Study.pdf>)).
 
 **In short:** on one shared dataset, one parser and one evaluation harness, QLoRA fine-tuning
 is the only one of six approaches that clearly beats the baseline (F1 0.69 vs. 0.52). RAG, the
